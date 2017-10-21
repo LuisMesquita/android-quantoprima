@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="label_update_msg">Nosso aplicativo está com uma nova versão e você deve atualizá-lo para continuar aproveitando suas vantagens.</string>
+    <string name="label_download_msg">Baixe agora a nova versão pressionando o botão abaixo.</string>
+    <string name="content_column">Content</string>
+    <string name="page_referrers">Referrers</string>
+    <string name="refresh_action">Refresh</string>
+    <string name="logout_action">Logout</string>
+    <string name="menu_action">Menu</string>
+    <string name="notification_action">Notificações</string>
+    <string name="page_store_information">INFORMAÇÕES</string>
+    <string name="page_store_storefront">VITRINE</string>
+    <string name="page_store_mobis">SEUS PONTOS</string>
+    <string name="title_column">Title</string>
+    <string name="location_column">Location</string>
+    <string name="user_column">User</string>
+    <string name="date_column">Date</string>
+    <string name="error_loading_users">Loading users failed</string>
+    <string name="error_loading_news">Loading news failed</string>
+    <string name="error_loading_checkins">Loading check-ins failed</string>
+    <string name="no_users">No Users</string>
+    <string name="no_news">No News</string>
+    <string name="avatar">Avatar</string>
+    <string name="choose">Choose</string>
+    <string name="timer_running">Timer is running</string>
+    <string name="timer_is_paused">Timer is paused</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="menu_title_timer">Timer</string>
+    <string name="home">Home</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Close</string>
+    <string name="menu_title_home">Início</string>
+    <string name="outdated_update_label">Atualizar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- signin email -->
+    <string name="label_email_address">Email</string>
+    <string name="label_password">Senha</string>
+    <string name="signin_email_label">Login com email</string>
+    <string name="message_signing_in">Entrando…</string>
+    <string name="blank_field_warning">Please populate this field</string>
+    <string name="message_bad_credentials">Usuário ou senha incorretos</string>
+    <string name="message_auth_failed">Please enter a valid password</string>
+    <string name="message_auth_failed_new_account">Please enter a valid email address &amp; password</string>
+    <string name="signin_advert_message">Fique tranquilo! Não realizamos postagens em seu nome sem a sua permissão.</string>
+    <string name="signin_email_lost_password_label">Esqueci minha senha</string>
+    <string name="signin_email_signup_label">Criar conta</string>
+    <string name="signin_facebook_label">Login com Facebook</string>
+    <string name="signin_email_login_label">Faça login para continuar</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_offline_no_connection_label">A internet não responde!</string>
+    <string name="home_offline_label_no_connection_message">A sua conexão caiu ou esta desligada. Ative o WI-FI ou a sua rede de dados para conectar a internet.</string>
+    <string name="qrcode_label_qrcode_message">Peça o QRCode ao atendente e posicione o código na área marcada para pontuar. </string>
+    <string name="qrcode_label_no_connection_status">Você está offline</string>
+    <string name="dialog_gain_mobi_online_label_total_mobis">Você ganhou %1$s pontos!</string>
+    <string name="qrcode_success_label_congrat_user">Parabéns, %1$s!</string>
+    <string name="qrcode_result_label_congrat_user_message">Continue acumulando pontos e aproveitando as recompensas!</string>
+    <string name="qrcode_result_label_mode">Modo Offline</string>
+    <string name="qrcode_result_label_mode_message1">É necessário ter conexão com a internet para seus pontos serem computados em nosso sistema.</string>
+    <string name="qrcode_result_label_mode_message2">Mas não se preocupe, nós os salvamos e enviamos para o sistema quando uma conexão estiver disponível.</string>
+    <string name="store_information_label_position">Você está há %1$s desta loja</string>
+    <string name="store_information_label_mobis_access">Veja seu extrato de pontos em \"Seus Pontos\"</string>
+    <string name="store_information_label_how_to_win">COMO GANHAR</string>
+    <string name="label_store_front_choose_message">Escolha qual produto comprar com seus pontos</string>
+    <string name="no_store_rewards">Nenhuma recompensa</string>
+    <string name="no_establishments">Nenhum estabelecimento</string>
+    <string name="store_front_label_reward_price">%1$s pontos</string>
+    <string name="store_user_mobis_label_mobis_to_expire">PONTOS A EXPIRAR</string>
+    <string name="store_user_mobis_label_mobis_to_expire_message">
+            <![CDATA[
+        <p>Em %1$s %2$s pontos irão expirar</p>
+        ]]></string>
+
+    <string name="store_user_mobis_label_mobis_extract">EXTRATO</string>
+    <string name="store_user_mobis_label_expiring_legend">Legenda:</string>
+    <string name="no_store_user_mobis_extracts">Nenhum ponto</string>
+    <string name="signin_hint_email">Email</string>
+    <string name="signin_hint_password">Senha</string>
+    <string name="signup_btn_label_signup">Criar conta</string>
+    <string name="signup_hint_name">Nome</string>
+    <string name="signup_hint_lastname">Sobrenome</string>
+    <string name="signun_hint_confirm_password">Senha de novo</string>
+    <string name="signup_hint_birth_Date">Nascimento</string>
+    <string name="signup_label_use_terms">Termos de Uso</string>
+    <string name="signup_label_privacy_policy">Política de Privacidade</string>
+    <string name="signup_label_signup_privacy_message">Cadastrando-se, você afirma concordar com os nossos Termos de Uso e Política de Privacidade.</string>
+    <string name="lost_password_label_message1">Não tem problema. Digite o email cadastrado que enviamos um link para você cria uma nova senha.</string>
+    <string name="lost_password_label_message2">Excluiu sua conta no facebook?</string>
+    <string name="lost_password_label_message3">Digite o email que estava cadastrado.</string>
+    <string name="lost_password_btn_change_password">Redefinir senha</string>
+
+    <string-array name="gender_values">
+        <item>Feminino</item>
+        <item>Masculino</item>
+        <item>Sexo</item>
+    </string-array>
+
+    <string-array name="gender_values_for_editing">
+        <item>Sexo</item>
+        <item>Feminino</item>
+        <item>Masculino</item>
+    </string-array>
+
+    <string-array name="loading_stuffs">
+        <item>Ligando a cafeteira...</item>
+        <item>Preparando o café...</item>
+        <item>Olhando o cardápio...</item>
+        <item>Preparando outro café...</item>
+        <item>Colocando o cuscuz no fogo...</item>
+        <item>Opa, saindo uma tapioca...</item>
+        <item>Partindo o queijo...</item>
+        <item>Saindo um cappuccino...</item>
+    </string-array>
+
+    <string name="title_activity_qrcode">QRCodeActivity</string>
+    <string name="title_activity_qrcode_result_dialog">QRCodeResultDialog</string>
+    <string name="title_activity_lost_password">Esqueci minha senha</string>
+    <string name="title_activity_launch">LaunchActivity</string>
+    <string name="title_activity_signup">Cadastro</string>
+    <string name="title_activity_store">Loja</string>
+    <string name="title_activity_home">Início</string>
+    <string name="title_activity_reward">Recompensas</string>
+    <string name="title_activity_reward_detail">Recompensa</string>
+    <string name="title_activity_gain_mobi">GainMobiActivity</string>
+    <string name="title_activity_rescue_reward">Resgatar recompensa</string>
+    <string name="title_activity_cardapio">Cardápio</string>
+    <string name="outdated_label_user_welcome">Oi %1$s, tudo bem?</string>
+    <string name="outdated_label_user_welcome2">Tudo bem?</string>
+    <string name="account_blocked_label_reason">Nossos computadores detectaram atividades suspeitas no uso do aplicativo.</string>
+    <string name="account_blocked_label_user_message">%1$s, sua conta foi bloqueada.</string>
+    <string name="account_blocked_label_user_message2">Sua conta foi bloqueada.</string>
+    <string name="account_blocked_button_central">Central de Relacionamento</string>
+    <string name="reward_label_user_owned">O QUE VOCÊ TEM</string>
+    <string name="menu_title_rewards">Recompensas</string>
+    <string name="user_rewards_label_user_expired">RECOMPENSAS QUE EXPIRARAM</string>
+    <string name="user_reward_label_user_rescued">RECOMPENSAS QUE JÁ FORAM RESGATADAS</string>
+    <string name="rescue_reward_label_rescue_message">Você está preste a resgatar:</string>
+    <string name="reward_rescue_label_reward_rescued">Recompensa resgatada!</string>
+    <string name="reward_rescue_label_user_attention">Atenção!</string>
+    <string name="rescue_reward_label_time_message">Anote estas informações sobre o resgate, pois podem ser úteis futuramente.</string>
+    <string name="reward_rescue_error_label_ops">Opa!</string>
+    <string name="reward_rescue_error_label_ops_message">Ocorreu um error ao tentar resgatar sua recompensa.</string>
+    <string name="reward_rescue_error_label_error">Erro:</string>
+    <string name="app_name">Quanto Prima</string>
+    <string name="store_reward_alert_dialog_message_success">Compra feita com sucesso. Deseja ir para recompensas?</string>
+    <string name="alert_dialog_title_success">Sucesso</string>
+    <string name="alert_yes">Sim</string>
+    <string name="alert_no">Não</string>
+    <string name="service_comunication_error">Você está sem conexão com a internet. Tente novamente quando estiver online.</string>
+    <string name="error_unknown">Desconhecido</string>
+    <string name="home_gain_mobi_invalid_qr_code">QR Code inválido</string>
+    <string name="wifi_connected">Conectado pela Wi-Fi</string>
+    <string name="mobile_connected">Conectado pelo 3G</string>
+    <string name="no_connection">Sem conexão. Ative WiFi ou 3G.</string>
+    <string name="title_activity_mobis_offline">Pontos Offline</string>
+    <string name="loading_message">Carregando...</string>
+    <string name="cardapio_cardapio_no_cardapio">Nenhum cardápio</string>
+    <string name="cardapio_cardapio_no_cardapio_item">Nenhum item no cardápio</string>
+
+    <!-- MobiSync -->
+    <string name="mobi_sync_gain_mobi">Parabéns! Você ganhou 10 pontos.</string>
+    <string name="mobi_sync_completed_card">Parabéns! Você completou o cartão de fidelidade.</string>
+    <string name="mobi_sync_error_over_mobis_by_day">Erro! Você fez mais leituras que o permitido no dia.</string>
+    <string name="mobi_sync_error_invalid_mobi_msg">Erro! Mobi não computado. O qrcode está incorreto.</string>
+    <string name="mobi_sync_error_invalid_mobi_title">Código Inválido</string>
+    <string name="mobi_sync_block_account_title">Conta Bloqueada</string>
+    <string name="mobi_sync_block_account_msg">Erro! Você não pode ganhar pontos. Sua conta está bloqueada!</string>
+
+    <!-- ShotSync -->
+    <string name="shot_sync_gain_shot">Parabéns! Você ganhou 1 shotMobi.</string>
+    <string name="shot_sync_completed_msg">Erro! O limite de pessoas já foi atingido</string>
+    <string name="shot__sync_over_shot_msg">Erro! Não é possivel participar do mesmo shotMobi mais de uma vez.</string>
+    <string name="shot_timeout_msg">Erro! ShotMobi expirado.</string>
+
+    <!-- Gain Shot -->
+    <string name="gain_shot_completed_title">Aviso</string>
+    <string name="gain_shot_completed_msg">Este qrCode não pertence a nenhuma recompensa instantânea válida.</string>
+    <string name="gain_shot_over_shot_title">Aviso</string>
+    <string name="gain_shot_over_shot_msg">A quantidade de ganhadores dessa recompensa instantânea já foi alcançada.</string>
+    <string name="gain_shot_already_gain_title">Aviso</string>
+    <string name="gain_shot_already_gain_msg">Você já foi premiado por essa recompensa instantânea.</string>
+    <string name="gain_shot_timeout_title">Aviso</string>
+    <string name="gain_shot_timeout_msg">Recompensa instantânea expirada.</string>
+    <string name="dialog_gain_mobin_shot_label_gain_message">Você acaba de ganhar um prêmio instantâneo!</string>
+    <string name="dialog_gain_mobi_shot_label_uau">Uau</string>
+    <string name="offline_mobi_label_time">Leitura em %1$s</string>
+    <string name="unknown">Desconhecido</string>
+    <string name="offline_mobi_not_sync">Ainda não foi atualizado</string>
+    <string name="offline_mobi_sync_error">Error ao atualizar</string>
+    <string name="offline_mobi_synced">Mobi atualizado com sucesso!</string>
+    <string name="offline_mobi_syncing">Atualizando...</string>
+    <string name="menu_title_offline_mobis">Pontos Offline</string>
+
+    <!-- Pesquisa de satisfacao -->
+    <string name="pesquisa_title">Avaliação</string>
+    <string name="pesquisa_required_question">As duas perguntas são obrigatórias</string>
+    <string name="pesquisa_comentario">Escreva abaixo seus elogios, críticas ou sugestões ao estabelecimento</string>
+    <string name="pesquisa_pergunta_nsi">O quanto você está satisfeito com sua experiência aqui hoje?</string>
+    <string name="pesquisa_pergunta_definitiva">Você recomendaria este estabelecimento para um amigo?</string>
+    <string name="pesquisa_suggestions_or_complaints">Envie elogios, críticas, sugestões ou dúvidas diretamente para os gestores desse estabelecimento!</string>
+
+    <!-- Numeros -->
+    <string name="numberZero">0</string>
+    <string name="numberOne">1</string>
+    <string name="numberTwo">2</string>
+    <string name="numberThree">3</string>
+    <string name="numberFour">4</string>
+    <string name="numberFive">5</string>
+    <string name="numberSix">6</string>
+    <string name="numberSeven">7</string>
+    <string name="numberEight">8</string>
+    <string name="numberNine">9</string>
+    <string name="numberTen">10</string>
+    <string name="title_activity_survey">Avaliando loja</string>
+    <string name="error_on_app">Error na aplicação. Contate a central de relacionamento.</string>
+    <string name="connecting">Conectando...</string>
+    <string name="message_facebook_auth_failed">Error ao conectar-se com o facebook</string>
+    <string name="title_activity_notifications">Notificações</string>
+    <string name="no_notifications">Erro ao obter notificações</string>
+    <string name="notification_item_label_subject">Assunto</string>
+    <string name="notification_item_message">Mensagem</string>
+    <string name="signin_label_lost_password">Esqueci minha senha</string>
+    <string name="signin_label_signup">Criar conta</string>
+    <string name="gender_prompt">Sexo</string>
+    <string name="email_required">Digite o email</string>
+    <string name="lost_password_email_sent_title">Sucesso</string>
+    <string name="lost_password_email_sent_msg">Acesse seu email e siga as instruções para recuperar a senha.</string>
+    <string name="dialog_title_error">Erro</string>
+    <string name="server_connection_error">Error na conexão com o servidor. Tente novamente mais tarde.</string>
+    <string name="password_required">Digite a senha</string>
+    <string name="facebook_conection_error">Error ao conectar-se com o facebook</string>
+    <string name="signup_data_incomplete">Dados incompletos</string>
+    <string name="signup_error">Erro ao criar usuário</string>
+    <string name="splash_label_loading">Aguarde...</string>
+    <string name="home_offline_label_gain_mobis_message">Mas fique tranquilo. Você ainda pode ganhar pontos, mesmo offline. Atualizaremos quando você conectar.</string>
+    <string name="list_establishment_mobis">PONTOS</string>
+    <string name="item_establisiment_label_your_mobis">seu saldo</string>
+    <string name="facebook_conection_error_email_blank">Não foi possível acessar email do seu facebook. Altere a permissão no seu perfil.</string>
+    <string name="pick_phone">Escolha um telefone para discar</string>
+    <string name="dialog_call_phone_message">Deseja discar para esse número?</string>
+    <string name="button_yes">Sim</string>
+    <string name="button_no">Não</string>
+    <string name="store_information_button_gain_mobi">PONTUAR  NESTA LOJA</string>
+    <string name="user_mobis_label_legend_expired">expirados</string>
+    <string name="user_mobis_label_legend_used">gastos</string>
+    <string name="user_mobis_label_legend_win">ganhos</string>
+    <string name="gain_mobi_label_share">Aproveite para:</string>
+    <string name="gain_mobi_btn_facebook_share">Compartilhar a novidade</string>
+    <string name="gain_mobi_btn_evaluate_store">Avaliar loja</string>
+    <string name="label_user">Desconhecido</string>
+    <string name="menu_item_reward">Minhas Recompensas</string>
+    <string name="menu_item_ajuda">Ajuda</string>
+    <string name="menu_item_contact">Central de Relacionamento</string>
+    <string name="menu_item_about">Quanto Prima</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="dialog_gain_mobi_label_completed_card_message">E já pode trocar seus pontos por uma recompensa.</string>
+    <string name="dialog_gain_mobi_completed_card_final_message">Você chegou até aqui e merece ser recompensado. Aproveite!</string>
+    <string name="dialog_gain_mobi_online_button_store_evaluate">Avaliar loja</string>
+    <string name="dialog_gain_mobi_completed_card_btn_choose_reward">Escolher prêmio na vitrine</string>
+    <string name="reward_details_label_rescue_reward">Resgatar esta recompensa</string>
+    <string name="cardapio_item_label_price">Preço: %1$s</string>
+    <string name="dialog_survey_success_neutral_label_user_message">Obrigado! Sua opinião é fundamental para que nosso serviço melhore sempre.</string>
+    <string name="dialog_survey_success_neutral_label_congrat_user">Esta loja ouve você</string>
+    <string name="dialog_survey_success_neutral_label_congrat_user_value">Entregaremos sua avaliação diretamente ao gerente da cafeteria. É muito importante saber a sua opnião. Assim poderemos melhorar nosso serviço contantemente.</string>
+    <string name="dialog_survey_success_negative_label_user_message">Nossa! Parece que você teve algum problema com os serviços da loja.</string>
+    <string name="dialog_survey_success_negative_label_congrat_user">Esperamos seu retorno.</string>
+    <string name="dialog_survey_success_negative_label_congrat_user_value">Entregaremos sua avaliação diretamente ao gerente da cafeteria. Assim poderemos melhorar nosso serviço e receber você novamente. Sua opnião é muito importante.</string>
+    <string name="dialog_survey_success_positive_label_user_message">Obrigado! É muito bom saber que você gosta do nosso serviço.</string>
+    <string name="dialog_survey_success_positive_label_congrat_user">Esta loja ouve você.</string>
+    <string name="dialog_survey_success_positive_label_congrat_user_value">Entregaremos sua avaliação diretamente ao gerente da cafeteria. Assim poderemos melhorar nosso serviço e receber você novamente. Sua opnião é muito importante.</string>
+    <string name="title_activity_qr_code">Leitura</string>
+    <string name="list_item_reward_label_expiration">Validade: %1$s</string>
+    <string name="rescue_reward_label_code_message">Anote o código desta recompensa:</string>
+    <string name="rescue_reward_tip1">Informe ao atendente que você possui uma recompensa e deseja realizar a troca;</string>
+    <string name="rescue_reward_tip2">Para ler o código de resgate fornecido pelo atendente, você só precisa utilizar o botão resgatar abaixo e realizar a leitura.</string>
+    <string name="rescue_reward_tip3">Em caso de dúvida, mostre o código da recompensa ao atendente.</string>
+    <string name="rescue_reward_btn_rescue">Toque aqui para resgatar</string>
+    <string name="survey_page_next">Próximo</string>
+    <string name="Enviar">Enviar</string>
+    <string name="survey_page_send">Enviar</string>
+    <string name="survey_page_previous">Anterior</string>
+    <string name="search_bar_hint">Pesquise aqui uma loja</string>
+    <string name="home_no_locations_message">Infelizmente não encontramos nenhum estabelecimento perto de você.</string>
+    <string name="home_no_locations_label_help">Você pode ver as lojas disponíveis desativando o GPS ou pesquisando por alguma no campo acima.</string>
+    <string name="home_no_locations_query_label_message">Sua pesquisa não retornou nenhum resultado. :/</string>
+    <string name="home_no_locations_query">Que tal tentar com palavras semelhantes?</string>
+    <string name="notifications_no_content_label_message">Você não possui notificações no momento.</string>
+    <string name="notifications_no_content_label_help">Quando surgir uma novidade você vai ficar sabendo aqui. Fique ligado.</string>
+    <string name="no_content_rewards_label_message">Você não possui recompensas.</string>
+    <string name="no_content_rewards_label_help">É muito fácil ganhar: caso seu consumo esteja dentro da regra de pontuação das lojas da Quanto Prima, você tem direito a pontuar. Acumulando pontos, você troca por recompensas.</string>
+    <string name="no_content_rewards_label_how_to_gain_mobi2">Clique aqui e veja como funciona.</string>
+    <string name="no_content_rewards_label_how_to_gain_mobi">Ainda na dúvida?</string>
+    <string name="error_loading_rewards">Error ao carregar as recompensas</string>
+    <string name="survey_page_answer_label_message">Avalie os demais pontos com notas entre 1 e 5 estrelas.</string>
+    <string name="title_activity_profile">Minha Conta</string>
+    <string name="profile_btn_conf_notifications">Configuração de Notificações</string>
+    <string name="title_activity_profile_edit">Editar Perfil</string>
+    <string name="profile_edit_label_photo_message">Esta é a sua foto atual.</string>
+    <string name="profile_edit_label_photo_facebook_message">É a mesma do seu facebook, caso você tenha sua conta vinculada.</string>
+    <string name="profile_edit_btn_update_profile">Atualizar conta</string>
+    <string name="profile_edit_label_edit_password_message">
+<![CDATA[
+        <p>Ou toque aqui para </p>
+        ]]>
+    </string>
+    <string name="profile_edit_btn_edit_password">
+<![CDATA[
+        <p><font color="#FFEDB4"><u>Redefinir senha</u></font></p>
+        ]]>
+    </string>
+    <string name="message_edit_profile">Editando perfil...</string>
+    <string name="message_request_password">Redefinindo senha...</string>
+    <string name="title_activity_notifications_config">Conf. Notificações</string>
+    <string name="notification_congih_label_config_message">Selecione aqui os estabelecimentos que podem enviar notificações para você.</string>
+    <string name="notifications_config_label_all">Todos</string>
+    <string name="waiting_a_moment">Espere um momento</string>
+    <string name="pick_reason">Qual a razão do bloqueio desta loja?</string>
+    <string name="progress_dialog_notify_unblock_message">Ativando...</string>
+    <string name="progress_dialog_notify_block_message">Desativando...</string>
+    <string name="notify_location_error">Error ao bloquear/desbloquear.</string>
+    <string name="dialog_gain_gift_label_gift_message">Presente para você!</string>
+    <string name="dialog_gain_gift_label_sent">Enviou:</string>
+    <string name="dialog_gain_gift_label_valid">Válido até %1$s</string>
+    <string name="dialog_gain_gift_label_actions">Ações disponíveis:</string>
+    <string name="dialog_gain_gift_btn_reject_gift">Recusar presente</string>
+    <string name="dialog_gain_gift_btn_accept_gift">Aceitar presente</string>
+    <string name="take_gift_error">Error ao recuperar presente</string>
+    <string name="menu_item_text_push">Teste Notificação Push</string>
+    <string name="accept_gift_error">Erro ao aceitar presente</string>
+    <string name="gain_gift_confirm_reject_message">Tem certeza que deseja recusar o presente?</string>
+    <string name="title_activity_tutorial">TutorialActivity</string>
+    <string name="title_activity_about_mobiclub">Sobre a MobiClub</string>
+    <string name="fragment_about_label_about_mobiclub">Clube de vantagens aberto para todos que possuem um smartphone. Os participantes acumulam pontos em suas lojas preferidas, trocam por recompensas, consultam informações sobre as lojas como lista de produtos, telefone ou facebook, e ainda podem avaliar o atendimento desses locais. Aproveite tudo isso!</string>
+    <string name="fragment_about_label_about">O Quanto Prima é uma cafeteria tradicional, com o selo Quanto Prima de qualidade. Todos os cafés, quentes ou gelados, são de linha exclusiva. Para acompanhar, a cafeteria tem doces e salgados regionais impecáveis e várias opções de bolos e tortas. Dedique um tempinho para saborear os seus melhores momentos.</string>
+    <string name="fragment_about_label_about2">O tempo passou e evoluímos esse conceito inventando coisas bem legais para você ganhar muitos presentes das lojas parceiras utilizando apenas seu smartphone.</string>
+    <string name="fragment_about_label_about3">Estamos felizes em ter você conosco!</string>
+    <string name="fragment_about_channel">CANAIS DE RELACIONAMENTO</string>
+    <string name="fragment_about_contribute">COLABORE COM A MOBICLUB</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="web_view_site_sao_braz_title">Site</string>
+    <string name="web_view_facebook_title">Facebook</string>
+    <string name="web_view_twitter_title">Twitter</string>
+    <string name="web_view_instagram_title">Instagram</string>
+    <string name="web_view_avalie_na_play_store_title">Avalie</string>
+    <string name="web_view_indique_loja_title">Indique loja</string>
+    <string name="title_activity_central">Central de relacionamento</string>
+    <string name="fragment_central_message">Preencha o formulário abaixo e fale com a nossa equipe!</string>
+    <string name="fragment_central_label_call_us">ou ligue para nós:</string>
+    <string name="fragment_central_label_phone">+55 81 3025-3883</string>
+    <string name="web_view_terms_and_privacy_policy_title">Política de Priv. e Termos de Uso</string>
+    <string name="web_view_how_to_gain_reward_title">Como ganhar recompensa</string>
+    <string name="web_view_help_title">Ajuda</string>
+    <string name="signup_user">Criando conta...</string>
+    <string name="title_activity_app_inactive">AppInactiveActivity</string>
+    <string name="activity_app_inactive_btn_know_more">Saiba mais aqui</string>
+    <string name="activity_app_inactive_label_message">Infelizmente este aplicativo está inativo no momento.</string>
+    <string name="error_loading_store">Você está sem conexão com a internet. Tente novamente quando estiver online.</string>
+    <string name="error_loading_store_products">Nenhum produto</string>
+    <string name="menu_item_logout">Sair da conta</string>
+    <string name="dialog_error_label_error_message_default">Ocorreu um erro.</string>
+    <string name="qrcode_success_label_congrat">Parabéns!</string>
+    <string name="title_activity_establishment">Estabelecimentos</string>
+    <string name="title_activity_map">Localização</string>
+
+    <string name="google_maps_key">AIzaSyDbqLGJa_jN3lh8fzDB2mdPDs2nKPHwUJc</string>
+
+    <string name="activity_launch_checking_outdated">Checando versão...</string>
+    <string name="activity_launch_starting">Iniciando...</string>
+    <string name="activity_principal_label_gps_message">Ative o GPS e veja as lojas próximas a você!</string>
+    <string name="list_item_establishment_label_location_premium">Prêmio disponível</string>
+    <string name="store_user_mobis_label_none_mobis_to_expire_message">Nenhum mobis a expirar</string>
+    <string name="survey_page_no_content">Nenhuma pesquisa disponível</string>
+    <string name="survey_page_answer_label_no_content">Nenhuma pergunta</string>
+    <string name="profile_btn_connect">Conectar</string>
+    <string name="connecting_facebook_label">Conectando...</string>
+    <string name="facebook_conection_error_on_update">Error ao atualizar seus dados</string>
+    <string name="profile_facebook_btn_connect">Conectar</string>
+    <string name="store_reward_list_alert_no_mobis_title_message">Atenção</string>
+    <string name="store_reward_list_alert_no_mobis_message">Saldo insuficiente</string>
+    <string name="store_reward_list_alert_buy_title_message">Atenção</string>
+    <string name="alert_title_attention">Atenção</string>
+    <string name="store_reward_list_alert_buy_message">Você tem certeza que deseja comprar este prêmio?</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="list_item_cardapio_front_label_price">R$%1$s</string>
+    <string name="signout_error">Error ai sair da conta.</string>
+    <string name="signout_title_alert">Atenção</string>
+    <string name="signout_message_alert">Tem certeza que deseja sair?</string>
+    <string name="alert_title_exit_app">Deseja realmente sair?</string>
+    <string name="no_notify_locations">Nenhuma loja ainda enviou notificação para você</string>
+    <string name="profile_edit_error">Não foi possível editar seu perfil.</string>
+    <string name="notification_list_btn_load_more">Carregar mais</string>
+    <string name="post_facebook_error">Não foi possivel compartilhar.</string>
+    <string name="share_dialog_title">Compartilhe a novidade</string>
+    <string name="menu_item_tutorial">Tutorial</string>
+    <string name="menu_item_terms_privacy">Termos e Política</string>
+    <string name="crashanalytics_apikey">b8c61b76e8b05f604b9541ff4f34a01d87612132</string>
+    <string name="error_on_rescue_reward">Error ao resgatar recompensa.</string>
+    <string name="rescue_reward_label_user_attention_message">
+        <![CDATA[Você acabou de usar sua recompensa, portanto
+        <strong>\"%1$s\"</strong>
+        irá aparecer na lista de Recompensas Resgatadas.]]>
+    </string>
+    <string name="preferences_name">Preferências</string>
+    <string name="offline_mobi_sync_error_expired">Ponto inválido ou expirado na hora da leitura</string>
+    <string name="alert_edit_profile_success">Atualização realizada com sucesso.</string>
+    <string name="title_activity_push_notifications" />
+    <string name="app_id">352166628572619</string>
+    <string name="alert_title_cancelled">Cancelado</string>
+    <string name="facebook_alert_message_permission_not_granted">Não é possível executar a ação escolhida porque as permissões não foram concedidas.</string>
+    <string name="message_facebook_cant_connect">Não foi possível conectar-se.</string>
+    <string name="survey_page_nsi_red_scale">Pouco satisfeito</string>
+    <string name="survey_page_nsi_green_scale">Muito satisfeito</string>
+    <string name="mobis_offline_reference_default">MobiClub</string>
+    <string name="mobiclub_logo_url">http://mobiclub.com.br/estabelecimentos/3_MobiClub.png</string>
+    <string name="facebook_feed_dialog_title">MobiClub</string>
+    <string name="facebook_share_error">Erro ao compartilhar.</string>
+    <string name="facebook_share_error_alert_try_again">Verifique sua conexão. Deseja tentar novamente?</string>
+    <string name="facebook_connect_message">Sua conta não está conectada ao facebook.</string>
+    <string name="alert_cancel">Cancelar</string>
+    <string name="call_to_phone">Discar para telefone?</string>
+    <string name="button_call">Ligar</string>
+    <string name="location_notifications_no_content_label_message">Nenhuma loja mandou notificações para você ainda.</string>
+    <string name="location_notifications_no_content_label_help">Você pode selecionar se quer receber notificações da loja a partir da primeira notificação que enviarem.</string>
+    <string name="menu_item_about_mobiclub">Sobre o aplicativo</string>
+    <string name="title_activity_about">Quanto Prima</string>
+    <string name="cardapio_item_label_facebook_share">Compartilhar no facebook</string>
+
+    <string name="title_activity_webview">Site</string>
+    <string name="get_gift_error">Desculpe, ocorreu um error ao obter seu presente. Motivo: %1$s.</string>
+    <string name="get_gift_error2">Desculpe, ocorreu um error ao obter seu presente.</string>
+
+    <string name="alert_title_webview_no_connection">Você está sem conexão com a internet. Tente novamente quando estiver online.</string>
+
+    <string name="menu_title_cardapio_lang_default">PT</string>
+    <string name="menu_label_lang_pt_br">Português</string>
+    <string name="menu_label_lang_en">Inglês</string>
+    <string name="menu_label_lang_es">Espanhol</string>
+    <string name="menu_label_lang_fr">Francês</string>
+    <string name="alert_change_lang_error_message">Desculpe, não foi possível mudar a linguagem.</string>
+    <string name="label_congrat_user_message_string"><![CDATA[Baixe seu prêmio acessando a seção Recompensas no menu lateral. ]]></string>
+    <string name="dialog_gain_shot_not_gained_user_message">Não foi desta vez...</string>
+    <string name="dialog_gain_shot_not_gained_retry_message">Continue tentando!</string>
+    <string name="dialog_gain_shot_not_gained_label_message_retry">
+        <![CDATA[O sorteio de prêmios é aleatorio. Se você não ganhou desta vez,
+        pode ganhar em outro momento. <font color="F1A400"><strong>Não desista!</strong></font>]]>
+    </string>
+    <string name="no_data">Não foi possível obter as lojas.</string>
+    <string name="service_comunication_error_on_shot">É necessário estar online para concorrer a um premio instantâneo.</string>
+    <string name="service_comunication_error_on_always">Desculpe, mas você precisa ficar online para validar seu código.</string>
+    <string name="send_reply">Enviando...</string>
+    <string name="send_reply_error">Não foi possível enviar.</string>
+    <string name="facebook_not_share_message">Não foi possível compartilhar</string>
+    <string name="wait_survey_reply">Aguarde, a avaliação está sendo enviada.</string>
+    <string-array name="languages">
+        <item>Português</item>
+        <item>Inglês</item>
+        <item>Espanhol</item>
+        <item>Francês</item>
+    </string-array>
+
+    <string name="signup_label_cpf">CPF</string>
+    <string name="botao_nao_cadastrar_cpf">Prefiro não informar mesmo assim</string>
+    <string name="botao_nao_cadastrar_2_cpf">Prefiro não cadastrar meu CPF</string>
+    <string name="botao_nao_cadastrar_3_cpf">Não cadastrar meu CPF</string>
+    <string name="botao_nao_cadastrar_4_cpf">Por quê cadastrar CPF?</string>
+    <string name="botao_nao_cadastrar_5_cpf">Cadastrar com CPF</string>
+
+    <string name="alert_titulo_erro_cpf">Dados incompletos</string>
+    <string name="alert_msg_erro_cpf">CPF inválido. Tente novamente.</string>
+
+    <!-- Importancia do CPF -->
+    <string name="importancia_cpf_1_titulo">A importância do CPF</string>
+    <string name="importancia_cpf_1_texto">Algumas lojas passarão a exigir o CPF para que você pontue no clube. Além disso, com essa informação cadastrada será possível ganha pontos sem o celular e utilizar o aplicativo em compras online e delivery.</string>
+
+    <string name="importancia_cpf_2_titulo">Segurança e sigilo</string>
+    <string name="importancia_cpf_2_texto">Fique tranquilo ao fornecer seus dados!\n Nosso sistema é extremamente \n confiável e sigiloso.</string>
+
+    <string name="importancia_cpf_3_titulo">Cadastre seu CPF</string>
+    <string name="importancia_cpf_3_texto">Para concluir o cadastro basta informar seu CPF. Com essa informação cadastrada, você poderá pontuar em mais lojas e sem o celular, basta informar o CPF aos atendentes. Fique tranquilo, seus dados estão seguros.</string>
+
+    <string name="importancia_cpf_to_store_texto">Para interagir com essa loja é necessário que você cadastre seu CPF. Com essa informação cadastrada você poderá pontuar em mais lojas e sem o celular, basta informar o CPF aos atendentes. Fique tranquilo, seus dados estão seguros.</string>
+
+    <string name="botao_cadastrar_cpf">Ok, vou cadastrar CPF</string>
+    <string name="botao_cadastrar_2_cpf">Cadastrar CPF</string>
+    <string name="botao_cadastrar_3_cpf">Mudei de ideia, quero cadastrar meu CPF</string>
+    <string name="title_activity_importancia_cpf">Por quê informar o CPF?</string>
+    <string name="title_activity_cadastra_cpf">Cadastro de CPF</string>
+    <string name="signup_hint_cpf">CPF não cadastrado</string>
+    <string name="label_cpf_nao_cadastrado">Ainda não cadastrado</string>
+
+    <string name="cadastrar_cpf_to_store_service_provider_null">Houve um problema na conexão, por favor, cadastre o seu CPF na edição do seu perfil.</string>
+
+    <!-- Edição do Usuário -->
+    <string name="msg_problem_editing_with_no_cause">Por favor, verifique e tente novamente.</string>
+
+    <!-- Permissões -->
+    <string name="texto_OK">OK</string>
+    <string name="alert_we_need_camera_permission">Você precisa permitir o acesso à Câmera para que possamos ler seu código.</string>
+</resources>

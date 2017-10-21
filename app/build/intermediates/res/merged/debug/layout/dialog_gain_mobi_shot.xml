@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/image_close"
+        android:src="@drawable/fechar"
+        style="@style/DialogCloseButton"
+        android:layout_marginRight="16dp" />
+
+    <LinearLayout style="@style/GainMobiMessagesContainer"
+        android:layout_marginTop="42dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout"
+            android:layout_below="@+id/image_close"
+            android:background="@drawable/shape_bg_yellow3"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:id="@+id/label_total_mobis"
+                style="@style/ButtonText.GainMobiTotalMobis"
+                android:text="Uau!"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_emotion_icon"
+                android:src="@drawable/t31_4_presente_leitura_shotmobi"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentRight="true" />
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:layout_below="@+id/label_total_mobis"
+                android:layout_alignLeft="@+id/label_total_mobis"
+                android:layout_alignStart="@+id/label_total_mobis"
+                android:text="Você acaba de ganhar um prêmio instantâneo!"
+                android:textSize="16sp"
+                style="@style/Text.Regular"
+                android:textColor="@color/text_black"
+                android:layout_toStartOf="@+id/image_emotion_icon"
+                android:layout_toLeftOf="@+id/image_emotion_icon"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout"
+            android:background="@drawable/shape_bg_white2"
+            android:id="@+id/linearLayout"
+            style="@style/DialogMessagePadding">
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/qrcode_success_label_congrat_user"
+                android:id="@+id/label_congrat_user"
+                android:textSize="18sp"
+                style="@style/PrincipalBlackTextBold"
+                android:paddingBottom="3dp"
+                android:layout_weight="1" />
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_congrat_user_message"
+                android:layout_gravity="center_horizontal"
+                style="@style/PrincipalBlackTextRegular"
+                android:textSize="14sp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gain_mobi_label_share"
+            android:id="@+id/label_share"
+            android:layout_marginTop="34dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            style="@style/TextBold"
+            android:textColor="@color/white" />
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_reward"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            style="@style/RescueRewardButtonMedium"
+            android:text="Resgatar esta recompensa" />
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomButton
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/gain_mobi_btn_facebook_share"
+            android:id="@+id/btn_share"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            style="@style/FacebookButtonMedium"
+            android:gravity="center"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/dialog_gain_mobi_online_label_total_mobis"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelOff"
+        android:maxLines="1"
+        style="@style/ButtonText.GainMobiTotalMobis"
+        android:visibility="gone"
+        />
+</RelativeLayout>

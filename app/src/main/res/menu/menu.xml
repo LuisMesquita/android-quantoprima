@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_profile"
+        android:title="@string/label_user"/>
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/menu_ic_inicio"
+        android:title="@string/title_activity_home"/>
+
+    <item
+        android:id="@+id/menu_notification"
+        android:icon="@drawable/menu_ic_notificacoes"
+        android:title="@string/title_activity_notifications"/>
+
+    <item
+        android:id="@+id/menu_reward"
+        android:icon="@drawable/menu_ic_recompensas"
+        android:title="@string/menu_item_reward"/>
+
+    <item
+        android:id="@+id/menu_help"
+        android:icon="@drawable/menu_ic_ajuda"
+        android:title="@string/menu_item_ajuda"/>
+
+    <item
+        android:id="@+id/menu_contact"
+        android:icon="@drawable/menu_ic_centralrelacionamento"
+        android:title="@string/menu_item_contact"/>
+
+    <item
+    android:id="@+id/menu_about"
+    android:icon="@drawable/menu_ic_saobraz"
+    android:title="@string/menu_item_about"/>
+
+    <item
+        android:id="@+id/menu_about_mobiclub"
+        android:icon="@drawable/menu_ic_sobre"
+        android:title="@string/menu_item_about_mobiclub"/>
+
+    <item
+        android:id="@+id/menu_tutorial"
+        android:icon="@drawable/menu_ic_tutorial"
+        android:title="@string/menu_item_tutorial"/>
+
+    <item
+        android:id="@+id/menu_terms_privacy"
+        android:icon="@drawable/menu_ic_termos"
+        android:title="@string/menu_item_terms_privacy"/>
+
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/menu_ic_sair"
+        android:title="@string/menu_item_logout"/>
+
+</menu>

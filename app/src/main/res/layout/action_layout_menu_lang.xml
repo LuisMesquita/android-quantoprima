@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selectable_background_mobiclub"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp">
+
+    <FrameLayout
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/shape_menu_lang"
+        android:layout_gravity="center">
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/text_black"
+            style="@style/TextBold"
+            android:id="@+id/menu_label_lang"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,76 @@
+{
+    "Rewards": [{
+        "Id": 2,
+        "Title": "Batata Frita",
+        "Description": "Ruffles 1000g",
+        "Price": 100,
+        "FBSuggestedComment": "teste facebook",
+        "HttpStatus": 0,
+        "Message": null,
+        "Image": {
+            "Id": 0,
+            "Index": 0,
+            "XDPI": null,
+            "HDPI": null,
+            "MDPI": null,
+            "LDPI": null,
+            "MINI": null
+        }
+    },
+    {
+        "Id": 3,
+        "Title": "Rapadura",
+        "Description": "Rapadura 1000g",
+        "Price": 30,
+        "FBSuggestedComment": "teste facebook",
+        "HttpStatus": 0,
+        "Message": null,
+        "Image": {
+            "Id": 0,
+            "Index": 0,
+            "XDPI": null,
+            "HDPI": null,
+            "MDPI": null,
+            "LDPI": null,
+            "MINI": null
+        }
+    },
+    {
+        "Id": 4,
+        "Title": "Batata Frita Ruffles",
+        "Description": "Ruffles 500g",
+        "Price": 50,
+        "FBSuggestedComment": "teste facebook",
+        "HttpStatus": 0,
+        "Message": null,
+        "Image": {
+            "Id": 0,
+            "Index": 0,
+            "XDPI": null,
+            "HDPI": null,
+            "MDPI": null,
+            "LDPI": null,
+            "MINI": null
+        }
+    },
+    {
+        "Id": 5,
+        "Title": "Bolo Baeta",
+        "Description": "Bolo Baeta 1000g",
+        "Price": 100,
+        "FBSuggestedComment": "teste facebook",
+        "HttpStatus": 0,
+        "Message": null,
+        "Image": {
+            "Id": 0,
+            "Index": 0,
+            "XDPI": null,
+            "HDPI": null,
+            "MDPI": null,
+            "LDPI": null,
+            "MINI": null
+        }
+    }],
+    "HttpStatus": 200,
+    "Message": null
+}

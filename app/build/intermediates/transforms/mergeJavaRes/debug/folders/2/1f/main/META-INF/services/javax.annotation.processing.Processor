@@ -1,0 +1,4 @@
+butterknife.internal.ButterKnifeProcessor
+dagger.internal.codegen.InjectProcessor
+dagger.internal.codegen.ProvidesProcessor
+dagger.internal.codegen.FullGraphProcessor

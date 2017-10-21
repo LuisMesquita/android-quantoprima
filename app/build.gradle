@@ -1,0 +1,169 @@
+buildscript {
+    repositories {
+        maven { url 'http://repo1.maven.org/maven2' }
+        mavenLocal()
+        mavenCentral()
+        maven { url 'http://download.crashlytics.com/maven' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.crashlytics.tools.gradle:crashlytics-gradle:1.+'
+    }
+}
+apply plugin: 'android'
+apply plugin: 'crashlytics'
+
+repositories {
+    maven { url 'https://github.com/donnfelker/mvn-repo/raw/master/' }
+    mavenLocal()
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+    maven { url 'http://download.crashlytics.com/maven' }
+    maven {
+        url "https://maven.google.com"
+    }
+}
+
+dependencies {
+    androidTestCompile 'junit:junit:4.11'
+    androidTestCompile 'org.hamcrest:hamcrest-library:1.3'
+    androidTestCompile 'org.mockito:mockito-core:1.9.5'
+    compile project(':libraries:zxing-app')
+    compile project(':libraries:facebook')
+    compile project(':libraries:facebook-sdk')
+    compile project(':libraries:UserVoiceSDK')
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    // You must install or update the Support Repository through the SDK manager to use this dependency.
+    // You must install or update the Support Repository through the SDK manager to use this dependency.
+    // You must install or update the Support Repository through the SDK manager to use this dependency.
+    // You must install or update the Support Repository through the SDK manager to use this dependency.
+    // You must install or update the Support Repository through the SDK manager to use this dependency.
+    // You must install or update the Support Repository through the SDK manager to use this dependency.
+//    compile 'com.google.android.gms:play-services:5.0.89'
+    compile 'commons-lang:commons-lang:2.6'
+    compile 'com.android.support:appcompat-v7:19.+'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.squareup.dagger:dagger:1.0.1'
+    compile 'com.squareup.dagger:dagger-compiler:1.0.1'
+    compile 'com.jakewharton:butterknife:5.1.1'
+    compile 'com.actionbarsherlock:viewpagerindicator:2.4.1'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.github.kevinsawicki:android-pusher:0.6'
+    compile 'com.github.kevinsawicki:wishlist:0.9'
+    compile 'com.squareup:otto:1.3.4'
+    compile 'com.squareup.picasso:picasso:1.1.1'
+    compile 'com.squareup.retrofit:retrofit:1.6.1'
+    // You must install or update the Support Repository through the SDK manager to use this dependency.
+    compile 'com.android.support:support-v4:19.+'
+    compile 'com.crashlytics.android:crashlytics:1.+'
+    compile files('libs/Parse-1.10.3.jar')
+    //
+    compile 'com.android.support:support-v4:26.0.+'
+    compile 'com.android.support:customtabs:26.0.+'
+    compile 'com.onesignal:OneSignal:[3.6.0, 3.99.99]'
+}
+
+allprojects {
+    afterEvaluate { project ->
+        def propsFile = rootProject.file('keystore.properties')
+        def configName = 'release'
+
+        if (propsFile.exists() && android.signingConfigs.hasProperty(configName)) {
+            def props = new Properties()
+            props.load(new FileInputStream(propsFile))
+            android.signingConfigs[configName].storeFile = file(props['storeFile'])
+            android.signingConfigs[configName].storePassword = props['storePassword']
+            android.signingConfigs[configName].keyAlias = props['keyAlias']
+            android.signingConfigs[configName].keyPassword = props['keyPassword']
+        }
+    }
+}
+
+android {
+    compileSdkVersion 23
+    //compileSdkVersion 'Google Inc.:Google APIs:19'
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        minSdkVersion 15 //version 9 pelo lib play-services para mapa
+        targetSdkVersion 23
+
+        versionCode 116
+        versionName '3.4'
+        manifestPlaceholders = [onesignal_app_id: "1da76bc1-9c1e-40c3-bc55-278eea7f3b71",
+                                // Project number pulled from dashboard, local value is ignored.
+                                onesignal_google_project_number: "REMOTE"]
+        applicationId 'br.com.mobiclub.quantoprima'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    packagingOptions {
+        // Exclude file to avoid
+        // Error: Duplicate files during packaging of APK
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+        exclude 'META-INF/maven/com.squareup/otto/pom.properties'
+        exclude 'META-INF/services/com.squareup/otto/pom.properties'
+        exclude 'META-INF/services/com.crashlytics.android.crashlytics'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/LGPL2.1'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/COM_CRAS.SF'
+        exclude 'META-INF/COM_CRAS.RSA'
+        exclude 'META-INF/maven/com.squareup.okhttp/okhttp/pom.properties'
+        exclude 'META-INF/maven/com.squareup.okhttp/okhttp/pom.xml'
+        exclude 'META-INF/maven/com.squareup/otto/pom.properties'
+        exclude 'META-INF/maven/com.squareup/otto/pom.xml'
+        exclude 'META-INF/maven/com.squareup.okhttp-protocols/okhttp-protocols/pom.properties'
+        exclude 'META-INF/maven/com.squareup.okhttp-protocols/okhttp-protocols/pom.xml'
+    }
+
+    signingConfigs {
+        release {
+//            storeFile file(System.getenv('ANDROID_KEYSTORE_PATH'))
+//            storePassword System.getenv('ANDROID_STORE_PASS')
+//            keyAlias System.getenv('ANDROID_KEY_ALIAS')
+//            keyPassword System.getenv('ANDROID_KEY_PASS')
+        }
+
+    }
+    lintOptions {
+        abortOnError false
+    }
+    buildTypes {
+        debug {
+            //applicationIdSuffix '.debug'
+            minifyEnabled false
+            // zipAlign false // this is default for debug
+        }
+        release {
+            //runProguard true
+            //proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            //proguardFile '../proguard.cfg'
+            signingConfig signingConfigs.release
+            zipAlignEnabled true // this is default for release
+            // testPackageName 'br.com.mobiclub.quantoprima.tests'
+            // testInstrumentationRunner 'android.test.InstrumentationTestRunner' // this is the default
+            debuggable false
+            renderscriptDebuggable false
+            jniDebuggable false
+        }
+    }
+
+    compileOptions {
+    }
+    productFlavors {
+    }
+
+}

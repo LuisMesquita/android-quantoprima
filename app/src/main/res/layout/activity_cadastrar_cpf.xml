@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgazul">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_cpf"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/importancia_cpf_3_titulo"
+                        style="@style/titulo_importancia_cpf"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/importancia_cpf_3_texto"
+                        style="@style/texto_importancia_cpf"
+                        android:gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        />
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="20dp"
+                        android:padding="10dp"
+                        android:background="#fff"
+                        >
+
+                        <EditText
+                            android:id="@+id/edt_cpf"
+                            style="@style/AccountEditText"
+                            android:layout_width="fill_parent"
+                            android:layout_height="45dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:hint="@string/signup_label_cpf"
+                            android:imeOptions="actionNext"
+                            android:inputType="date"
+                            android:password="false"
+                            android:textColorHint="@drawable/signin_text_hint_selector" />
+
+                    </FrameLayout>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_verde"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/botao_cadastrar_cpf"
+                        android:gravity="center"
+                        style="@style/botao_importancia_cpf"
+                        android:id="@+id/btn_cadastra_cpf"
+                        android:textColor="#000"
+                        android:onClick="onCadastrarCpf"
+                        />
+
+
+                </LinearLayout>
+
+
+
+</LinearLayout>
+            </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:gravity="left"
+            android:onClick="onPqCadastrarCpf"
+            android:id="@+id/bttnPQCadastar"
+            android:text="@string/botao_nao_cadastrar_4_cpf"
+            style="@style/botao_nao_cadastrar_cpf"
+            android:drawableLeft="@drawable/btn_interrogacao"
+            android:drawablePadding="5dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:gravity="left"
+            android:onClick="onNaoCadastrarCpf"
+            android:id="@+id/bttnNaoCadastar"
+            android:text="@string/botao_nao_cadastrar_3_cpf"
+            style="@style/botao_nao_cadastrar_cpf"
+            android:drawableLeft="@drawable/btn_naocadastrar"
+            android:drawablePadding="5dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/dialog_horizontal_margin"
+    android:paddingRight="@dimen/dialog_horizontal_margin"
+    android:paddingBottom="@dimen/dialog_vertical_margin"
+    tools:context="br.com.mobiclub.quantoprima.ui.activity.GainMobiResultDialog">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_close"
+        android:src="@drawable/fechar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        style="@style/DialogCloseButton"
+        android:layout_marginTop="20dp" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:layout_below="@+id/image_close"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_bg_orange"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:text="@string/reward_rescue_label_reward_rescued"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            style="@style/PrincipalBlackTextBold"
+            android:id="@+id/label_reward_rescued"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_vertical|right"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_marginRight="10dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/t12_2_2_img_circulo_presente"
+            android:layout_gravity="left|center_vertical" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout"
+        android:id="@+id/lyt_price"
+        android:background="@drawable/shape_bg_white"
+        style="@style/DialogMessagePadding"
+        android:layout_marginTop="9dp">
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reward_rescue_label_user_attention"
+            android:id="@+id/label_user_attention"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"
+            style="@style/PrincipalBlackTextBold"
+            android:layout_marginBottom="5dp" />
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rescue_reward_label_user_attention_message"
+            android:id="@+id/label_user_attention_message"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/text_black"
+            android:gravity="center"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:textSize="14sp"
+            style="@style/TextMedium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lyt_price"
+        android:background="@drawable/shape_bg_blue"
+        android:id="@+id/linearLayout2"
+        style="@style/DialogMessagePadding"
+        android:layout_marginTop="6dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_code"
+                android:layout_weight="1"
+                style="@style/PrincipalBlackTextBold"
+                android:textSize="22sp"
+                android:text="XXX"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:layout_marginBottom="5dp" />
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_time"
+                android:gravity="right"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                style="@style/PrincipalBlackTextBold"/>
+        </LinearLayout>
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rescue_reward_label_time_message"
+            android:id="@+id/label_time_message"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/text_black"
+            style="@style/Text"
+            android:textSize="14sp"
+            android:gravity="left" />
+
+    </LinearLayout>
+
+    <br.com.mobiclub.quantoprima.ui.view.CustomButton
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:id="@+id/btn_share"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        style="@style/FacebookButton2"
+        android:layout_marginTop="6dp"
+        android:text="@string/gain_mobi_btn_facebook_share"
+        android:textSize="16sp"
+        android:gravity="center" />
+
+</RelativeLayout>

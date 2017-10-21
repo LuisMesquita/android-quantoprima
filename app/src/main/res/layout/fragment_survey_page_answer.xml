@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearAnswers"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgamarelo_losangos">
+
+    <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/survey_page_answer_label_message"
+        android:id="@+id/textView"
+        style="@style/PrincipalTextBold"
+        android:textColor="@color/ligth_grey"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="7dp"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/question_list">
+
+        <ListView
+            android:id="@+id/listQuestion"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/transparent"
+            android:dividerHeight="0dip"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="true"
+            android:scrollbars="none"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_page_answer_label_no_content"
+            android:id="@+id/label_question_no_content"
+            android:textColor="@color/ligth_grey"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="99dp"
+            android:layout_marginTop="315dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutQuestionComment"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:background="@color/item_bg2">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_alignRight="@+id/btnQuestionNextStep3"
+                android:layout_alignEnd="@+id/btnQuestionNextStep3"
+                android:id="@+id/bullets">
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/circle_question"
+                    android:id="@+id/first_bullet" />
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/circle_question_selected" />
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/circle_question"
+                    android:id="@+id/third_bullet" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnQuestionNextStep3Final"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:paddingRight="14dp"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/Text.Regular.ButtonSurvey"
+                    android:id="@+id/btnNextStep4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_page_send"
+                    android:textColor="@color/green6" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:src="@drawable/t30_seta_enviar"
+                    android:layout_marginTop="1dp"
+                    android:paddingRight="3dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="false"
+                android:id="@+id/btnQuestionNextStep3"
+                android:paddingRight="14dp">
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    style="@style/Text.Regular.ButtonSurvey"
+                    android:id="@+id/btnNextStep3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_page_next"
+                    android:layout_gravity="center_vertical"
+                    android:paddingRight="3dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:layout_gravity="center_vertical|right"
+                    android:src="@drawable/t30_seta_proximo"
+                    android:layout_marginTop="1dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/btnQuestionBackStep3"
+                android:paddingLeft="14dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2"
+                    android:layout_gravity="left|center_vertical"
+                    android:src="@drawable/t30_seta_anterior" />
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:id="@+id/btnBackStep3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:text="@string/survey_page_previous"
+                    style="@style/Text.Regular.ButtonSurvey"
+                    android:paddingLeft="3dp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/layout-land/encode.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/res/layout-land/encode.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/layout-land/share.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/res/layout-land/share.xml"
+    }
+]

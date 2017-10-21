@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgazul">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/lyt_price">
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_no_locations_message"
+            android:id="@+id/label_message"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            style="@style/PrincipalTextMedium"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginRight="19dp" />
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_no_locations_label_help"
+            android:id="@+id/label_help"
+            android:layout_gravity="center_horizontal"
+            style="@style/PrincipalTextMedium"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginRight="19dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/btn_update"
+        android:background="@drawable/btn_laranja1"
+        android:text="Recarregar"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_below="@+id/lyt_price"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

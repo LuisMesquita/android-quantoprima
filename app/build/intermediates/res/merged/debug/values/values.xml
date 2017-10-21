@@ -1,0 +1,2457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools" xmlns:ns2="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="country_codes" ns1:ignore="MissingTranslation">
+    <item>-</item>
+    <item>AR</item>
+    <item>AU</item>
+    <item>BR</item>
+    <item>BG</item>
+    <item>CA</item>
+    <item>CH</item>
+    <item>CN</item>
+    <item>CZ</item>
+    <item>DE</item>
+    <item>DK</item>
+    <item>ES</item>
+    <item>FI</item>
+    <item>FR</item>
+    <item>GB</item>
+    <item>GR</item>
+    <item>HU</item>
+    <item>ID</item>
+    <item>IT</item>
+    <item>JP</item>
+    <item>KR</item>
+    <item>NL</item>
+    <item>PL</item>
+    <item>PT</item>
+    <item>RO</item>    
+    <item>RU</item>
+    <item>SE</item>
+    <item>SK</item>
+    <item>SI</item>
+    <item>TR</item>
+    <item>TW</item>
+    <item>US</item>
+  </string-array>
+    <string-array name="gender_values">
+        <item>Feminino</item>
+        <item>Masculino</item>
+        <item>Sexo</item>
+    </string-array>
+    <string-array name="gender_values_for_editing">
+        <item>Sexo</item>
+        <item>Feminino</item>
+        <item>Masculino</item>
+    </string-array>
+    <string-array name="languages">
+        <item>Português</item>
+        <item>Inglês</item>
+        <item>Espanhol</item>
+        <item>Francês</item>
+    </string-array>
+    <string-array name="loading_stuffs">
+        <item>Ligando a cafeteira...</item>
+        <item>Preparando o café...</item>
+        <item>Olhando o cardápio...</item>
+        <item>Preparando outro café...</item>
+        <item>Colocando o cuscuz no fogo...</item>
+        <item>Opa, saindo uma tapioca...</item>
+        <item>Partindo o queijo...</item>
+        <item>Saindo um cappuccino...</item>
+    </string-array>
+    <string-array name="preferences_front_light_options">
+    <item>@string/preferences_front_light_on</item>
+    <item>@string/preferences_front_light_auto</item>
+    <item>@string/preferences_front_light_off</item>
+  </string-array>
+    <string-array name="preferences_front_light_values" ns1:ignore="MissingTranslation">
+    <item>ON</item>
+    <item>AUTO</item>
+    <item>OFF</item>
+  </string-array>
+    <attr format="reference" name="actionBarDivider"/>
+    <attr format="reference" name="actionBarItemBackground"/>
+    <attr format="dimension" name="actionBarSize"/>
+    <attr format="reference" name="actionBarSplitStyle"/>
+    <attr format="reference" name="actionBarStyle"/>
+    <attr format="reference" name="actionBarTabBarStyle"/>
+    <attr format="reference" name="actionBarTabStyle"/>
+    <attr format="reference" name="actionBarTabTextStyle"/>
+    <attr format="reference" name="actionBarWidgetTheme"/>
+    <attr format="reference" name="actionButtonStyle"/>
+    <attr format="reference" name="actionMenuTextAppearance"/>
+    <attr format="color|reference" name="actionMenuTextColor"/>
+    <attr format="reference" name="actionModeBackground"/>
+    <attr format="reference" name="actionModeCloseButtonStyle"/>
+    <attr format="reference" name="actionModeCloseDrawable"/>
+    <attr format="reference" name="actionModeCopyDrawable"/>
+    <attr format="reference" name="actionModeCutDrawable"/>
+    <attr format="reference" name="actionModeFindDrawable"/>
+    <attr format="reference" name="actionModePasteDrawable"/>
+    <attr format="reference" name="actionModePopupWindowStyle"/>
+    <attr format="reference" name="actionModeSelectAllDrawable"/>
+    <attr format="reference" name="actionModeShareDrawable"/>
+    <attr format="reference" name="actionModeSplitBackground"/>
+    <attr format="reference" name="actionModeStyle"/>
+    <attr format="reference" name="actionModeWebSearchDrawable"/>
+    <attr format="reference" name="actionOverflowButtonStyle"/>
+    <attr format="reference" name="activityChooserViewStyle"/>
+    <attr format="reference" name="buttonBarButtonStyle"/>
+    <attr format="reference" name="buttonBarStyle"/>
+    <attr format="boolean" name="centered"/>
+    <attr format="reference" name="dividerHorizontal"/>
+    <attr format="reference" name="dividerVertical"/>
+    <attr format="reference" name="dropDownListViewStyle"/>
+    <attr format="dimension" name="height"/>
+    <attr format="reference" name="homeAsUpIndicator"/>
+    <attr format="boolean" name="isLightTheme"/>
+    <attr format="reference" name="listPopupWindowStyle"/>
+    <attr format="dimension" name="listPreferredItemHeight"/>
+    <attr format="dimension" name="listPreferredItemHeightLarge"/>
+    <attr format="dimension" name="listPreferredItemHeightSmall"/>
+    <attr format="dimension" name="listPreferredItemPaddingLeft"/>
+    <attr format="dimension" name="listPreferredItemPaddingRight"/>
+    <attr format="reference" name="searchDropdownBackground"/>
+    <attr format="dimension" name="searchResultListItemHeight"/>
+    <attr format="reference" name="searchViewAutoCompleteTextView"/>
+    <attr format="reference" name="searchViewCloseIcon"/>
+    <attr format="reference" name="searchViewEditQuery"/>
+    <attr format="reference" name="searchViewEditQueryBackground"/>
+    <attr format="reference" name="searchViewGoIcon"/>
+    <attr format="reference" name="searchViewSearchIcon"/>
+    <attr format="reference" name="searchViewTextField"/>
+    <attr format="reference" name="searchViewTextFieldRight"/>
+    <attr format="reference" name="searchViewVoiceIcon"/>
+    <attr format="reference" name="selectableItemBackground"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="reference" name="spinnerDropDownItemStyle"/>
+    <attr format="reference" name="spinnerStyle"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="reference" name="textAppearanceLargePopupMenu"/>
+    <attr format="reference" name="textAppearanceListItem"/>
+    <attr format="reference" name="textAppearanceListItemSmall"/>
+    <attr format="reference" name="textAppearanceSearchResultSubtitle"/>
+    <attr format="reference" name="textAppearanceSearchResultTitle"/>
+    <attr format="reference" name="textAppearanceSmallPopupMenu"/>
+    <attr format="reference|color" name="textColorSearchUrl"/>
+    <attr format="string" name="title"/>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">false</bool>
+    <bool name="abc_action_bar_expanded_action_views_exclusive">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
+    <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="abc_split_action_bar_is_narrow">true</bool>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <color name="abc_search_url_text_normal">#7fa87f</color>
+    <color name="abc_search_url_text_pressed">@android:color/black</color>
+    <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="actionbar_background_end">#1A1A1A</color>
+    <color name="actionbar_background_start">#272727</color>
+    <color name="backApp">#FAFAFA</color>
+    <color name="background_selected">#1fb6ed</color>
+    <color name="bar_gps">#00662F</color>
+    <color name="bg_menu_item">#00662F</color>
+    <color name="bg_menu_item_pressed">#00662F</color>
+    <color name="bg_menu_item_profile">#FFFFFF</color>
+    <color name="bg_profile_image">#00662F</color>
+    <color name="bg_store_info">#EBEBEB</color>
+    <color name="black">#000000</color>
+    <color name="black3">#005B87</color>
+    <color name="black4">#989898</color>
+    <color name="black_light">#595959</color>
+    <color name="black_light2">#002436</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="blue2">#0092D7</color>
+    <color name="blue3">#006392</color>
+    <color name="blue4">#0094DA</color>
+    <color name="blue5">#33b5e5</color>
+    <color name="blue6">#00662F</color>
+    <color name="bootstrap_divider_bottom">#5A5A5A</color>
+    <color name="bootstrap_divider_top">#000000</color>
+    <color name="btn_gain_mobi_color">#38A168</color>
+    <color name="btn_orange">#00662F</color>
+    <color name="button_background_disabled_end">#646464</color>
+    <color name="button_background_disabled_start">#7b7b7b</color>
+    <color name="button_background_enabled_end">#1c9ac8</color>
+    <color name="button_background_enabled_start">#1fb6ed</color>
+    <color name="button_background_pressed_end">#38A168</color>
+    <color name="button_background_pressed_start">#f76500</color>
+    <color name="com_facebook_blue">#3B5998</color>
+    <color name="com_facebook_loginview_text_color">#FFFFFF</color>
+    <color name="com_facebook_picker_search_bar_background">#f5f5f7</color>
+    <color name="com_facebook_picker_search_bar_text">#bcbdc2</color>
+    <color name="com_facebook_usersettingsfragment_connected_shadow_color">#000000</color>
+    <color name="com_facebook_usersettingsfragment_connected_text_color">#FFFFFF</color>
+    <color name="com_facebook_usersettingsfragment_not_connected_text_color">#A6AED7</color>
+    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_light_default">#90000000</color>
+    <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
+    <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
+    <color name="connection_message_color">#989898</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="dark_grey">#1f1f1f</color>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <color name="edit_text_background_end">#FBFDFF</color>
+    <color name="edit_text_background_start">#EFF6FF</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="expired">#898989</color>
+    <color name="frame_mobis_to_expire">#38A168</color>
+    <color name="gold">#FFFFFF</color>
+    <color name="green">#047116</color>
+    <color name="green4">#00A900</color>
+    <color name="green5">#009933</color>
+    <color name="green6">#289917</color>
+    <color name="grey10">#BCBCBC</color>
+    <color name="grey11">#FFFFFF</color>
+    <color name="grey12">#002436</color>
+    <color name="grey13">#F4F4F4</color>
+    <color name="grey14">#F2F2F2</color>
+    <color name="grey15">#EBEBEB</color>
+    <color name="grey16">#989898</color>
+    <color name="grey17">#bbbbbb</color>
+    <color name="grey3">#002436</color>
+    <color name="grey4">#6D6D6D</color>
+    <color name="grey5">#99E5E5E5</color>
+    <color name="grey6">#A5A5A5</color>
+    <color name="grey7">#595959</color>
+    <color name="grey8">#929292</color>
+    <color name="grey9">#EEEEEE</color>
+    <color name="header_background_bottom">#A7A7A7</color>
+    <color name="header_background_end">#C3C3C3</color>
+    <color name="header_background_start">#ECECEC</color>
+    <color name="header_background_top">#F9F9F9</color>
+    <color name="header_extract">#38A168</color>
+    <color name="hint_color">#808080</color>
+    <color name="item_bg">#FFFFFF</color>
+    <color name="item_bg2">#FFF4D4</color>
+    <color name="item_locations_indicator">#c5c5c5</color>
+    <color name="label_distance_color">#B2B2B2</color>
+    <color name="ligth_grey">#38A168</color>
+    <color name="ligth_grey2">#989898</color>
+    <color name="logo_mobi_blue1">#0B5282</color>
+    <color name="logo_mobi_blue2">#2692D0</color>
+    <color name="logo_mobi_orange">#38A168</color>
+    <color name="logo_mobi_red">#EA5D0A</color>
+    <color name="main_background_end">#2C2C2C</color>
+    <color name="main_background_start">#2E2E2E</color>
+    <color name="nav_button_disabled">#646464</color>
+    <color name="nav_button_pressed">#1fb6ed</color>
+    <color name="nav_button_text_disabled">#464646</color>
+    <color name="nav_button_text_light">#ffffff</color>
+    <color name="navigation_drawer_item">#00662F</color>
+    <color name="navigation_drawer_item_separator">#00662F</color>
+    <color name="no_connection_color">#EE0000</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="orange">#00662F</color>
+    <color name="orange3">#00662F</color>
+    <color name="orange4">#00662F</color>
+    <color name="orange5">#38A168</color>
+    <color name="outdated_user_color">#00662F</color>
+    <color name="pager_background">#F4F4F4</color>
+    <color name="pager_background_alternate">#E7E7E7</color>
+    <color name="pager_footer">#1fb6ed</color>
+    <color name="pager_selected_text">#FFFFFF</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="red">#C00000</color>
+    <color name="red2">#00662F</color>
+    <color name="red3">#FF0000</color>
+    <color name="red4">#CC0001</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="reward_header_blue">#0071a7</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="signin_edit_text_color">#808080</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="sync_status_error">#FF1300</color>
+    <color name="table_text">#484848</color>
+    <color name="table_text_header">#636363</color>
+    <color name="table_text_inverted">#FFFFFF</color>
+    <color name="table_text_light">#000</color>
+    <color name="text">#FCFCFC</color>
+    <color name="text_black">#000</color>
+    <color name="text_grey">#FEFEFE</color>
+    <color name="text_inverted">#FFFFFF</color>
+    <color name="text_light">#000</color>
+    <color name="text_link">#1fb6ed</color>
+    <color name="text_principal">#38A168</color>
+    <color name="text_principal2">#FFFFFF</color>
+    <color name="text_principal3">#38A168</color>
+    <color name="text_principal4">#00662F</color>
+    <color name="text_shadow">#000000</color>
+    <color name="text_title">#DFDFDF</color>
+    <color name="theme_principal">#38A168</color>
+    <color name="transparent">#00000000</color>
+    <color name="used">#FF3B30</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white2">#9BFFFFFF</color>
+    <color name="white3">#FFF5D4</color>
+    <color name="win">#4CD964</color>
+    <color name="yellow">#38A168</color>
+    <color name="yellow10">#38A168</color>
+    <color name="yellow11">#00662F</color>
+    <color name="yellow2">#FFEDB4</color>
+    <color name="yellow3">#00662F</color>
+    <color name="yellow4">#00662F</color>
+    <color name="yellow5">#00662F</color>
+    <color name="yellow6">#fff5d4</color>
+    <color name="yellow7">#00662F</color>
+    <color name="yellow8">#FFF5D4</color>
+    <color name="yellow9">#FFf5D4</color>
+    <color name="your_mobi">#C7C7C7</color>
+    <declare-styleable name="ActionBar"><attr name="navigationMode">
+
+            
+            <enum name="normal" value="0"/>
+            
+            <enum name="listMode" value="1"/>
+            
+            <enum name="tabMode" value="2"/>
+        </attr><attr name="displayOptions">
+            <flag name="useLogo" value="0x1"/>
+            <flag name="showHome" value="0x2"/>
+            <flag name="homeAsUp" value="0x4"/>
+            <flag name="showTitle" value="0x8"/>
+            <flag name="showCustom" value="0x10"/>
+            <flag name="disableHome" value="0x20"/>
+        </attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr format="dimension" name="itemPadding"/></declare-styleable>
+    <declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable>
+    <declare-styleable name="ActionBarWindow"><attr format="boolean" name="windowActionBar"/><attr format="boolean" name="windowActionBarOverlay"/><attr format="boolean" name="windowSplitActionBar"/><attr format="dimension|fraction" name="windowFixedWidthMajor"/><attr format="dimension|fraction" name="windowFixedHeightMinor"/><attr format="dimension|fraction" name="windowFixedWidthMinor"/><attr format="dimension|fraction" name="windowFixedHeightMajor"/></declare-styleable>
+    <declare-styleable name="ActionMenuItemView"><attr name="android:minWidth"/></declare-styleable>
+    <declare-styleable name="ActionMenuView"/>
+    <declare-styleable name="ActionMode"><attr name="titleTextStyle"/><attr name="subtitleTextStyle"/><attr name="background"/><attr name="backgroundSplit"/><attr name="height"/></declare-styleable>
+    <declare-styleable name="ActivityChooserView"><attr format="string" name="initialActivityCount"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/></declare-styleable>
+    <declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="metaButtonBarStyle"/><attr format="reference" name="metaButtonBarButtonStyle"/></declare-styleable>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="CompatTextView"><attr format="reference|boolean" name="textAllCaps"/></declare-styleable>
+    <declare-styleable name="CustomFontButton"><attr format="string" name="customFontButton"/></declare-styleable>
+    <declare-styleable name="CustomFontEditText"><attr format="string" name="customFontEditText"/></declare-styleable>
+    <declare-styleable name="CustomFontTxtView"><attr format="string" name="customFont"/></declare-styleable>
+    <declare-styleable name="FontFamily"><attr format="string" name="fontProviderAuthority"/><attr format="string" name="fontProviderPackage"/><attr format="string" name="fontProviderQuery"/><attr format="reference" name="fontProviderCerts"/><attr name="fontProviderFetchStrategy">
+            
+            <enum name="blocking" value="0"/>
+            
+            <enum name="async" value="1"/>
+        </attr><attr format="integer" name="fontProviderFetchTimeout">
+          
+            <enum name="forever" value="-1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="FontFamilyFont"><attr name="fontStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+        </attr><attr format="reference" name="font"/><attr format="integer" name="fontWeight"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="LinearLayoutICS"><attr name="divider"/><attr name="showDividers">
+            <flag name="none" value="0"/>
+            <flag name="beginning" value="1"/>
+            <flag name="middle" value="2"/>
+            <flag name="end" value="4"/>
+        </attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr name="imageAspectRatioAdjust">
+<enum name="none" value="0"/>
+
+<enum name="adjust_width" value="1"/>
+
+<enum name="adjust_height" value="2"/>
+
+</attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
+    <declare-styleable name="MenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="android:numericShortcut"/><attr name="android:checkable"/><attr name="android:checked"/><attr name="android:visible"/><attr name="android:enabled"/><attr name="android:onClick"/><attr name="showAsAction">
+
+            
+            <flag name="never" value="0"/>
+            
+            <flag name="ifRoom" value="1"/>
+            
+            <flag name="always" value="2"/>
+            
+            <flag name="withText" value="4"/>
+            
+            <flag name="collapseActionView" value="8"/>
+        </attr><attr format="reference" name="actionLayout"/><attr format="string" name="actionViewClass"/><attr format="string" name="actionProviderClass"/></declare-styleable>
+    <declare-styleable name="MenuView"><attr name="android:itemTextAppearance"/><attr name="android:horizontalDivider"/><attr name="android:verticalDivider"/><attr name="android:headerBackground"/><attr name="android:itemBackground"/><attr name="android:windowAnimationStyle"/><attr name="android:itemIconDisabledAlpha"/><attr name="android:preserveIconSpacing"/></declare-styleable>
+    <declare-styleable name="SearchView"><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/></declare-styleable>
+    <declare-styleable name="SignInButton"><attr format="reference" name="buttonSize">
+<enum name="standard" value="0"/>
+
+<enum name="wide" value="1"/>
+
+<enum name="icon_only" value="2"/>
+
+</attr><attr format="reference" name="colorScheme">
+<enum name="dark" value="0"/>
+
+<enum name="light" value="1"/>
+
+<enum name="auto" value="2"/>
+
+</attr><attr format="reference|string" name="scopeUris"/></declare-styleable>
+    <declare-styleable name="Spinner"><attr format="reference" name="prompt"/><attr format="enum" name="spinnerMode">
+
+            
+            <enum name="dialog" value="0"/>
+            
+            <enum name="dropdown" value="1"/>
+        </attr><attr name="android:dropDownSelector"/><attr name="android:popupBackground"/><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/><attr name="android:dropDownWidth"/><attr format="reference" name="popupPromptView"/><attr name="android:gravity"/><attr format="boolean" name="disableChildrenWhenDisabled"/></declare-styleable>
+    <declare-styleable name="Theme"><attr format="reference" name="actionDropDownStyle"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference" name="popupMenuStyle"/><attr format="dimension" name="panelMenuListWidth"/><attr format="reference" name="panelMenuListTheme"/><attr format="reference" name="listChoiceBackgroundIndicator"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle">
+            <enum name="none" value="0"/>
+            <enum name="triangle" value="1"/>
+            <enum name="underline" value="2"/>
+        </attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+        </attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <declare-styleable name="com_facebook_friend_picker_fragment"><attr format="boolean" name="multi_select"/></declare-styleable>
+    <declare-styleable name="com_facebook_login_view"><attr format="boolean" name="confirm_logout"/><attr format="boolean" name="fetch_user_info"/><attr format="string" name="login_text"/><attr format="string" name="logout_text"/></declare-styleable>
+    <declare-styleable name="com_facebook_picker_fragment"><attr format="boolean" name="show_pictures"/><attr format="string" name="extra_fields"/><attr format="boolean" name="show_title_bar"/><attr format="string" name="title_text"/><attr format="string" name="done_button_text"/><attr format="reference" name="title_bar_background"/><attr format="reference" name="done_button_background"/></declare-styleable>
+    <declare-styleable name="com_facebook_place_picker_fragment"><attr format="integer" name="radius_in_meters"/><attr format="integer" name="results_limit"/><attr format="string" name="search_text"/><attr format="boolean" name="show_search_box"/></declare-styleable>
+    <declare-styleable name="com_facebook_profile_picture_view"><attr name="preset_size">
+            
+            <enum name="small" value="-2"/>
+            <enum name="normal" value="-3"/>
+            <enum name="large" value="-4"/>
+        </attr><attr format="boolean" name="is_cropped"/></declare-styleable>
+    <dimen name="abc_action_bar_default_height">48dip</dimen>
+    <dimen name="abc_action_bar_icon_vertical_padding">8dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">40dp</dimen>
+    <dimen name="abc_action_bar_stacked_max_height">48dp</dimen>
+    <dimen name="abc_action_bar_stacked_tab_max_width">180dp</dimen>
+    <dimen name="abc_action_bar_subtitle_bottom_margin">5dip</dimen>
+    <dimen name="abc_action_bar_subtitle_text_size">14dp</dimen>
+    <dimen name="abc_action_bar_subtitle_top_margin">-3dp</dimen>
+    <dimen name="abc_action_bar_title_text_size">18dp</dimen>
+    <dimen name="abc_action_button_min_width">56dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">320dp</dimen>
+    <dimen name="abc_dropdownitem_icon_width">32dip</dimen>
+    <dimen name="abc_dropdownitem_text_padding_left">8dip</dimen>
+    <dimen name="abc_dropdownitem_text_padding_right">8dip</dimen>
+    <dimen name="abc_panel_menu_list_width">296dp</dimen>
+    <dimen name="abc_search_view_preferred_width">320dip</dimen>
+    <dimen name="abc_search_view_text_min_width">160dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="com_facebook_loginview_compound_drawable_padding">12dp</dimen>
+    <dimen name="com_facebook_loginview_padding_bottom">12dp</dimen>
+    <dimen name="com_facebook_loginview_padding_left">12dip</dimen>
+    <dimen name="com_facebook_loginview_padding_right">16dp</dimen>
+    <dimen name="com_facebook_loginview_padding_top">12dp</dimen>
+    <dimen name="com_facebook_loginview_text_size">16.0sp</dimen>
+    <dimen name="com_facebook_picker_place_image_size">64dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_large">180dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_normal">100dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_small">50dp</dimen>
+    <dimen name="com_facebook_tooltip_horizontal_padding">10dp</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_height">64dp</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_width">64dp</dimen>
+    <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
+    <dimen name="compat_button_inset_vertical_material">6dp</dimen>
+    <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="compat_button_padding_vertical_material">4dp</dimen>
+    <dimen name="compat_control_corner_material">2dp</dimen>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <item name="dialog_fixed_height_major" type="dimen">80%</item>
+    <item name="dialog_fixed_height_minor" type="dimen">100%</item>
+    <item name="dialog_fixed_width_major" type="dimen">320dp</item>
+    <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
+    <dimen name="dialog_horizontal_margin">16dp</dimen>
+    <dimen name="dialog_vertical_margin">16dp</dimen>
+    <dimen name="half_padding">4dip</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="notification_action_icon_size">32dp</dimen>
+    <dimen name="notification_action_text_size">13sp</dimen>
+    <dimen name="notification_big_circle_margin">12dp</dimen>
+    <dimen name="notification_content_margin_start">8dp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_main_column_padding_top">10dp</dimen>
+    <dimen name="notification_media_narrow_margin">@dimen/notification_content_margin_start</dimen>
+    <dimen name="notification_right_icon_size">16dp</dimen>
+    <dimen name="notification_right_side_padding_top">2dp</dimen>
+    <dimen name="notification_small_icon_background_padding">3dp</dimen>
+    <dimen name="notification_small_icon_size_as_large">24dp</dimen>
+    <dimen name="notification_subtext_size">13sp</dimen>
+    <dimen name="notification_top_pad">10dp</dimen>
+    <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="standard_padding">8dip</dimen>
+    <dimen name="uv_listPreferredItemHeightSmall">64dp</dimen>
+    <drawable name="com_facebook_picker_default_separator_color">#33464c59</drawable>
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item name="action_bar_activity_content" type="id"/>
+    <item name="action_menu_divider" type="id"/>
+    <item name="action_menu_presenter" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="home" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="line1" type="id"/>
+    <item name="line3" type="id"/>
+    <item name="progress_circular" type="id"/>
+    <item name="progress_horizontal" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="text" type="id"/>
+    <item name="text2" type="id"/>
+    <item name="title" type="id"/>
+    <integer name="abc_max_action_buttons">2</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <integer name="google_play_services_version">11220000</integer>
+    <integer name="numbers_lines_description_store_reward">4</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <plurals name="uv_articles">
+        <item quantity="one">artigo</item>
+        <item quantity="other">artigos</item>
+    </plurals>
+    <plurals name="uv_comments">
+        <item quantity="one">comentário</item>
+        <item quantity="other">comentários</item>
+    </plurals>
+    <plurals name="uv_ideas">
+        <item quantity="one">ideia</item>
+        <item quantity="other">ideias</item>
+    </plurals>
+    <plurals name="uv_number_of_subscribers_format">
+        <item quantity="one">%1$s quer esta ideia</item>
+        <item quantity="other">%1$s querem esta ideia</item>
+    </plurals>
+    <plurals name="uv_people">
+        <item quantity="one">pessoa</item>
+        <item quantity="other">pessoas</item>
+    </plurals>
+    <plurals name="uv_subscribers">
+        <item quantity="one">assinante</item>
+        <item quantity="other">assinantes</item>
+    </plurals>
+    <string name="Enviar">Enviar</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="accept_gift_error">Erro ao aceitar presente</string>
+    <string name="account_blocked_button_central">Central de Relacionamento</string>
+    <string name="account_blocked_label_reason">Nossos computadores detectaram atividades suspeitas no uso do aplicativo.</string>
+    <string name="account_blocked_label_user_message">%1$s, sua conta foi bloqueada.</string>
+    <string name="account_blocked_label_user_message2">Sua conta foi bloqueada.</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_app_inactive_btn_know_more">Saiba mais aqui</string>
+    <string name="activity_app_inactive_label_message">Infelizmente este aplicativo está inativo no momento.</string>
+    <string name="activity_launch_checking_outdated">Checando versão...</string>
+    <string name="activity_launch_starting">Iniciando...</string>
+    <string name="activity_principal_label_gps_message">Ative o GPS e veja as lojas próximas a você!</string>
+    <string name="alert_cancel">Cancelar</string>
+    <string name="alert_change_lang_error_message">Desculpe, não foi possível mudar a linguagem.</string>
+    <string name="alert_dialog_title_success">Sucesso</string>
+    <string name="alert_edit_profile_success">Atualização realizada com sucesso.</string>
+    <string name="alert_msg_erro_cpf">CPF inválido. Tente novamente.</string>
+    <string name="alert_no">Não</string>
+    <string name="alert_title_attention">Atenção</string>
+    <string name="alert_title_cancelled">Cancelado</string>
+    <string name="alert_title_exit_app">Deseja realmente sair?</string>
+    <string name="alert_title_webview_no_connection">Você está sem conexão com a internet. Tente novamente quando estiver online.</string>
+    <string name="alert_titulo_erro_cpf">Dados incompletos</string>
+    <string name="alert_we_need_camera_permission">Você precisa permitir o acesso à Câmera para que possamos ler seu código.</string>
+    <string name="alert_yes">Sim</string>
+    <string name="app_id">352166628572619</string>
+    <string name="app_name">Quanto Prima</string>
+    <string name="avatar">Avatar</string>
+    <string name="blank_field_warning">Please populate this field</string>
+    <string name="bookmark_picker_name">Bookmarks</string>
+    <string name="botao_cadastrar_2_cpf">Cadastrar CPF</string>
+    <string name="botao_cadastrar_3_cpf">Mudei de ideia, quero cadastrar meu CPF</string>
+    <string name="botao_cadastrar_cpf">Ok, vou cadastrar CPF</string>
+    <string name="botao_nao_cadastrar_2_cpf">Prefiro não cadastrar meu CPF</string>
+    <string name="botao_nao_cadastrar_3_cpf">Não cadastrar meu CPF</string>
+    <string name="botao_nao_cadastrar_4_cpf">Por quê cadastrar CPF?</string>
+    <string name="botao_nao_cadastrar_5_cpf">Cadastrar com CPF</string>
+    <string name="botao_nao_cadastrar_cpf">Prefiro não informar mesmo assim</string>
+    <string name="button_add_calendar">Add to calendar</string>
+    <string name="button_add_contact">Add contact</string>
+    <string name="button_book_search">Book Search</string>
+    <string name="button_call">Ligar</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_custom_product_search">Custom search</string>
+    <string name="button_dial">Dial number</string>
+    <string name="button_email">Send email</string>
+    <string name="button_get_directions">Get directions</string>
+    <string name="button_mms">Send MMS</string>
+    <string name="button_no">Não</string>
+    <string name="button_ok">OK</string>
+    <string name="button_open_browser">Open browser</string>
+    <string name="button_product_search">Product search</string>
+    <string name="button_search_book_contents">Search contents</string>
+    <string name="button_share_app">Application</string>
+    <string name="button_share_bookmark">Bookmark</string>
+    <string name="button_share_by_email">Share via email</string>
+    <string name="button_share_by_sms">Share via SMS</string>
+    <string name="button_share_clipboard">Clipboard</string>
+    <string name="button_share_contact">Contact</string>
+    <string name="button_show_map">Show map</string>
+    <string name="button_sms">Send SMS</string>
+    <string name="button_web_search">Web search</string>
+    <string name="button_wifi">Connect to Network</string>
+    <string name="button_yes">Sim</string>
+    <string name="cadastrar_cpf_to_store_service_provider_null">Houve um problema na conexão, por favor, cadastre o seu CPF na edição do seu perfil.</string>
+    <string name="call_to_phone">Discar para telefone?</string>
+    <string name="cardapio_cardapio_no_cardapio">Nenhum cardápio</string>
+    <string name="cardapio_cardapio_no_cardapio_item">Nenhum item no cardápio</string>
+    <string name="cardapio_item_label_facebook_share">Compartilhar no facebook</string>
+    <string name="cardapio_item_label_price">Preço: %1$s</string>
+    <string name="choose">Choose</string>
+    <string name="com_facebook_choose_friends">Choose Friends</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_loading">Loading...</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_loginview_log_in_button">Login with Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log out</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_logo_content_description">Facebook Logo</string>
+    <string name="com_facebook_nearby">Nearby</string>
+    <string name="com_facebook_picker_done_button_text">Done</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d were here</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d were here</string>
+    <string name="com_facebook_requesterror_password_changed">Your Facebook password has changed. Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_permissions">This app doesn’t have permission to do this. To change permissions, try logging into the app again.</string>
+    <string name="com_facebook_requesterror_reconnect">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_relogin">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_web_login">Your Facebook account is locked. Please log into www.facebook.com to continue.</string>
+    <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">Log in…</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">Logged in</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">Not logged in</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are missing from your device.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue"><ns2:g id="app_name">%1$s</ns2:g> is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are not supported by your device.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="connecting">Conectando...</string>
+    <string name="connecting_facebook_label">Conectando...</string>
+    <string name="content_column">Content</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+    <string name="contents_text">Plain text</string>
+    <string name="crashanalytics_apikey">b8c61b76e8b05f604b9541ff4f34a01d87612132</string>
+    <string name="date_column">Date</string>
+    <string name="dialog_call_phone_message">Deseja discar para esse número?</string>
+    <string name="dialog_error_label_error_message_default">Ocorreu um erro.</string>
+    <string name="dialog_gain_gift_btn_accept_gift">Aceitar presente</string>
+    <string name="dialog_gain_gift_btn_reject_gift">Recusar presente</string>
+    <string name="dialog_gain_gift_label_actions">Ações disponíveis:</string>
+    <string name="dialog_gain_gift_label_gift_message">Presente para você!</string>
+    <string name="dialog_gain_gift_label_sent">Enviou:</string>
+    <string name="dialog_gain_gift_label_valid">Válido até %1$s</string>
+    <string name="dialog_gain_mobi_completed_card_btn_choose_reward">Escolher prêmio na vitrine</string>
+    <string name="dialog_gain_mobi_completed_card_final_message">Você chegou até aqui e merece ser recompensado. Aproveite!</string>
+    <string name="dialog_gain_mobi_label_completed_card_message">E já pode trocar seus pontos por uma recompensa.</string>
+    <string name="dialog_gain_mobi_online_button_store_evaluate">Avaliar loja</string>
+    <string name="dialog_gain_mobi_online_label_total_mobis">Você ganhou %1$s pontos!</string>
+    <string name="dialog_gain_mobi_shot_label_uau">Uau</string>
+    <string name="dialog_gain_mobin_shot_label_gain_message">Você acaba de ganhar um prêmio instantâneo!</string>
+    <string name="dialog_gain_shot_not_gained_label_message_retry">
+        O sorteio de prêmios é aleatorio. Se você não ganhou desta vez,
+        pode ganhar em outro momento. &lt;font color="F1A400">&lt;strong>Não desista!&lt;/strong>&lt;/font>
+    </string>
+    <string name="dialog_gain_shot_not_gained_retry_message">Continue tentando!</string>
+    <string name="dialog_gain_shot_not_gained_user_message">Não foi desta vez...</string>
+    <string name="dialog_survey_success_negative_label_congrat_user">Esperamos seu retorno.</string>
+    <string name="dialog_survey_success_negative_label_congrat_user_value">Entregaremos sua avaliação diretamente ao gerente da cafeteria. Assim poderemos melhorar nosso serviço e receber você novamente. Sua opnião é muito importante.</string>
+    <string name="dialog_survey_success_negative_label_user_message">Nossa! Parece que você teve algum problema com os serviços da loja.</string>
+    <string name="dialog_survey_success_neutral_label_congrat_user">Esta loja ouve você</string>
+    <string name="dialog_survey_success_neutral_label_congrat_user_value">Entregaremos sua avaliação diretamente ao gerente da cafeteria. É muito importante saber a sua opnião. Assim poderemos melhorar nosso serviço contantemente.</string>
+    <string name="dialog_survey_success_neutral_label_user_message">Obrigado! Sua opinião é fundamental para que nosso serviço melhore sempre.</string>
+    <string name="dialog_survey_success_positive_label_congrat_user">Esta loja ouve você.</string>
+    <string name="dialog_survey_success_positive_label_congrat_user_value">Entregaremos sua avaliação diretamente ao gerente da cafeteria. Assim poderemos melhorar nosso serviço e receber você novamente. Sua opnião é muito importante.</string>
+    <string name="dialog_survey_success_positive_label_user_message">Obrigado! É muito bom saber que você gosta do nosso serviço.</string>
+    <string name="dialog_title_error">Erro</string>
+    <string name="email_required">Digite o email</string>
+    <string name="error_loading_checkins">Loading check-ins failed</string>
+    <string name="error_loading_news">Loading news failed</string>
+    <string name="error_loading_rewards">Error ao carregar as recompensas</string>
+    <string name="error_loading_store">Você está sem conexão com a internet. Tente novamente quando estiver online.</string>
+    <string name="error_loading_store_products">Nenhum produto</string>
+    <string name="error_loading_users">Loading users failed</string>
+    <string name="error_on_app">Error na aplicação. Contate a central de relacionamento.</string>
+    <string name="error_on_rescue_reward">Error ao resgatar recompensa.</string>
+    <string name="error_unknown">Desconhecido</string>
+    <string name="facebook_alert_message_permission_not_granted">Não é possível executar a ação escolhida porque as permissões não foram concedidas.</string>
+    <string name="facebook_conection_error">Error ao conectar-se com o facebook</string>
+    <string name="facebook_conection_error_email_blank">Não foi possível acessar email do seu facebook. Altere a permissão no seu perfil.</string>
+    <string name="facebook_conection_error_on_update">Error ao atualizar seus dados</string>
+    <string name="facebook_connect_message">Sua conta não está conectada ao facebook.</string>
+    <string name="facebook_feed_dialog_title">MobiClub</string>
+    <string name="facebook_not_share_message">Não foi possível compartilhar</string>
+    <string name="facebook_share_error">Erro ao compartilhar.</string>
+    <string name="facebook_share_error_alert_try_again">Verifique sua conexão. Deseja tentar novamente?</string>
+    <string name="fragment_about_channel">CANAIS DE RELACIONAMENTO</string>
+    <string name="fragment_about_contribute">COLABORE COM A MOBICLUB</string>
+    <string name="fragment_about_label_about">O Quanto Prima é uma cafeteria tradicional, com o selo Quanto Prima de qualidade. Todos os cafés, quentes ou gelados, são de linha exclusiva. Para acompanhar, a cafeteria tem doces e salgados regionais impecáveis e várias opções de bolos e tortas. Dedique um tempinho para saborear os seus melhores momentos.</string>
+    <string name="fragment_about_label_about2">O tempo passou e evoluímos esse conceito inventando coisas bem legais para você ganhar muitos presentes das lojas parceiras utilizando apenas seu smartphone.</string>
+    <string name="fragment_about_label_about3">Estamos felizes em ter você conosco!</string>
+    <string name="fragment_about_label_about_mobiclub">Clube de vantagens aberto para todos que possuem um smartphone. Os participantes acumulam pontos em suas lojas preferidas, trocam por recompensas, consultam informações sobre as lojas como lista de produtos, telefone ou facebook, e ainda podem avaliar o atendimento desses locais. Aproveite tudo isso!</string>
+    <string name="fragment_central_label_call_us">ou ligue para nós:</string>
+    <string name="fragment_central_label_phone">+55 81 3025-3883</string>
+    <string name="fragment_central_message">Preencha o formulário abaixo e fale com a nossa equipe!</string>
+    <string name="gain_gift_confirm_reject_message">Tem certeza que deseja recusar o presente?</string>
+    <string name="gain_mobi_btn_evaluate_store">Avaliar loja</string>
+    <string name="gain_mobi_btn_facebook_share">Compartilhar a novidade</string>
+    <string name="gain_mobi_label_share">Aproveite para:</string>
+    <string name="gain_shot_already_gain_msg">Você já foi premiado por essa recompensa instantânea.</string>
+    <string name="gain_shot_already_gain_title">Aviso</string>
+    <string name="gain_shot_completed_msg">Este qrCode não pertence a nenhuma recompensa instantânea válida.</string>
+    <string name="gain_shot_completed_title">Aviso</string>
+    <string name="gain_shot_over_shot_msg">A quantidade de ganhadores dessa recompensa instantânea já foi alcançada.</string>
+    <string name="gain_shot_over_shot_title">Aviso</string>
+    <string name="gain_shot_timeout_msg">Recompensa instantânea expirada.</string>
+    <string name="gain_shot_timeout_title">Aviso</string>
+    <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="gender_prompt">Sexo</string>
+    <string name="get_gift_error">Desculpe, ocorreu um error ao obter seu presente. Motivo: %1$s.</string>
+    <string name="get_gift_error2">Desculpe, ocorreu um error ao obter seu presente.</string>
+    <string name="google_maps_key">AIzaSyDbqLGJa_jN3lh8fzDB2mdPDs2nKPHwUJc</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="history_clear_one_history_text">Clear</string>
+    <string name="history_clear_text">Clear history</string>
+    <string name="history_email_title">Barcode Scanner history</string>
+    <string name="history_empty">Empty</string>
+    <string name="history_empty_detail">No barcode scans have been recorded</string>
+    <string name="history_send">Send history</string>
+    <string name="history_title">History</string>
+    <string name="home">Home</string>
+    <string name="home_gain_mobi_invalid_qr_code">QR Code inválido</string>
+    <string name="home_no_locations_label_help">Você pode ver as lojas disponíveis desativando o GPS ou pesquisando por alguma no campo acima.</string>
+    <string name="home_no_locations_message">Infelizmente não encontramos nenhum estabelecimento perto de você.</string>
+    <string name="home_no_locations_query">Que tal tentar com palavras semelhantes?</string>
+    <string name="home_no_locations_query_label_message">Sua pesquisa não retornou nenhum resultado. :/</string>
+    <string name="home_offline_label_gain_mobis_message">Mas fique tranquilo. Você ainda pode ganhar pontos, mesmo offline. Atualizaremos quando você conectar.</string>
+    <string name="home_offline_label_no_connection_message">A sua conexão caiu ou esta desligada. Ative o WI-FI ou a sua rede de dados para conectar a internet.</string>
+    <string name="home_offline_no_connection_label">A internet não responde!</string>
+    <string name="importancia_cpf_1_texto">Algumas lojas passarão a exigir o CPF para que você pontue no clube. Além disso, com essa informação cadastrada será possível ganha pontos sem o celular e utilizar o aplicativo em compras online e delivery.</string>
+    <string name="importancia_cpf_1_titulo">A importância do CPF</string>
+    <string name="importancia_cpf_2_texto">Fique tranquilo ao fornecer seus dados!\n Nosso sistema é extremamente \n confiável e sigiloso.</string>
+    <string name="importancia_cpf_2_titulo">Segurança e sigilo</string>
+    <string name="importancia_cpf_3_texto">Para concluir o cadastro basta informar seu CPF. Com essa informação cadastrada, você poderá pontuar em mais lojas e sem o celular, basta informar o CPF aos atendentes. Fique tranquilo, seus dados estão seguros.</string>
+    <string name="importancia_cpf_3_titulo">Cadastre seu CPF</string>
+    <string name="importancia_cpf_to_store_texto">Para interagir com essa loja é necessário que você cadastre seu CPF. Com essa informação cadastrada você poderá pontuar em mais lojas e sem o celular, basta informar o CPF aos atendentes. Fique tranquilo, seus dados estão seguros.</string>
+    <string name="item_establisiment_label_your_mobis">seu saldo</string>
+    <string name="label_congrat_user_message_string">Baixe seu prêmio acessando a seção Recompensas no menu lateral. </string>
+    <string name="label_cpf_nao_cadastrado">Ainda não cadastrado</string>
+    <string name="label_download_msg">Baixe agora a nova versão pressionando o botão abaixo.</string>
+    <string name="label_email_address">Email</string>
+    <string name="label_password">Senha</string>
+    <string name="label_store_front_choose_message">Escolha qual produto comprar com seus pontos</string>
+    <string name="label_update_msg">Nosso aplicativo está com uma nova versão e você deve atualizá-lo para continuar aproveitando suas vantagens.</string>
+    <string name="label_user">Desconhecido</string>
+    <string name="lib_name">wishlist</string>
+    <string name="list_establishment_mobis">PONTOS</string>
+    <string name="list_item_cardapio_front_label_price">R$%1$s</string>
+    <string name="list_item_establishment_label_location_premium">Prêmio disponível</string>
+    <string name="list_item_reward_label_expiration">Validade: %1$s</string>
+    <string name="loading_message">Carregando...</string>
+    <string name="location_column">Location</string>
+    <string name="location_notifications_no_content_label_help">Você pode selecionar se quer receber notificações da loja a partir da primeira notificação que enviarem.</string>
+    <string name="location_notifications_no_content_label_message">Nenhuma loja mandou notificações para você ainda.</string>
+    <string name="logout_action">Logout</string>
+    <string name="lost_password_btn_change_password">Redefinir senha</string>
+    <string name="lost_password_email_sent_msg">Acesse seu email e siga as instruções para recuperar a senha.</string>
+    <string name="lost_password_email_sent_title">Sucesso</string>
+    <string name="lost_password_label_message1">Não tem problema. Digite o email cadastrado que enviamos um link para você cria uma nova senha.</string>
+    <string name="lost_password_label_message2">Excluiu sua conta no facebook?</string>
+    <string name="lost_password_label_message3">Digite o email que estava cadastrado.</string>
+    <string name="menu_action">Menu</string>
+    <string name="menu_encode_mecard">Use MECARD</string>
+    <string name="menu_encode_vcard">Use vCard</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_history">History</string>
+    <string name="menu_item_about">Quanto Prima</string>
+    <string name="menu_item_about_mobiclub">Sobre o aplicativo</string>
+    <string name="menu_item_ajuda">Ajuda</string>
+    <string name="menu_item_contact">Central de Relacionamento</string>
+    <string name="menu_item_logout">Sair da conta</string>
+    <string name="menu_item_reward">Minhas Recompensas</string>
+    <string name="menu_item_terms_privacy">Termos e Política</string>
+    <string name="menu_item_text_push">Teste Notificação Push</string>
+    <string name="menu_item_tutorial">Tutorial</string>
+    <string name="menu_label_lang_en">Inglês</string>
+    <string name="menu_label_lang_es">Espanhol</string>
+    <string name="menu_label_lang_fr">Francês</string>
+    <string name="menu_label_lang_pt_br">Português</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_title_cardapio_lang_default">PT</string>
+    <string name="menu_title_home">Início</string>
+    <string name="menu_title_offline_mobis">Pontos Offline</string>
+    <string name="menu_title_rewards">Recompensas</string>
+    <string name="menu_title_timer">Timer</string>
+    <string name="message_auth_failed">Please enter a valid password</string>
+    <string name="message_auth_failed_new_account">Please enter a valid email address &amp; password</string>
+    <string name="message_bad_credentials">Usuário ou senha incorretos</string>
+    <string name="message_edit_profile">Editando perfil...</string>
+    <string name="message_facebook_auth_failed">Error ao conectar-se com o facebook</string>
+    <string name="message_facebook_cant_connect">Não foi possível conectar-se.</string>
+    <string name="message_request_password">Redefinindo senha...</string>
+    <string name="message_signing_in">Entrando…</string>
+    <string name="mobi_sync_block_account_msg">Erro! Você não pode ganhar pontos. Sua conta está bloqueada!</string>
+    <string name="mobi_sync_block_account_title">Conta Bloqueada</string>
+    <string name="mobi_sync_completed_card">Parabéns! Você completou o cartão de fidelidade.</string>
+    <string name="mobi_sync_error_invalid_mobi_msg">Erro! Mobi não computado. O qrcode está incorreto.</string>
+    <string name="mobi_sync_error_invalid_mobi_title">Código Inválido</string>
+    <string name="mobi_sync_error_over_mobis_by_day">Erro! Você fez mais leituras que o permitido no dia.</string>
+    <string name="mobi_sync_gain_mobi">Parabéns! Você ganhou 10 pontos.</string>
+    <string name="mobiclub_logo_url">http://mobiclub.com.br/estabelecimentos/3_MobiClub.png</string>
+    <string name="mobile_connected">Conectado pelo 3G</string>
+    <string name="mobis_offline_reference_default">MobiClub</string>
+    <string name="msg_bulk_mode_scanned">Bulk mode: barcode scanned and saved</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="msg_default_format">Format</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_mms_subject">Hi</string>
+    <string name="msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
+    <string name="msg_default_time">Time</string>
+    <string name="msg_default_type">Type</string>
+    <string name="msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_google_books">Google</string>
+    <string name="msg_google_product">Google</string>
+    <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+    <string name="msg_invalid_value">Invalid value</string>
+    <string name="msg_problem_editing_with_no_cause">Por favor, verifique e tente novamente.</string>
+    <string name="msg_redirect">Redirect</string>
+    <string name="msg_sbc_book_not_searchable">Sorry, this book is not searchable.</string>
+    <string name="msg_sbc_failed">Sorry, the search encountered a problem.</string>
+    <string name="msg_sbc_no_page_returned">No page returned</string>
+    <string name="msg_sbc_page">Page</string>
+    <string name="msg_sbc_results">Results</string>
+    <string name="msg_sbc_searching_book">Searching book\u2026</string>
+    <string name="msg_sbc_snippet_unavailable">Snippet not available</string>
+    <string name="msg_share_explanation">You can share data by displaying a barcode on your screen and scanning it with another phone.</string>
+    <string name="msg_share_text">Or type some text and press Enter</string>
+    <string name="msg_sure">Are you sure?</string>
+    <string name="msg_unmount_usb">Sorry, the SD card is not accessible.</string>
+    <string name="navigation_drawer_close">Drawer Close</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="no_connection">Sem conexão. Ative WiFi ou 3G.</string>
+    <string name="no_content_rewards_label_help">É muito fácil ganhar: caso seu consumo esteja dentro da regra de pontuação das lojas da Quanto Prima, você tem direito a pontuar. Acumulando pontos, você troca por recompensas.</string>
+    <string name="no_content_rewards_label_how_to_gain_mobi">Ainda na dúvida?</string>
+    <string name="no_content_rewards_label_how_to_gain_mobi2">Clique aqui e veja como funciona.</string>
+    <string name="no_content_rewards_label_message">Você não possui recompensas.</string>
+    <string name="no_data">Não foi possível obter as lojas.</string>
+    <string name="no_establishments">Nenhum estabelecimento</string>
+    <string name="no_news">No News</string>
+    <string name="no_notifications">Erro ao obter notificações</string>
+    <string name="no_notify_locations">Nenhuma loja ainda enviou notificação para você</string>
+    <string name="no_store_rewards">Nenhuma recompensa</string>
+    <string name="no_store_user_mobis_extracts">Nenhum ponto</string>
+    <string name="no_users">No Users</string>
+    <string name="notification_action">Notificações</string>
+    <string name="notification_congih_label_config_message">Selecione aqui os estabelecimentos que podem enviar notificações para você.</string>
+    <string name="notification_item_label_subject">Assunto</string>
+    <string name="notification_item_message">Mensagem</string>
+    <string name="notification_list_btn_load_more">Carregar mais</string>
+    <string name="notifications_config_label_all">Todos</string>
+    <string name="notifications_no_content_label_help">Quando surgir uma novidade você vai ficar sabendo aqui. Fique ligado.</string>
+    <string name="notifications_no_content_label_message">Você não possui notificações no momento.</string>
+    <string name="notify_location_error">Error ao bloquear/desbloquear.</string>
+    <string name="numberEight">8</string>
+    <string name="numberFive">5</string>
+    <string name="numberFour">4</string>
+    <string name="numberNine">9</string>
+    <string name="numberOne">1</string>
+    <string name="numberSeven">7</string>
+    <string name="numberSix">6</string>
+    <string name="numberTen">10</string>
+    <string name="numberThree">3</string>
+    <string name="numberTwo">2</string>
+    <string name="numberZero">0</string>
+    <string name="offline_mobi_label_time">Leitura em %1$s</string>
+    <string name="offline_mobi_not_sync">Ainda não foi atualizado</string>
+    <string name="offline_mobi_sync_error">Error ao atualizar</string>
+    <string name="offline_mobi_sync_error_expired">Ponto inválido ou expirado na hora da leitura</string>
+    <string name="offline_mobi_synced">Mobi atualizado com sucesso!</string>
+    <string name="offline_mobi_syncing">Atualizando...</string>
+    <string name="outdated_label_user_welcome">Oi %1$s, tudo bem?</string>
+    <string name="outdated_label_user_welcome2">Tudo bem?</string>
+    <string name="outdated_update_label">Atualizar</string>
+    <string name="page_referrers">Referrers</string>
+    <string name="page_store_information">INFORMAÇÕES</string>
+    <string name="page_store_mobis">SEUS PONTOS</string>
+    <string name="page_store_storefront">VITRINE</string>
+    <string name="password_required">Digite a senha</string>
+    <string name="pause">Pause</string>
+    <string name="pesquisa_comentario">Escreva abaixo seus elogios, críticas ou sugestões ao estabelecimento</string>
+    <string name="pesquisa_pergunta_definitiva">Você recomendaria este estabelecimento para um amigo?</string>
+    <string name="pesquisa_pergunta_nsi">O quanto você está satisfeito com sua experiência aqui hoje?</string>
+    <string name="pesquisa_required_question">As duas perguntas são obrigatórias</string>
+    <string name="pesquisa_suggestions_or_complaints">Envie elogios, críticas, sugestões ou dúvidas diretamente para os gestores desse estabelecimento!</string>
+    <string name="pesquisa_title">Avaliação</string>
+    <string name="pick_phone">Escolha um telefone para discar</string>
+    <string name="pick_reason">Qual a razão do bloqueio desta loja?</string>
+    <string name="post_facebook_error">Não foi possivel compartilhar.</string>
+    <string name="preferences_actions_title">When a barcode is found\u2026</string>
+    <string name="preferences_auto_focus_title">Use auto focus</string>
+    <string name="preferences_auto_open_web_title">Open web pages automatically</string>
+    <string name="preferences_bulk_mode_summary">Scan and save many barcodes continuously</string>
+    <string name="preferences_bulk_mode_title">Bulk scan mode</string>
+    <string name="preferences_copy_to_clipboard_title">Copy to clipboard</string>
+    <string formatted="false" name="preferences_custom_product_search_summary">Substitutions: %s = contents, %f = format, %t = type</string>
+    <string name="preferences_custom_product_search_title">Custom search URL</string>
+    <string name="preferences_decode_1D_industrial_title">1D Industrial</string>
+    <string name="preferences_decode_1D_product_title">1D Product</string>
+    <string name="preferences_decode_Aztec_title">Aztec</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_PDF417_title">PDF417 (β)</string>
+    <string name="preferences_decode_QR_title">QR Codes</string>
+    <string name="preferences_device_bug_workarounds_title">Device Bug Workarounds</string>
+    <string name="preferences_disable_barcode_scene_mode_title">No barcode scene mode</string>
+    <string name="preferences_disable_continuous_focus_summary">Use only standard focus mode</string>
+    <string name="preferences_disable_continuous_focus_title">No continuous focus</string>
+    <string name="preferences_disable_exposure_title">No exposure</string>
+    <string name="preferences_disable_metering_title">No metering</string>
+    <string name="preferences_front_light_auto">Automatic</string>
+    <string name="preferences_front_light_off">Off</string>
+    <string name="preferences_front_light_on">On</string>
+    <string name="preferences_front_light_summary">Improves scanning in low light on some phones, but may cause glare. Does not work on all phones.</string>
+    <string name="preferences_front_light_title">Use front light</string>
+    <string name="preferences_general_title">General settings</string>
+    <string name="preferences_invert_scan_summary">Scan for white barcodes on black background. Not available on some devices.</string>
+    <string name="preferences_invert_scan_title">Invert scan</string>
+    <string name="preferences_name">Preferências</string>
+    <string name="preferences_orientation_title">No automatic rotation</string>
+    <string name="preferences_play_beep_title">Beep</string>
+    <string name="preferences_remember_duplicates_summary">Store multiple scans of the same barcode in History</string>
+    <string name="preferences_remember_duplicates_title">Remember duplicates</string>
+    <string name="preferences_result_title">Result settings</string>
+    <string name="preferences_scanning_title">When scanning for barcodes, decode\u2026</string>
+    <string name="preferences_search_country">Search country</string>
+    <string name="preferences_supplemental_summary">Try to retrieve more information about the barcode contents</string>
+    <string name="preferences_supplemental_title">Retrieve more info</string>
+    <string name="preferences_vibrate_title">Vibrate</string>
+    <string name="profile_btn_conf_notifications">Configuração de Notificações</string>
+    <string name="profile_btn_connect">Conectar</string>
+    <string name="profile_edit_btn_edit_password">
+
+        &lt;p>&lt;font color="#FFEDB4">&lt;u>Redefinir senha&lt;/u>&lt;/font>&lt;/p>
+        
+    </string>
+    <string name="profile_edit_btn_update_profile">Atualizar conta</string>
+    <string name="profile_edit_error">Não foi possível editar seu perfil.</string>
+    <string name="profile_edit_label_edit_password_message">
+
+        &lt;p>Ou toque aqui para &lt;/p>
+        
+    </string>
+    <string name="profile_edit_label_photo_facebook_message">É a mesma do seu facebook, caso você tenha sua conta vinculada.</string>
+    <string name="profile_edit_label_photo_message">Esta é a sua foto atual.</string>
+    <string name="profile_facebook_btn_connect">Conectar</string>
+    <string name="progress_dialog_notify_block_message">Desativando...</string>
+    <string name="progress_dialog_notify_unblock_message">Ativando...</string>
+    <string name="qrcode_label_no_connection_status">Você está offline</string>
+    <string name="qrcode_label_qrcode_message">Peça o QRCode ao atendente e posicione o código na área marcada para pontuar. </string>
+    <string name="qrcode_result_label_congrat_user_message">Continue acumulando pontos e aproveitando as recompensas!</string>
+    <string name="qrcode_result_label_mode">Modo Offline</string>
+    <string name="qrcode_result_label_mode_message1">É necessário ter conexão com a internet para seus pontos serem computados em nosso sistema.</string>
+    <string name="qrcode_result_label_mode_message2">Mas não se preocupe, nós os salvamos e enviamos para o sistema quando uma conexão estiver disponível.</string>
+    <string name="qrcode_success_label_congrat">Parabéns!</string>
+    <string name="qrcode_success_label_congrat_user">Parabéns, %1$s!</string>
+    <string name="refresh_action">Refresh</string>
+    <string name="rescue_reward_btn_rescue">Toque aqui para resgatar</string>
+    <string name="rescue_reward_label_code_message">Anote o código desta recompensa:</string>
+    <string name="rescue_reward_label_rescue_message">Você está preste a resgatar:</string>
+    <string name="rescue_reward_label_time_message">Anote estas informações sobre o resgate, pois podem ser úteis futuramente.</string>
+    <string name="rescue_reward_label_user_attention_message">
+        Você acabou de usar sua recompensa, portanto
+        &lt;strong>\"%1$s\"&lt;/strong>
+        irá aparecer na lista de Recompensas Resgatadas.
+    </string>
+    <string name="rescue_reward_tip1">Informe ao atendente que você possui uma recompensa e deseja realizar a troca;</string>
+    <string name="rescue_reward_tip2">Para ler o código de resgate fornecido pelo atendente, você só precisa utilizar o botão resgatar abaixo e realizar a leitura.</string>
+    <string name="rescue_reward_tip3">Em caso de dúvida, mostre o código da recompensa ao atendente.</string>
+    <string name="result_address_book">Found contact info</string>
+    <string name="result_calendar">Found calendar event</string>
+    <string name="result_email_address">Found email address</string>
+    <string name="result_geo">Found geographic coordinates</string>
+    <string name="result_isbn">Found book</string>
+    <string name="result_product">Found product</string>
+    <string name="result_sms">Found SMS address</string>
+    <string name="result_tel">Found phone number</string>
+    <string name="result_text">Found plain text</string>
+    <string name="result_uri">Found URL</string>
+    <string name="result_wifi">Found WLAN Configuration</string>
+    <string name="resume">Resume</string>
+    <string name="reward_details_label_rescue_reward">Resgatar esta recompensa</string>
+    <string name="reward_label_user_owned">O QUE VOCÊ TEM</string>
+    <string name="reward_rescue_error_label_error">Erro:</string>
+    <string name="reward_rescue_error_label_ops">Opa!</string>
+    <string name="reward_rescue_error_label_ops_message">Ocorreu um error ao tentar resgatar sua recompensa.</string>
+    <string name="reward_rescue_label_reward_rescued">Recompensa resgatada!</string>
+    <string name="reward_rescue_label_user_attention">Atenção!</string>
+    <string name="sbc_name">Google Book Search</string>
+    <string name="search_bar_hint">Pesquise aqui uma loja</string>
+    <string name="send_reply">Enviando...</string>
+    <string name="send_reply_error">Não foi possível enviar.</string>
+    <string name="server_connection_error">Error na conexão com o servidor. Tente novamente mais tarde.</string>
+    <string name="service_comunication_error">Você está sem conexão com a internet. Tente novamente quando estiver online.</string>
+    <string name="service_comunication_error_on_always">Desculpe, mas você precisa ficar online para validar seu código.</string>
+    <string name="service_comunication_error_on_shot">É necessário estar online para concorrer a um premio instantâneo.</string>
+    <string name="share_dialog_title">Compartilhe a novidade</string>
+    <string name="shot__sync_over_shot_msg">Erro! Não é possivel participar do mesmo shotMobi mais de uma vez.</string>
+    <string name="shot_sync_completed_msg">Erro! O limite de pessoas já foi atingido</string>
+    <string name="shot_sync_gain_shot">Parabéns! Você ganhou 1 shotMobi.</string>
+    <string name="shot_timeout_msg">Erro! ShotMobi expirado.</string>
+    <string name="signin_advert_message">Fique tranquilo! Não realizamos postagens em seu nome sem a sua permissão.</string>
+    <string name="signin_email_label">Login com email</string>
+    <string name="signin_email_login_label">Faça login para continuar</string>
+    <string name="signin_email_lost_password_label">Esqueci minha senha</string>
+    <string name="signin_email_signup_label">Criar conta</string>
+    <string name="signin_facebook_label">Login com Facebook</string>
+    <string name="signin_hint_email">Email</string>
+    <string name="signin_hint_password">Senha</string>
+    <string name="signin_label_lost_password">Esqueci minha senha</string>
+    <string name="signin_label_signup">Criar conta</string>
+    <string name="signout_error">Error ai sair da conta.</string>
+    <string name="signout_message_alert">Tem certeza que deseja sair?</string>
+    <string name="signout_title_alert">Atenção</string>
+    <string name="signun_hint_confirm_password">Senha de novo</string>
+    <string name="signup_btn_label_signup">Criar conta</string>
+    <string name="signup_data_incomplete">Dados incompletos</string>
+    <string name="signup_error">Erro ao criar usuário</string>
+    <string name="signup_hint_birth_Date">Nascimento</string>
+    <string name="signup_hint_cpf">CPF não cadastrado</string>
+    <string name="signup_hint_lastname">Sobrenome</string>
+    <string name="signup_hint_name">Nome</string>
+    <string name="signup_label_cpf">CPF</string>
+    <string name="signup_label_privacy_policy">Política de Privacidade</string>
+    <string name="signup_label_signup_privacy_message">Cadastrando-se, você afirma concordar com os nossos Termos de Uso e Política de Privacidade.</string>
+    <string name="signup_label_use_terms">Termos de Uso</string>
+    <string name="signup_user">Criando conta...</string>
+    <string name="splash_label_loading">Aguarde...</string>
+    <string name="start">Start</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stop">Stop</string>
+    <string name="store_front_label_reward_price">%1$s pontos</string>
+    <string name="store_information_button_gain_mobi">PONTUAR  NESTA LOJA</string>
+    <string name="store_information_label_how_to_win">COMO GANHAR</string>
+    <string name="store_information_label_mobis_access">Veja seu extrato de pontos em \"Seus Pontos\"</string>
+    <string name="store_information_label_position">Você está há %1$s desta loja</string>
+    <string name="store_reward_alert_dialog_message_success">Compra feita com sucesso. Deseja ir para recompensas?</string>
+    <string name="store_reward_list_alert_buy_message">Você tem certeza que deseja comprar este prêmio?</string>
+    <string name="store_reward_list_alert_buy_title_message">Atenção</string>
+    <string name="store_reward_list_alert_no_mobis_message">Saldo insuficiente</string>
+    <string name="store_reward_list_alert_no_mobis_title_message">Atenção</string>
+    <string name="store_user_mobis_label_expiring_legend">Legenda:</string>
+    <string name="store_user_mobis_label_mobis_extract">EXTRATO</string>
+    <string name="store_user_mobis_label_mobis_to_expire">PONTOS A EXPIRAR</string>
+    <string name="store_user_mobis_label_mobis_to_expire_message">
+            
+        &lt;p>Em %1$s %2$s pontos irão expirar&lt;/p>
+        </string>
+    <string name="store_user_mobis_label_none_mobis_to_expire_message">Nenhum mobis a expirar</string>
+    <string name="survey_page_answer_label_message">Avalie os demais pontos com notas entre 1 e 5 estrelas.</string>
+    <string name="survey_page_answer_label_no_content">Nenhuma pergunta</string>
+    <string name="survey_page_next">Próximo</string>
+    <string name="survey_page_no_content">Nenhuma pesquisa disponível</string>
+    <string name="survey_page_nsi_green_scale">Muito satisfeito</string>
+    <string name="survey_page_nsi_red_scale">Pouco satisfeito</string>
+    <string name="survey_page_previous">Anterior</string>
+    <string name="survey_page_send">Enviar</string>
+    <string name="take_gift_error">Error ao recuperar presente</string>
+    <string name="texto_OK">OK</string>
+    <string name="timer_is_paused">Timer is paused</string>
+    <string name="timer_running">Timer is running</string>
+    <string name="title_activity_about">Quanto Prima</string>
+    <string name="title_activity_about_mobiclub">Sobre a MobiClub</string>
+    <string name="title_activity_app_inactive">AppInactiveActivity</string>
+    <string name="title_activity_cadastra_cpf">Cadastro de CPF</string>
+    <string name="title_activity_cardapio">Cardápio</string>
+    <string name="title_activity_central">Central de relacionamento</string>
+    <string name="title_activity_establishment">Estabelecimentos</string>
+    <string name="title_activity_gain_mobi">GainMobiActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_home">Início</string>
+    <string name="title_activity_importancia_cpf">Por quê informar o CPF?</string>
+    <string name="title_activity_launch">LaunchActivity</string>
+    <string name="title_activity_lost_password">Esqueci minha senha</string>
+    <string name="title_activity_map">Localização</string>
+    <string name="title_activity_mobis_offline">Pontos Offline</string>
+    <string name="title_activity_notifications">Notificações</string>
+    <string name="title_activity_notifications_config">Conf. Notificações</string>
+    <string name="title_activity_profile">Minha Conta</string>
+    <string name="title_activity_profile_edit">Editar Perfil</string>
+    <string name="title_activity_push_notifications"/>
+    <string name="title_activity_qr_code">Leitura</string>
+    <string name="title_activity_qrcode">QRCodeActivity</string>
+    <string name="title_activity_qrcode_result_dialog">QRCodeResultDialog</string>
+    <string name="title_activity_rescue_reward">Resgatar recompensa</string>
+    <string name="title_activity_reward">Recompensas</string>
+    <string name="title_activity_reward_detail">Recompensa</string>
+    <string name="title_activity_signup">Cadastro</string>
+    <string name="title_activity_store">Loja</string>
+    <string name="title_activity_survey">Avaliando loja</string>
+    <string name="title_activity_tutorial">TutorialActivity</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_webview">Site</string>
+    <string name="title_column">Title</string>
+    <string name="unknown">Desconhecido</string>
+    <string name="user_column">User</string>
+    <string name="user_mobis_label_legend_expired">expirados</string>
+    <string name="user_mobis_label_legend_used">gastos</string>
+    <string name="user_mobis_label_legend_win">ganhos</string>
+    <string name="user_reward_label_user_rescued">RECOMPENSAS QUE JÁ FORAM RESGATADAS</string>
+    <string name="user_rewards_label_user_expired">RECOMPENSAS QUE EXPIRARAM</string>
+    <string name="uv_admin_response_format">Resposta do Administrador: %1$s</string>
+    <string name="uv_all_articles">Todos artigos</string>
+    <string name="uv_all_results_filter">TODOS</string>
+    <string name="uv_android_sdk">Android SDK</string>
+    <string name="uv_article">Artigo</string>
+    <string name="uv_article_browse_question">Este artigo foi útil?</string>
+    <string name="uv_article_instant_answer_question">Este artigo é útil?</string>
+    <string name="uv_articles_filter">ARTIGOS</string>
+    <string name="uv_cancel">Cancelar</string>
+    <string name="uv_category">Categoria</string>
+    <string name="uv_close">Fechar</string>
+    <string name="uv_comment_hint">Digite seu comentário</string>
+    <string name="uv_confirm">Confirmar</string>
+    <string name="uv_contact_continue_button">Ainda quero enviar uma mensagem</string>
+    <string name="uv_contact_hint">Como podemos te ajudar hoje?</string>
+    <string name="uv_contact_subject_hint">Assunto da mensagem</string>
+    <string name="uv_contact_us">Fale conosco</string>
+    <string name="uv_display_name">Nome de exibição</string>
+    <string name="uv_email_address">E-mail</string>
+    <string name="uv_email_address_hint">seu@email.com.br (obrigatório)</string>
+    <string name="uv_error">Erro</string>
+    <string name="uv_failed_signin_error">E-mail ou senha incorretos</string>
+    <string name="uv_feedback_forum">Fórum de Feedback</string>
+    <string name="uv_forgot_password">Esqueci minha senha</string>
+    <string name="uv_helpful_article_message_question">Ainda deseja enviar uma mensagem?</string>
+    <string name="uv_i_want_this">Eu quero isto!</string>
+    <string name="uv_idea">Ideia</string>
+    <string name="uv_idea_description_heading">Descreva sua ideia em detalhes</string>
+    <string name="uv_idea_description_hint">(opcional)</string>
+    <string name="uv_idea_form_help">Ao publicar uma ideia em nosso fórum, outras pessoas poderão votar e comentar sobre ela. Quando respondemos a uma ideia, você é avisado.</string>
+    <string name="uv_idea_form_title">Publicar ideia</string>
+    <string name="uv_idea_text_heading">Sugiro que…</string>
+    <string name="uv_idea_text_hint">Digite sua ideia…</string>
+    <string name="uv_ideas_filter">IDEIAS</string>
+    <string name="uv_knowledge_base">Base de Conhecimento</string>
+    <string name="uv_loading">Carregando…</string>
+    <string name="uv_matching_articles">Artigos compatíveis</string>
+    <string name="uv_matching_articles_and_ideas">Artigos e ideias compatíveis</string>
+    <string name="uv_matching_ideas">Ideias compatíveis</string>
+    <string name="uv_menu_search">Buscar</string>
+    <string name="uv_msg_bad_email_format">Please enter a valid email address.</string>
+    <string name="uv_msg_comment_posted">Seu comentário foi publicado</string>
+    <string name="uv_msg_confirm_discard_idea">Tem certeza de que deseja descartar sua ideia?</string>
+    <string name="uv_msg_confirm_discard_message">Tem certeza de que deseja descartar sua mensagem?</string>
+    <string name="uv_msg_custom_fields_validation">Preencha todos os campos obrigatórios.</string>
+    <string name="uv_msg_forgot_password">E-mail de redefinição de senha enviado</string>
+    <string name="uv_msg_idea_created">Sua ideia foi criada</string>
+    <string name="uv_msg_subscribe">Vamos notificá-lo sobre o progresso desta idea.</string>
+    <string name="uv_msg_subscribe_success">Você está inscrito nesta ideia.</string>
+    <string name="uv_msg_ticket_created">Sua mensagem foi enviada</string>
+    <string name="uv_msg_unsubscribe">Sua inscrição foi removida.</string>
+    <string name="uv_msg_user_identity_validation">Digite seu e-mail</string>
+    <string name="uv_name_hint">“Anônimo”</string>
+    <string name="uv_network_error">Você esta sem conexão com a internet. Tente novamente quando estiver online.</string>
+    <string name="uv_nevermind">Retornar</string>
+    <string name="uv_new_comment">Novo comentário</string>
+    <string name="uv_next">Próximo</string>
+    <string name="uv_no">Não</string>
+    <string name="uv_none_of_these_help">Nada disso ajudou</string>
+    <string name="uv_password">Senha</string>
+    <string name="uv_password_dialog_title">Digite sua senha</string>
+    <string name="uv_portal_title">Ajuda</string>
+    <string name="uv_post_a_comment">Enviar comentário</string>
+    <string name="uv_post_an_idea">Publicar uma ideia</string>
+    <string name="uv_post_comment">Publicar comentário</string>
+    <string name="uv_post_idea_continue_button">Ainda quero publicar minha ideia</string>
+    <string name="uv_posted_by_format">Publicado por %1$s em %2$s</string>
+    <string name="uv_powered_by_uservoice">Powered by UserVoice</string>
+    <string name="uv_remove_votes">Remover Votos</string>
+    <string name="uv_select_none">(nenhum)</string>
+    <string name="uv_select_one">Escolha um</string>
+    <string name="uv_send_message">Enviar mensagem</string>
+    <string name="uv_signin_dialog_ok">Registrar</string>
+    <string name="uv_signin_dialog_title">Login</string>
+    <string name="uv_status_format">Status: %1$s</string>
+    <string name="uv_submit_idea">Enviar ideia</string>
+    <string name="uv_subscribe">Assinar</string>
+    <string name="uv_subscribe_dialog_title">Acompanhar esta ideia</string>
+    <string name="uv_suggestion_instant_answer_question">Esta ideia é útill?</string>
+    <string name="uv_thanks">Obrigado!</string>
+    <string name="uv_title_idea">Ideia</string>
+    <string name="uv_unhelpful_article_message_question">Gostaria de nos enviar uma mensagem?</string>
+    <string name="uv_value">Valor</string>
+    <string name="uv_very_yes">Sim!</string>
+    <string name="uv_yes">Sim</string>
+    <string name="uv_your_email_address">Seu e-mail</string>
+    <string name="uv_your_name">Seu nome</string>
+    <string name="wait_survey_reply">Aguarde, a avaliação está sendo enviada.</string>
+    <string name="waiting_a_moment">Espere um momento</string>
+    <string name="web_view_avalie_na_play_store_title">Avalie</string>
+    <string name="web_view_facebook_title">Facebook</string>
+    <string name="web_view_help_title">Ajuda</string>
+    <string name="web_view_how_to_gain_reward_title">Como ganhar recompensa</string>
+    <string name="web_view_indique_loja_title">Indique loja</string>
+    <string name="web_view_instagram_title">Instagram</string>
+    <string name="web_view_site_sao_braz_title">Site</string>
+    <string name="web_view_terms_and_privacy_policy_title">Política de Priv. e Termos de Uso</string>
+    <string name="web_view_twitter_title">Twitter</string>
+    <string name="wifi_changing_network">Requesting connection to network\u2026</string>
+    <string name="wifi_connected">Conectado pela Wi-Fi</string>
+    <style name="AboutChannelButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="AccountEditText" parent="Text">
+        <item name="android:textColorHint">@drawable/signin_text_hint_selector</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_gravity">center|left</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+    <style name="ActionBar.Solid.Mobiclub" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_mobiclub</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_mobiclub</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_mobiclub</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Mobiclub</item>
+        <item name="android:titleTextStyle">@style/TitleBarTextColor</item>
+    </style>
+    <style name="ActionBar.Transparent.Mobiclub" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@drawable/ab_transparent_mobiclub</item>
+        <item name="progressBarStyle">@style/ProgressBar.Mobiclub</item>
+    </style>
+    <style name="ActionBarTabStyle.Mobiclub" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_mobiclub</item>
+    </style>
+    <style name="ActionButton.CloseMode.Mobiclub" parent="@style/Widget.AppCompat.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_mobiclub</item>
+    </style>
+    <style name="AvatarLarge">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+    </style>
+    <style name="AvatarMedium">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+    </style>
+    <style name="AvatarSmall">
+        <item name="android:layout_width">16dp</item>
+        <item name="android:layout_height">16dp</item>
+    </style>
+    <style name="BlueButton" parent="Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/theme_principal</item>
+    </style>
+    <style name="BootstrapButton">
+        <item name="android:background">@drawable/button_background_states</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Button" parent="Text">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+    <style name="ButtonBarButton"/>
+    <style name="ButtonBold" parent="TextBold">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="ButtonText" parent="Text">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:color">@color/text_black</item>
+    </style>
+    <style name="ButtonText.GainMobiTotalMobis" parent="TextBold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+    </style>
+    <style name="ButtonText.LabelLocation" parent="TextBold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:layout_marginBottom">7dp</item>
+    </style>
+    <style name="ButtonTextBold" parent="TextBold">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:color">@color/text_black</item>
+    </style>
+    <style name="ButtonTextMedium" parent="TextMedium">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:color">@color/text_black</item>
+    </style>
+    <style name="CaptureTheme" parent="android:Theme.Holo">
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowActionBarOverlay">true</item>
+    <item name="android:windowActionModeOverlay">true</item>
+  </style>
+    <style name="CentralButton" parent="ButtonBold">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:background">@drawable/btn_centralrelacionamento</item>
+    </style>
+    <style name="CentralRelationshipButton" parent="ButtonBold">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:background">@drawable/btn_centralrelacionamento</item>
+    </style>
+    <style name="ChooseRewardButton" parent="Button">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">@drawable/tab_indicator_ab_mobiclub</item>
+
+        
+        <item name="background">@drawable/tab_indicator_ab_mobiclub</item>
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:divider">@drawable/custom_tab_indicator_divider</item>
+        <item name="android:dividerPadding">10dp</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">7dp</item>
+    </style>
+    <style name="CustomTabPageIndicator.Text" parent="Text">
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+    <style name="DialogCloseButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">false</item>
+        <item name="android:layout_marginTop">40dp</item>
+    </style>
+    <style name="DialogMessagePadding">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">9dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+    <style name="DinBold">
+        <item name="customFont">fonts/bold.ttf</item>
+        <item name="customFontButton">fonts/bold.ttf</item>
+        <item name="customFontEditText">fonts/bold.ttf</item>
+    </style>
+    <style name="DinMedium">
+        <item name="customFont">fonts/medium.ttf</item>
+        <item name="customFontButton">fonts/medium.ttf</item>
+        <item name="customFontEditText">fonts/medium.ttf</item>
+    </style>
+    <style name="DinRegular">
+        <item name="customFont">fonts/regular.otf</item>
+        <item name="customFontButton">fonts/regular.otf</item>
+        <item name="customFontEditText">fonts/regular.otf</item>
+    </style>
+    <style name="DropDownListView.Mobiclub" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_mobiclub</item>
+    </style>
+    <style name="DropDownNav.Mobiclub" parent="@style/Widget.AppCompat.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_mobiclub</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_mobiclub</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_mobiclub</item>
+    </style>
+    <style name="EvaluateButton" parent="Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/btn_acoes_avaliar_loja</item>
+    </style>
+    <style name="EvaluateButtonMedium" parent="ButtonTextMedium">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/btn_acoes_avaliar_loja</item>
+    </style>
+    <style name="FacebookButton" parent="ButtonBold">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/t02_btn_login_facebook</item>
+    </style>
+    <style name="FacebookButton2" parent="Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/btn_acoes_compartilhar_novidade</item>
+    </style>
+    <style name="FacebookButtonMedium" parent="ButtonTextMedium">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/t02_btn_login_facebook</item>
+    </style>
+    <style name="GainMobiMessagesContainer">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/image_close</item>
+        <item name="android:layout_marginTop">21dp</item>
+        <item name="android:layout_marginLeft">@dimen/dialog_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/dialog_horizontal_margin</item>
+    </style>
+    <style name="LabelHowToWin" parent="Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+    <style name="ListItem">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@drawable/list_item_background</item>
+    </style>
+    <style name="ListSpinner" parent="Spinner">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+    </style>
+    <style name="ListSubtitleText" parent="Text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/table_text_light</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="ListView">
+        <item name="android:dividerHeight">2px</item>
+        <item name="android:divider">@drawable/bootstrap_divider</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+    </style>
+    <style name="LogoAccount">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginTop">50dp</item>
+    </style>
+    <style name="NavMenuButton">
+        <item name="android:textColor">@color/nav_text_selector</item>
+        <item name="android:background">@drawable/nav_menu_button_background_selector</item>
+    </style>
+    <style name="Notification.Time" parent="TextMedium">
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Notification.Title" parent="TextBold">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:gravity">top</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="OrangeButtonBold" parent="ButtonBold">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:background">@drawable/btn_laranja1</item>
+    </style>
+    <style name="OrangeButtonRegular" parent="Button">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:background">@drawable/btn_laranja1</item>
+    </style>
+    <style name="OudatedMessagesBold" parent="ButtonTextBold">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_principal</item>
+    </style>
+    <style name="OudatedMessagesMedium" parent="ButtonTextMedium">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_principal</item>
+    </style>
+    <style name="OudatedMessagesReg" parent="ButtonText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_principal</item>
+    </style>
+    <style name="PopupMenu.Mobiclub" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:dropDownSelector">@drawable/menu_dropdown_panel_mobiclub</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_mobiclub</item>
+    </style>
+    <style name="PrincipalBlackTextBold" parent="TextBold">
+        <item name="android:textColor">#000</item>
+    </style>
+    <style name="PrincipalBlackTextMedium" parent="TextBold">
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+    <style name="PrincipalBlackTextRegular" parent="Text">
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+    <style name="PrincipalTextBold" parent="TextBold">
+        <item name="android:textColor">@color/text_principal</item>
+    </style>
+    <style name="PrincipalTextMedium" parent="TextMedium">
+        <item name="android:textColor">@color/text_principal</item>
+    </style>
+    <style name="PrincipalTextRegular" parent="Text">
+        <item name="android:textColor">@color/text_principal</item>
+    </style>
+    <style name="ProgressBar.Mobiclub" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_mobiclub</item>
+    </style>
+    <style name="RescueRewardButton" parent="ButtonBold">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/btn_acoes_resgatar_recompensa</item>
+    </style>
+    <style name="RescueRewardButtonMedium" parent="ButtonTextMedium">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/btn_acoes_resgatar_recompensa</item>
+    </style>
+    <style name="ResultButton" parent="@android:style/Widget.Holo.Button.Borderless.Small">
+    <item name="android:layout_width">0dip</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_weight">1</item>
+  </style>
+    <style name="ShadowText">
+        <item name="android:shadowColor">@color/text_shadow</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    <style name="ShareButton" parent="@android:style/Widget.Holo.Button.Borderless.Small">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+    <style name="SignInEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:autoText">false</item>
+        <item name="android:capitalize">none</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/table_text</item>
+        <item name="android:textCursorDrawable">@drawable/edit_text_cursor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/edit_text_background</item>
+    </style>
+    <style name="Spinner">
+        <item name="android:indeterminate">true</item>
+        <item name="android:background">@drawable/spinner</item>
+        <item name="android:indeterminateDrawable">@null</item>
+        <item name="android:indeterminateDuration">2000</item>
+        <item name="android:indeterminateOnly">true</item>
+    </style>
+    <style name="Star.Appreciation" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/star_appreciation_bar_full</item>
+        <item name="android:minWidth">28dp</item>
+        <item name="android:maxWidth">28dp</item>
+
+        <item name="android:minHeight">24dp</item>
+        <item name="android:maxHeight">24dp</item>
+    </style>
+    <style name="StyledIndicators" parent="Theme.Mobiclub">
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+    </style>
+    <style name="Text" parent="DinRegular">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="Text.About" parent="Text">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/grey7</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Text.Light" parent="Text">
+        <item name="android:fontFamily">Roboto Light</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="Text.Medium" parent="TextMedium">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="Text.Regular" parent="Text">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="Text.Regular.AppreciationNumber">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Text.Regular.ButtonSurvey" parent="Text">
+        <item name="android:layout_gravity">right|center_vertical</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Text.Regular.Survey">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/theme_principal</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Base.CompactMenu.Dialog" parent="android:TextAppearance.Medium">
+        <item name="android:textColor">@android:color/primary_text_light</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Base.SearchResult" parent="">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Base.SearchResult.Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Base.SearchResult.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Base.Widget.PopupMenu.Large" parent="android:TextAppearance.Widget">
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Base.Widget.PopupMenu.Small" parent="android:TextAppearance.Widget">
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Light.Base.SearchResult" parent="TextAppearance.AppCompat.Base.SearchResult">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Light.Base.SearchResult.Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Light.Base.SearchResult.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Light.Base.Widget.PopupMenu.Large" parent="TextAppearance.AppCompat.Base.Widget.PopupMenu.Large"/>
+    <style name="TextAppearance.AppCompat.Light.Base.Widget.PopupMenu.Small" parent="TextAppearance.AppCompat.Base.Widget.PopupMenu.Small"/>
+    <style name="TextAppearance.AppCompat.Light.SearchResult.Subtitle" parent="TextAppearance.AppCompat.Light.Base.SearchResult.Subtitle"/>
+    <style name="TextAppearance.AppCompat.Light.SearchResult.Title" parent="TextAppearance.AppCompat.Light.Base.SearchResult.Title"/>
+    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" parent="TextAppearance.AppCompat.Light.Base.Widget.PopupMenu.Large"/>
+    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Small" parent="TextAppearance.AppCompat.Light.Base.Widget.PopupMenu.Small"/>
+    <style name="TextAppearance.AppCompat.SearchResult.Subtitle" parent="TextAppearance.AppCompat.Base.SearchResult.Subtitle"/>
+    <style name="TextAppearance.AppCompat.SearchResult.Title" parent="TextAppearance.AppCompat.Base.SearchResult.Title"/>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="TextAppearance.AppCompat.Widget.Base.ActionBar.Menu"/>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle" parent="TextAppearance.AppCompat.Widget.Base.ActionBar.Subtitle"/>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="TextAppearance.AppCompat.Widget.Base.ActionBar.Subtitle.Inverse"/>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="TextAppearance.AppCompat.Widget.Base.ActionBar.Title"/>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="TextAppearance.AppCompat.Widget.Base.ActionBar.Title.Inverse"/>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle" parent="TextAppearance.AppCompat.Widget.Base.ActionMode.Subtitle"/>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse" parent="TextAppearance.AppCompat.Widget.Base.ActionMode.Subtitle.Inverse"/>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title" parent="TextAppearance.AppCompat.Widget.Base.ActionMode.Title"/>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse" parent="TextAppearance.AppCompat.Widget.Base.ActionMode.Title.Inverse"/>
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionBar.Menu" parent="android:TextAppearance.Small">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/actionMenuTextColor</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionBar.Subtitle" parent="android:TextAppearance.Small">
+        <item name="android:textSize">@dimen/abc_action_bar_subtitle_text_size</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionBar.Subtitle.Inverse" parent="android:TextAppearance.Small.Inverse">
+        <item name="android:textSize">@dimen/abc_action_bar_subtitle_text_size</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionBar.Title" parent="android:TextAppearance.Medium">
+        <item name="android:textSize">@dimen/abc_action_bar_title_text_size</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionBar.Title.Inverse" parent="android:TextAppearance.Medium.Inverse">
+        <item name="android:textSize">@dimen/abc_action_bar_title_text_size</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionMode.Subtitle" parent="android:TextAppearance.Small">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionMode.Subtitle.Inverse" parent="android:TextAppearance.Small.Inverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionMode.Title" parent="android:TextAppearance.Medium"/>
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionMode.Title.Inverse" parent="android:TextAppearance.Medium.Inverse"/>
+    <style name="TextAppearance.AppCompat.Widget.Base.DropDownItem" parent="android:TextAppearance.Small">
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.DropDownItem" parent="TextAppearance.AppCompat.Widget.Base.DropDownItem"/>
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Large" parent="TextAppearance.AppCompat.Base.Widget.PopupMenu.Large"/>
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Small" parent="TextAppearance.AppCompat.Base.Widget.PopupMenu.Small"/>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Line2.Media" parent="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Media"/>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media"/>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="TextAppearance.Compat.Notification.Title.Media"/>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <style name="TextAppearance.Widget.AppCompat.Base.ExpandedMenu.Item" parent="android:TextAppearance.Medium">
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="TextAppearance.Widget.AppCompat.Base.ExpandedMenu.Item"/>
+    <style name="TextBold" parent="DinBold">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextMedium" parent="DinMedium">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextProfile" parent="Text">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+    <style name="TextProfileInfo" parent="TextBold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:background">@drawable/shape_bg_info_profile</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Theme.AppCompat" parent="Theme.Base.AppCompat">
+        <item name="isLightTheme">false</item>
+
+        
+        <item name="spinnerDropDownItemStyle">            @style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
+        <item name="searchResultListItemHeight">58dip</item>
+
+        
+        <item name="popupMenuStyle">@style/Widget.AppCompat.PopupMenu</item>
+        <item name="textAppearanceLargePopupMenu">            @style/TextAppearance.AppCompat.Widget.PopupMenu.Large</item>
+        <item name="textAppearanceSmallPopupMenu">            @style/TextAppearance.AppCompat.Widget.PopupMenu.Small</item>
+        <item name="listPopupWindowStyle">@style/Widget.AppCompat.ListPopupWindow</item>
+        <item name="dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
+
+        
+        <item name="searchDropdownBackground">@drawable/abc_search_dropdown_dark</item>
+        <item name="searchViewTextField">@drawable/abc_textfield_searchview_holo_dark</item>
+        <item name="searchViewTextFieldRight">@drawable/abc_textfield_searchview_right_holo_dark</item>
+        <item name="searchViewCloseIcon">@drawable/abc_ic_clear</item>
+        <item name="searchViewSearchIcon">@drawable/abc_ic_search</item>
+        <item name="searchViewGoIcon">@drawable/abc_ic_go</item>
+        <item name="searchViewVoiceIcon">@drawable/abc_ic_voice_search</item>
+        <item name="searchViewEditQuery">@drawable/abc_ic_commit_search_api_holo_dark</item>
+        <item name="searchViewEditQueryBackground">?attr/selectableItemBackground</item>
+        <item name="searchViewAutoCompleteTextView">            @style/Widget.AppCompat.AutoCompleteTextView</item>
+        <item name="textColorSearchUrl">@color/abc_search_url_text_holo</item>
+        <item name="textAppearanceSearchResultTitle">            @style/TextAppearance.AppCompat.SearchResult.Title</item>
+        <item name="textAppearanceSearchResultSubtitle">            @style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
+        <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_holo_dark</item>
+
+        
+        <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
+    </style>
+    <style name="Theme.AppCompat.Base.CompactMenu" parent="">
+        <item name="android:itemTextAppearance">            @style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item</item>
+        <item name="android:listViewStyle">@style/Widget.AppCompat.ListView.Menu</item>
+    </style>
+    <style name="Theme.AppCompat.Base.CompactMenu.Dialog" parent="">
+        <item name="android:itemTextAppearance">            @style/TextAppearance.AppCompat.Base.CompactMenu.Dialog</item>
+        <item name="android:listViewStyle">@android:style/Widget.ListView.Menu</item>
+    </style>
+    <style name="Theme.AppCompat.CompactMenu" parent="Theme.AppCompat.Base.CompactMenu"/>
+    <style name="Theme.AppCompat.CompactMenu.Dialog" parent="Theme.AppCompat.Base.CompactMenu.Dialog"/>
+    <style name="Theme.AppCompat.DialogWhenLarge" parent="Theme.Base.AppCompat.DialogWhenLarge"/>
+    <style name="Theme.AppCompat.Light" parent="Theme.Base.AppCompat.Light">
+        <item name="isLightTheme">true</item>
+
+        
+        <item name="spinnerDropDownItemStyle">            @style/Widget.AppCompat.Light.DropDownItem.Spinner</item>
+        <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
+        <item name="searchResultListItemHeight">58dip</item>
+
+        
+        <item name="popupMenuStyle">@style/Widget.AppCompat.Light.PopupMenu</item>
+        <item name="textAppearanceLargePopupMenu">            @style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large</item>
+        <item name="textAppearanceSmallPopupMenu">            @style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small</item>
+        <item name="listPopupWindowStyle">@style/Widget.AppCompat.Light.ListPopupWindow</item>
+        <item name="dropDownListViewStyle">@style/Widget.AppCompat.Light.ListView.DropDown</item>
+
+        
+        <item name="searchDropdownBackground">@drawable/abc_search_dropdown_light</item>
+        <item name="searchViewTextField">@drawable/abc_textfield_searchview_holo_light</item>
+        <item name="searchViewTextFieldRight">@drawable/abc_textfield_searchview_right_holo_light</item>
+        <item name="searchViewCloseIcon">@drawable/abc_ic_clear_holo_light</item>
+        <item name="searchViewSearchIcon">@drawable/abc_ic_search_api_holo_light</item>
+        <item name="searchViewGoIcon">@drawable/abc_ic_go_search_api_holo_light</item>
+        <item name="searchViewVoiceIcon">@drawable/abc_ic_voice_search_api_holo_light</item>
+        <item name="searchViewEditQuery">@drawable/abc_ic_commit_search_api_holo_light</item>
+        <item name="searchViewEditQueryBackground">?attr/selectableItemBackground</item>
+        <item name="searchViewAutoCompleteTextView">            @style/Widget.AppCompat.Light.AutoCompleteTextView</item>
+        <item name="textColorSearchUrl">@color/abc_search_url_text_holo</item>
+        <item name="textAppearanceSearchResultTitle">            @style/TextAppearance.AppCompat.Light.SearchResult.Title</item>
+        <item name="textAppearanceSearchResultSubtitle">            @style/TextAppearance.AppCompat.Light.SearchResult.Subtitle</item>
+        <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_holo_light</item>
+
+        
+        <item name="activityChooserViewStyle">@style/Widget.AppCompat.Light.ActivityChooserView</item>
+    </style>
+    <style name="Theme.AppCompat.Light.DarkActionBar" parent="Theme.Base.AppCompat.Light.DarkActionBar">
+        <item name="isLightTheme">true</item>
+
+        
+        <item name="spinnerDropDownItemStyle">            @style/Widget.AppCompat.Light.DropDownItem.Spinner</item>
+        <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
+        <item name="searchResultListItemHeight">58dip</item>
+
+        
+        <item name="popupMenuStyle">@style/Widget.AppCompat.Light.PopupMenu</item>
+        <item name="textAppearanceLargePopupMenu">            @style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large</item>
+        <item name="textAppearanceSmallPopupMenu">            @style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small</item>
+        <item name="listPopupWindowStyle">@style/Widget.AppCompat.ListPopupWindow</item>
+        <item name="dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
+
+        
+        <item name="searchDropdownBackground">@drawable/abc_search_dropdown_dark</item>
+        <item name="searchViewTextField">@drawable/abc_textfield_searchview_holo_dark</item>
+        <item name="searchViewTextFieldRight">@drawable/abc_textfield_searchview_right_holo_dark</item>
+        <item name="searchViewCloseIcon">@drawable/abc_ic_clear</item>
+        <item name="searchViewSearchIcon">@drawable/abc_ic_search</item>
+        <item name="searchViewGoIcon">@drawable/abc_ic_go</item>
+        <item name="searchViewVoiceIcon">@drawable/abc_ic_voice_search</item>
+        <item name="searchViewEditQuery">@drawable/abc_ic_commit_search_api_holo_dark</item>
+        <item name="searchViewEditQueryBackground">?attr/selectableItemBackground</item>
+        <item name="searchViewAutoCompleteTextView">            @style/Widget.AppCompat.AutoCompleteTextView</item>
+        <item name="textColorSearchUrl">@color/abc_search_url_text_holo</item>
+        <item name="textAppearanceSearchResultTitle">            @style/TextAppearance.AppCompat.SearchResult.Title</item>
+        <item name="textAppearanceSearchResultSubtitle">            @style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
+        <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_holo_dark</item>
+
+        
+        <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
+    </style>
+    <style name="Theme.AppCompat.Light.DialogWhenLarge" parent="Theme.Base.AppCompat.Light.DialogWhenLarge"/>
+    <style name="Theme.Base" parent="android:Theme"/>
+    <style name="Theme.Base.AppCompat" parent="Theme.Base">
+        <item name="windowActionBar">true</item>
+        
+        <item name="android:windowNoTitle">true</item>
+        <item name="buttonBarStyle">@android:style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@android:style/Widget.Button</item>
+        <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
+        <item name="homeAsUpIndicator">@drawable/abc_ic_ab_back_holo_dark</item>
+        <item name="dividerVertical">@drawable/abc_list_divider_holo_dark</item>
+        <item name="dividerHorizontal">@drawable/abc_list_divider_holo_dark</item>
+        <item name="listPreferredItemHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="listPreferredItemHeightSmall">48dp</item>
+        <item name="listPreferredItemHeightLarge">80dp</item>
+        <item name="listPreferredItemPaddingLeft">8dip</item>
+        <item name="listPreferredItemPaddingRight">8dip</item>
+        <item name="textAppearanceListItem">?android:attr/textAppearanceMedium</item>
+        <item name="textAppearanceListItemSmall">?android:attr/textAppearanceMedium</item>
+        <item name="actionBarTabStyle">@style/Widget.AppCompat.ActionBar.TabView</item>
+        <item name="actionBarTabBarStyle">@style/Widget.AppCompat.ActionBar.TabBar</item>
+        <item name="actionBarTabTextStyle">@style/Widget.AppCompat.ActionBar.TabText</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.ActionButton</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
+        <item name="actionBarStyle">@style/Widget.AppCompat.ActionBar</item>
+        <item name="actionBarSplitStyle">?attr/actionBarStyle</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarSize">@dimen/abc_action_bar_default_height</item>
+        <item name="actionBarDivider">?attr/dividerVertical</item>
+        <item name="actionBarItemBackground">?attr/selectableItemBackground</item>
+        <item name="actionMenuTextAppearance">            @style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
+        <item name="actionMenuTextColor">?android:attr/textColorPrimaryDisableOnly</item>
+
+        
+        <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
+
+        
+        <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
+        <item name="actionModeBackground">@drawable/abc_cab_background_top_holo_dark</item>
+        <item name="actionModeSplitBackground">@drawable/abc_cab_background_bottom_holo_dark</item>
+        <item name="actionModeCloseDrawable">@drawable/abc_ic_cab_done_holo_dark</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.ActionButton.CloseMode</item>
+
+        
+        <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
+        <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
+        <item name="android:panelBackground">@drawable/abc_menu_hardkey_panel_holo_dark</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+    </style>
+    <style name="Theme.Base.AppCompat.Dialog.FixedSize" parent="android:Theme.Dialog">
+        <item name="windowFixedWidthMajor">@dimen/dialog_fixed_width_major</item>
+        <item name="windowFixedWidthMinor">@dimen/dialog_fixed_width_minor</item>
+        <item name="windowFixedHeightMajor">@dimen/dialog_fixed_height_major</item>
+        <item name="windowFixedHeightMinor">@dimen/dialog_fixed_height_minor</item>
+        <item name="windowActionBar">true</item>
+        
+        <item name="android:windowNoTitle">true</item>
+        <item name="buttonBarStyle">@android:style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@android:style/Widget.Button</item>
+        <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
+        <item name="dividerVertical">@drawable/abc_list_divider_holo_dark</item>
+        <item name="dividerHorizontal">@drawable/abc_list_divider_holo_dark</item>
+        <item name="listPreferredItemHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="listPreferredItemHeightSmall">48dp</item>
+        <item name="listPreferredItemHeightLarge">80dp</item>
+        <item name="listPreferredItemPaddingLeft">8dip</item>
+        <item name="listPreferredItemPaddingRight">8dip</item>
+        <item name="textAppearanceListItem">?android:attr/textAppearanceMedium</item>
+        <item name="textAppearanceListItemSmall">?android:attr/textAppearanceMedium</item>
+
+        
+        <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
+        <item name="actionModeBackground">@drawable/abc_cab_background_top_holo_dark</item>
+        <item name="actionModeSplitBackground">@drawable/abc_cab_background_bottom_holo_dark</item>
+        <item name="actionModeCloseDrawable">@drawable/abc_ic_cab_done_holo_dark</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.ActionButton.CloseMode</item>
+
+        
+        <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
+        <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
+        <item name="android:panelBackground">@drawable/abc_menu_hardkey_panel_holo_dark</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+    </style>
+    <style name="Theme.Base.AppCompat.Dialog.Light.FixedSize" parent="Theme.Base.AppCompat.Dialog.FixedSize"/>
+    <style name="Theme.Base.AppCompat.DialogWhenLarge" parent="Theme.Base.AppCompat"/>
+    <style name="Theme.Base.AppCompat.Light" parent="Theme.Base.Light">
+        <item name="windowActionBar">true</item>
+        
+        <item name="android:windowNoTitle">true</item>
+        <item name="buttonBarStyle">@android:style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@android:style/Widget.Button</item>
+        <item name="selectableItemBackground">@drawable/abc_item_background_holo_light</item>
+        <item name="homeAsUpIndicator">@drawable/abc_ic_ab_back_holo_light</item>
+        <item name="dividerVertical">@drawable/abc_list_divider_holo_light</item>
+        <item name="dividerHorizontal">@drawable/abc_list_divider_holo_light</item>
+        <item name="listPreferredItemHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="listPreferredItemHeightSmall">48dp</item>
+        <item name="listPreferredItemHeightLarge">80dp</item>
+        <item name="listPreferredItemPaddingLeft">8dip</item>
+        <item name="listPreferredItemPaddingRight">8dip</item>
+        <item name="textAppearanceListItem">?android:attr/textAppearanceMedium</item>
+        <item name="textAppearanceListItemSmall">?android:attr/textAppearanceMedium</item>
+
+        
+        <item name="actionBarTabStyle">@style/Widget.AppCompat.Light.ActionBar.TabView</item>
+        <item name="actionBarTabBarStyle">@style/Widget.AppCompat.Light.ActionBar.TabBar</item>
+        <item name="actionBarTabTextStyle">@style/Widget.AppCompat.Light.ActionBar.TabText</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.Light.ActionButton</item>
+        <item name="actionOverflowButtonStyle">            @style/Widget.AppCompat.Light.ActionButton.Overflow</item>
+        <item name="actionBarStyle">@style/Widget.AppCompat.Light.ActionBar</item>
+        <item name="actionBarSplitStyle">?attr/actionBarStyle</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarSize">@dimen/abc_action_bar_default_height</item>
+        <item name="actionBarDivider">?attr/dividerVertical</item>
+        <item name="actionBarItemBackground">?attr/selectableItemBackground</item>
+        <item name="actionMenuTextAppearance">            @style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
+        <item name="actionMenuTextColor">?android:attr/textColorPrimaryDisableOnly</item>
+
+        
+        <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
+        <item name="actionModeBackground">@drawable/abc_cab_background_top_holo_light</item>
+        <item name="actionModeSplitBackground">@drawable/abc_cab_background_bottom_holo_light</item>
+        <item name="actionModeCloseDrawable">@drawable/abc_ic_cab_done_holo_light</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.Light.ActionButton.CloseMode</item>
+
+        
+        <item name="actionDropDownStyle">            @style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
+
+        
+        <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
+        <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
+        <item name="android:panelBackground">@drawable/abc_menu_hardkey_panel_holo_light</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_light</item>
+    </style>
+    <style name="Theme.Base.AppCompat.Light.DarkActionBar" parent="Theme.Base.AppCompat.Light">
+        <item name="homeAsUpIndicator">@drawable/abc_ic_ab_back_holo_dark</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
+        <item name="actionBarStyle">@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse</item>
+        <item name="actionBarWidgetTheme">@style/Theme.AppCompat</item>
+        <item name="actionBarDivider">@drawable/abc_list_divider_holo_dark</item>
+        <item name="actionBarItemBackground">@drawable/abc_item_background_holo_dark</item>
+        <item name="actionBarTabStyle">@style/Widget.AppCompat.Light.ActionBar.TabView.Inverse</item>
+        <item name="actionBarTabBarStyle">@style/Widget.AppCompat.Light.ActionBar.TabBar.Inverse</item>
+        <item name="actionBarTabTextStyle">@style/Widget.AppCompat.Light.ActionBar.TabText.Inverse</item>
+        <item name="actionMenuTextColor">?android:attr/textColorPrimaryInverseDisableOnly</item>
+
+        
+        <item name="actionModeStyle">@style/Widget.AppCompat.Light.ActionMode.Inverse</item>
+        <item name="actionModeBackground">@drawable/abc_cab_background_top_holo_dark</item>
+        <item name="actionModeSplitBackground">@drawable/abc_cab_background_bottom_holo_dark</item>
+        <item name="actionModeCloseDrawable">@drawable/abc_ic_cab_done_holo_dark</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.ActionButton.CloseMode</item>
+
+        
+        <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
+
+        
+        <item name="android:panelBackground">@drawable/abc_menu_hardkey_panel_holo_dark</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+    </style>
+    <style name="Theme.Base.AppCompat.Light.DialogWhenLarge" parent="Theme.Base.AppCompat.Light"/>
+    <style name="Theme.Base.Light" parent="android:Theme.Light"/>
+    <style name="Theme.MobiClub.NoTitleBar" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme.Mobiclub" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarItemBackground">@drawable/selectable_background_mobiclub</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Mobiclub</item>
+        <item name="android:listChoiceIndicatorSingle">@style/PopupMenu.Mobiclub</item>
+        <item name="listPopupWindowStyle">@style/PopupMenu.Mobiclub</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Mobiclub</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Mobiclub</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Mobiclub</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Mobiclub</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_mobiclub</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_mobiclub</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Mobiclub</item>
+
+        
+        <item name="actionBarWidgetTheme">@style/Theme.Mobiclub.Widget</item>
+
+        
+        <item name="android:imageButtonStyle">?android:borderlessButtonStyle</item>
+        <item name="android:buttonStyleToggle">?android:borderlessButtonStyle</item>
+        
+        <item name="android:buttonStyle">?android:borderlessButtonStyle</item>
+    </style>
+    <style name="Theme.Mobiclub.Dialog">
+        <item name="android:windowBackground">@drawable/overlay80</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Mobiclub.Widget" parent="@style/Theme.AppCompat">
+        <item name="popupMenuStyle">@style/PopupMenu.Mobiclub</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Mobiclub</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="TimerChronometer">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">75sp</item>
+        <item name="android:textColor">#464646</item>
+    </style>
+    <style name="TitleBarTextColor" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="UserMobisLabelHeader" parent="TextBold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+    <style name="Widget"/>
+    <style name="Widget.AppCompat.ActionBar" parent="Widget.AppCompat.Base.ActionBar"/>
+    <style name="Widget.AppCompat.ActionBar.Solid" parent="Widget.AppCompat.Base.ActionBar.Solid"/>
+    <style name="Widget.AppCompat.ActionBar.TabBar" parent="Widget.AppCompat.Base.ActionBar.TabBar"/>
+    <style name="Widget.AppCompat.ActionBar.TabText" parent="Widget.AppCompat.Base.ActionBar.TabText"/>
+    <style name="Widget.AppCompat.ActionBar.TabView" parent="Widget.AppCompat.Base.ActionBar.TabView"/>
+    <style name="Widget.AppCompat.ActionButton" parent="Widget.AppCompat.Base.ActionButton"/>
+    <style name="Widget.AppCompat.ActionButton.CloseMode" parent="Widget.AppCompat.Base.ActionButton.CloseMode"/>
+    <style name="Widget.AppCompat.ActionButton.Overflow" parent="Widget.AppCompat.Base.ActionButton.Overflow"/>
+    <style name="Widget.AppCompat.ActionMode" parent="Widget.AppCompat.Base.ActionMode"/>
+    <style name="Widget.AppCompat.ActivityChooserView" parent="Widget.AppCompat.Base.ActivityChooserView"/>
+    <style name="Widget.AppCompat.AutoCompleteTextView" parent="Widget.AppCompat.Base.AutoCompleteTextView"/>
+    <style name="Widget.AppCompat.Base.ActionBar" parent="">
+        <item name="displayOptions">useLogo|showHome|showTitle</item>
+        <item name="divider">?attr/dividerVertical</item>
+        <item name="height">?attr/actionBarSize</item>
+        <item name="homeLayout">@layout/abc_action_bar_home</item>
+        <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionBar.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle</item>
+        <item name="background">@drawable/abc_ab_transparent_dark_holo</item>
+        <item name="backgroundStacked">@drawable/abc_ab_stacked_transparent_dark_holo</item>
+        <item name="backgroundSplit">@drawable/abc_ab_bottom_transparent_dark_holo</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.ActionButton</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
+        <item name="progressBarStyle">@style/Widget.AppCompat.ProgressBar.Horizontal</item>
+        <item name="indeterminateProgressStyle">@style/Widget.AppCompat.ProgressBar</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ActionBar.Solid" parent="Widget.AppCompat.Base.ActionBar">
+        <item name="background">@drawable/abc_ab_solid_dark_holo</item>
+        <item name="backgroundStacked">@drawable/abc_ab_stacked_solid_dark_holo</item>
+        <item name="backgroundSplit">@drawable/abc_ab_bottom_solid_dark_holo</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ActionBar.TabBar" parent="">
+        <item name="divider">?attr/actionBarDivider</item>
+        <item name="showDividers">middle</item>
+        <item name="dividerPadding">12dip</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ActionBar.TabText" parent="">
+        <item name="android:textAppearance">@null</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+        <item name="textAllCaps">true</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ActionBar.TabView" parent="">
+        <item name="android:background">@drawable/abc_tab_indicator_ab_holo</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+        <item name="android:minWidth">80dip</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ActionButton" parent="">
+        <item name="android:background">?attr/actionBarItemBackground</item>
+        <item name="android:paddingLeft">12dip</item>
+        <item name="android:paddingRight">12dip</item>
+        <item name="android:minWidth">@dimen/abc_action_button_min_width</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="textAllCaps">@bool/abc_config_actionMenuItemAllCaps</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ActionButton.CloseMode" parent="Widget.AppCompat.Base.ActionButton"/>
+    <style name="Widget.AppCompat.Base.ActionButton.Overflow" parent="Widget.AppCompat.Base.ActionButton">
+        <item name="android:src">@drawable/abc_ic_menu_moreoverflow_normal_holo_dark</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ActionMode" parent="">
+        <item name="background">?attr/actionModeBackground</item>
+        <item name="backgroundSplit">?attr/actionModeSplitBackground</item>
+        <item name="height">?attr/actionBarSize</item>
+        <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ActivityChooserView" parent="">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/abc_ab_share_pack_holo_dark</item>
+        <item name="divider">?attr/dividerVertical</item>
+        <item name="showDividers">middle</item>
+        <item name="dividerPadding">6dip</item>
+    </style>
+    <style name="Widget.AppCompat.Base.AutoCompleteTextView" parent="android:Widget.AutoCompleteTextView">
+        <item name="android:textColor">?attr/actionMenuTextColor</item>
+        <item name="android:dropDownSelector">@drawable/abc_list_selector_holo_dark</item>
+        <item name="android:popupBackground">@drawable/abc_menu_dropdown_panel_holo_dark</item>
+    </style>
+    <style name="Widget.AppCompat.Base.DropDownItem.Spinner" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.DropDownItem</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ListPopupWindow" parent="">
+        <item name="android:dropDownSelector">@drawable/abc_list_selector_holo_dark</item>
+        <item name="android:popupBackground">@drawable/abc_menu_dropdown_panel_holo_dark</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ListView.DropDown" parent="android:Widget.ListView">
+        <item name="android:listSelector">@drawable/abc_list_selector_holo_dark</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ListView.Menu" parent="android:Widget.ListView.Menu">
+        <item name="android:listSelector">?attr/listChoiceBackgroundIndicator</item>
+        <item name="android:divider">?attr/dividerHorizontal</item>
+    </style>
+    <style name="Widget.AppCompat.Base.PopupMenu" parent="@style/Widget.AppCompat.Base.ListPopupWindow"/>
+    <style name="Widget.AppCompat.Base.ProgressBar" parent="android:Widget.ProgressBar">
+        <item name="android:minWidth">@dimen/abc_action_bar_progress_bar_size</item>
+        <item name="android:maxWidth">@dimen/abc_action_bar_progress_bar_size</item>
+        <item name="android:minHeight">@dimen/abc_action_bar_progress_bar_size</item>
+        <item name="android:maxHeight">@dimen/abc_action_bar_progress_bar_size</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ProgressBar.Horizontal" parent="android:Widget.ProgressBar.Horizontal"/>
+    <style name="Widget.AppCompat.Base.Spinner" parent="">
+        <item name="spinnerMode">dropdown</item>
+        <item name="android:popupBackground">@drawable/abc_menu_dropdown_panel_holo_dark</item>
+        <item name="android:dropDownSelector">@drawable/abc_list_selector_holo_dark</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/abc_spinner_ab_holo_dark</item>
+    </style>
+    <style name="Widget.AppCompat.DropDownItem.Spinner" parent="Widget.AppCompat.Base.DropDownItem.Spinner"/>
+    <style name="Widget.AppCompat.Light.ActionBar" parent="Widget.AppCompat.Light.Base.ActionBar"/>
+    <style name="Widget.AppCompat.Light.ActionBar.Solid" parent="Widget.AppCompat.Light.Base.ActionBar.Solid"/>
+    <style name="Widget.AppCompat.Light.ActionBar.Solid.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.Solid.Inverse"/>
+    <style name="Widget.AppCompat.Light.ActionBar.TabBar" parent="Widget.AppCompat.Light.Base.ActionBar.TabBar"/>
+    <style name="Widget.AppCompat.Light.ActionBar.TabBar.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.TabBar.Inverse"/>
+    <style name="Widget.AppCompat.Light.ActionBar.TabText" parent="Widget.AppCompat.Light.Base.ActionBar.TabText"/>
+    <style name="Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.TabText.Inverse"/>
+    <style name="Widget.AppCompat.Light.ActionBar.TabView" parent="Widget.AppCompat.Light.Base.ActionBar.TabView"/>
+    <style name="Widget.AppCompat.Light.ActionBar.TabView.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.TabView.Inverse"/>
+    <style name="Widget.AppCompat.Light.ActionButton" parent="Widget.AppCompat.Light.Base.ActionButton"/>
+    <style name="Widget.AppCompat.Light.ActionButton.CloseMode" parent="Widget.AppCompat.Light.Base.ActionButton.CloseMode"/>
+    <style name="Widget.AppCompat.Light.ActionButton.Overflow" parent="Widget.AppCompat.Light.Base.ActionButton.Overflow"/>
+    <style name="Widget.AppCompat.Light.ActionMode.Inverse" parent="Widget.AppCompat.Light.Base.ActionMode.Inverse"/>
+    <style name="Widget.AppCompat.Light.ActivityChooserView" parent="Widget.AppCompat.Light.Base.ActivityChooserView"/>
+    <style name="Widget.AppCompat.Light.AutoCompleteTextView" parent="Widget.AppCompat.Light.Base.AutoCompleteTextView"/>
+    <style name="Widget.AppCompat.Light.Base.ActionBar" parent="Widget.AppCompat.Base.ActionBar">
+        <item name="background">@drawable/abc_ab_transparent_light_holo</item>
+        <item name="backgroundStacked">@drawable/abc_ab_stacked_transparent_light_holo</item>
+        <item name="backgroundSplit">@drawable/abc_ab_bottom_transparent_light_holo</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.Light.ActionButton</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.Light.ActionButton.Overflow</item>
+        <item name="progressBarStyle">@style/Widget.AppCompat.ProgressBar.Horizontal</item>
+        <item name="indeterminateProgressStyle">@style/Widget.AppCompat.ProgressBar</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.ActionBar.Solid" parent="Widget.AppCompat.Light.Base.ActionBar">
+        <item name="background">@drawable/abc_ab_solid_light_holo</item>
+        <item name="backgroundStacked">@drawable/abc_ab_stacked_solid_light_holo</item>
+        <item name="backgroundSplit">@drawable/abc_ab_bottom_solid_light_holo</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.ActionBar.Solid.Inverse" parent="Widget.AppCompat.Base.ActionBar.Solid">
+        <item name="titleTextStyle">            @style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse</item>
+        <item name="subtitleTextStyle">            @style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.ActionButton</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.ActionBar.TabBar" parent="Widget.AppCompat.Base.ActionBar.TabBar"/>
+    <style name="Widget.AppCompat.Light.Base.ActionBar.TabBar.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.TabBar"/>
+    <style name="Widget.AppCompat.Light.Base.ActionBar.TabText" parent="Widget.AppCompat.Base.ActionBar.TabText"/>
+    <style name="Widget.AppCompat.Light.Base.ActionBar.TabText.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.TabText">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverseDisableOnly</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.ActionBar.TabView" parent="Widget.AppCompat.Base.ActionBar.TabView"/>
+    <style name="Widget.AppCompat.Light.Base.ActionBar.TabView.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.TabView"/>
+    <style name="Widget.AppCompat.Light.Base.ActionButton" parent="Widget.AppCompat.Base.ActionButton"/>
+    <style name="Widget.AppCompat.Light.Base.ActionButton.CloseMode" parent="Widget.AppCompat.Light.Base.ActionButton"/>
+    <style name="Widget.AppCompat.Light.Base.ActionButton.Overflow" parent="Widget.AppCompat.Light.Base.ActionButton">
+        <item name="android:src">@drawable/abc_ic_menu_moreoverflow_normal_holo_light</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.ActionMode.Inverse" parent="Widget.AppCompat.Base.ActionMode">
+        <item name="titleTextStyle">            @style/TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse</item>
+        <item name="subtitleTextStyle">            @style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.ActivityChooserView" parent="Widget.AppCompat.Base.ActivityChooserView">
+        <item name="android:background">@drawable/abc_ab_share_pack_holo_light</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.AutoCompleteTextView" parent="android:Widget.AutoCompleteTextView">
+        <item name="android:textColor">?attr/actionMenuTextColor</item>
+        <item name="android:dropDownSelector">@drawable/abc_list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/abc_menu_dropdown_panel_holo_light</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.DropDownItem.Spinner" parent="Widget.AppCompat.Base.DropDownItem.Spinner"/>
+    <style name="Widget.AppCompat.Light.Base.ListPopupWindow" parent="">
+        <item name="android:dropDownSelector">@drawable/abc_list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/abc_menu_dropdown_panel_holo_light</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.ListView.DropDown" parent="android:Widget.ListView">
+        <item name="android:listSelector">@drawable/abc_list_selector_holo_light</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.PopupMenu" parent="@style/Widget.AppCompat.Light.Base.ListPopupWindow"/>
+    <style name="Widget.AppCompat.Light.Base.Spinner" parent="Widget.AppCompat.Base.Spinner">
+        <item name="android:dropDownSelector">@drawable/abc_list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/abc_menu_dropdown_panel_holo_light</item>
+        <item name="android:background">@drawable/abc_spinner_ab_holo_light</item>
+    </style>
+    <style name="Widget.AppCompat.Light.DropDownItem.Spinner" parent="Widget.AppCompat.Light.Base.DropDownItem.Spinner"/>
+    <style name="Widget.AppCompat.Light.ListPopupWindow" parent="Widget.AppCompat.Light.Base.ListPopupWindow"/>
+    <style name="Widget.AppCompat.Light.ListView.DropDown" parent="Widget.AppCompat.Light.Base.ListView.DropDown"/>
+    <style name="Widget.AppCompat.Light.PopupMenu" parent="Widget.AppCompat.Light.Base.PopupMenu"/>
+    <style name="Widget.AppCompat.Light.Spinner.DropDown.ActionBar" parent="Widget.AppCompat.Light.Base.Spinner"/>
+    <style name="Widget.AppCompat.ListPopupWindow" parent="Widget.AppCompat.Base.ListPopupWindow"/>
+    <style name="Widget.AppCompat.ListView.DropDown" parent="Widget.AppCompat.Base.ListView.DropDown"/>
+    <style name="Widget.AppCompat.ListView.Menu" parent="Widget.AppCompat.Base.ListView.Menu"/>
+    <style name="Widget.AppCompat.PopupMenu" parent="Widget.AppCompat.Base.PopupMenu"/>
+    <style name="Widget.AppCompat.ProgressBar" parent="Widget.AppCompat.Base.ProgressBar"/>
+    <style name="Widget.AppCompat.ProgressBar.Horizontal" parent="Widget.AppCompat.Base.ProgressBar.Horizontal"/>
+    <style name="Widget.AppCompat.Spinner.DropDown.ActionBar" parent="Widget.AppCompat.Base.Spinner"/>
+    <style name="Widget.Compat.NotificationActionContainer" parent=""/>
+    <style name="Widget.Compat.NotificationActionText" parent=""/>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="botao_cadastrar_cpf" parent="Text">
+        <item name="android:fontFamily">Roboto Light</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+    <style name="botao_importancia_cpf" parent="Text">
+        <item name="android:fontFamily">Roboto Light</item>
+        <item name="android:textColor">#000846</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="botao_nao_cadastrar_cpf" parent="Text">
+        <item name="android:fontFamily">Roboto Light</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="com_facebook_loginview_default_style" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/com_facebook_button_blue</item>
+        <item name="android:textColor">@color/com_facebook_loginview_text_color</item>
+        <item name="android:textSize">@dimen/com_facebook_loginview_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/com_facebook_loginview_padding_left</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="com_facebook_loginview_silver_style" parent="@android:style/Widget.Button">
+        <item name="android:width">205dp</item>
+        <item name="android:height">44dp</item>
+        <item name="android:background">@drawable/com_facebook_loginbutton_silver</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#4B5164</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="texto_importancia_cpf" parent="Text">
+        <item name="android:fontFamily">Roboto Light</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="titulo_importancia_cpf" parent="Text">
+        <item name="android:fontFamily">Roboto Light</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="tooltip_bubble_text">
+	    <item name="android:textColor">@android:color/white</item>
+	    <item name="android:gravity">left</item>
+	    <item name="android:textSize">12sp</item>
+	    <item name="android:shadowDy">-1</item>
+	    <item name="android:shadowRadius">0.25</item>
+	    <item name="android:shadowColor">#40000000</item>
+    </style>
+    <style name="uv_ListSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#3DB5E1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingTop">12dip</item>
+        <item name="android:paddingBottom">4dip</item>
+        <item name="android:background">@drawable/uv_list_separator</item>
+    </style>
+    <style name="uv_ListSeparatorLight" parent="uv_ListSeparator">
+        <item name="android:textColor">#999999</item>
+        <item name="android:background">@drawable/uv_list_separator_light</item>
+    </style>
+    <style name="whiteText" parent="TextBold">
+        <item name="android:textColor">#fff</item>
+    </style>
+</resources>

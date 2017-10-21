@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/label_name"
+        android:textColor="@color/text_principal4"
+        style="@style/Text.Regular"
+        android:textSize="12sp"
+        android:text="P:"
+        android:layout_marginRight="5dp"
+        android:visibility="gone"
+        android:gravity="bottom" />
+
+    <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/list_item_cardapio_front_label_price"
+        android:id="@+id/label_price"
+        style="@style/Text.Regular"
+        android:textSize="12sp"
+        android:textColor="@color/black4"
+        android:gravity="bottom" />
+
+    <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="|"
+        android:textSize="14sp"
+        style="@style/Text.Regular"
+        android:textColor="@color/black4"
+        android:id="@+id/label_pipe"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone"
+        android:layout_gravity="center" />
+
+</LinearLayout>

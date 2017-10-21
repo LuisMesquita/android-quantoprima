@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/com_facebook_close.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable-ldpi-v4/com_facebook_close.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/uv_idea.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/UserVoiceSDK/build/intermediates/bundles/default/res/drawable-ldpi-v4/uv_idea.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/uv_add.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/UserVoiceSDK/build/intermediates/bundles/default/res/drawable-ldpi-v4/uv_add.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/uv_heart.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/UserVoiceSDK/build/intermediates/bundles/default/res/drawable-ldpi-v4/uv_heart.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/uv_article.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/UserVoiceSDK/build/intermediates/bundles/default/res/drawable-ldpi-v4/uv_article.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/uv_contact.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/UserVoiceSDK/build/intermediates/bundles/default/res/drawable-ldpi-v4/uv_contact.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/uv_comment.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/UserVoiceSDK/build/intermediates/bundles/default/res/drawable-ldpi-v4/uv_comment.png"
+    }
+]

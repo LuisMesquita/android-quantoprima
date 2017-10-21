@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue6"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:foreground="@drawable/t21_faleconosco_cabeca"
+            android:foregroundGravity="left"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/shape_bg_white_central"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingRight="10dp">
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fragment_central_message"
+                    android:id="@+id/textView"
+                    style="@style/PrincipalBlackTextBold"
+                    android:paddingLeft="68dp"
+                    android:gravity="center"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/container_uservoice"
+        android:paddingTop="10dp"
+        android:background="@drawable/bgamarelo_losangos">
+
+        <!--<fragment-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:name="com.uservoice.uservoicesdk.fragment.ContactFragment"-->
+            <!--android:id="@+id/fragment_uservoice" />-->
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:background="@color/grey14"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp">
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_central_label_call_us"
+            android:id="@+id/textView2"
+            android:textSize="14sp"
+            style="@style/TextBold"
+            android:textColor="@color/ligth_grey2"
+            android:paddingLeft="17dp" />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton"
+                android:src="@drawable/t21_faleconosco_btn_ligar_central"
+                style="@style/Text"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:onClick="onCall"
+                android:layout_marginRight="10dp" />
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:layout_gravity="center"
+                style="@style/TextMedium"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:text="@string/fragment_central_label_phone" />
+        </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>

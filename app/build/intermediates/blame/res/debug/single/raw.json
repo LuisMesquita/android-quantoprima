@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postextract.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postextract.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_poststorebylocation.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_poststorebylocation.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postgiftbyid.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postgiftbyid.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postrequestpassword.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postrequestpassword.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postrewardgiftdiscart.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postrewardgiftdiscart.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postgetnotifylocations.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postgetnotifylocations.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postgainscoreqrcode.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postgainscoreqrcode.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postrewardgift_rescue.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postrewardgift_rescue.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postestablishmentbyapp_com_reusultado.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postestablishmentbyapp_com_reusultado.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postestablishmentbyapp.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postestablishmentbyapp.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postrewardbuy_buy.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postrewardbuy_buy.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postrewardsbyuser_content.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postrewardsbyuser_content.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/consumer_onesignal_keep.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/res/raw/consumer_onesignal_keep.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postnotifyblock.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postnotifyblock.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postcreateuserbyemail.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postcreateuserbyemail.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postrewardshot_rescue.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postrewardshot_rescue.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postrewardbuy_rescue.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postrewardbuy_rescue.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postedituser.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postedituser.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_facebookpost.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_facebookpost.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postnotifybyuser.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postnotifybyuser.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postsurveyanswer.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postsurveyanswer.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postloginbyemail.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postloginbyemail.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postrewardsbyuser.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postrewardsbyuser.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postsurveybylocation.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postsurveybylocation.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postnotifyunblock.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postnotifyunblock.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postnotifybyuser_content.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postnotifybyuser_content.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postrewardshot_shot.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postrewardshot_shot.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postlocation.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postlocation.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postrewardsbylocation.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postrewardsbylocation.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postloginfacebookuser.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postloginfacebookuser.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postestablishmentbyapp_old.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postestablishmentbyapp_old.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/beep.ogg",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/res/raw/beep.ogg"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postnotifyreadmessage.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postnotifyreadmessage.json"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/raw/post_postrewardgiftaccept.json",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/raw/post_postrewardgiftaccept.json"
+    }
+]

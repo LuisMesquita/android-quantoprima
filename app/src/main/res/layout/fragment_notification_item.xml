@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgazul"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image_logo"
+        android:layout_toLeftOf="@+id/lyt_price"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:background="@color/yellow6"
+            android:paddingRight="14dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="4dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/image_bullet"
+                    android:src="@drawable/t14_mensagem_naolida_marcador" />
+            </FrameLayout>
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:id="@+id/label_reference"
+                android:layout_weight="1"
+                style="@style/Notification.Title" />
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:43"
+                android:id="@+id/label_time"
+                android:gravity="right"
+                style="@style/Notification.Time"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/theme_principal"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:paddingRight="14dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="28dp">
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notification_item_label_subject"
+                    android:id="@+id/label_subject"
+                    style="@style/Text"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/label_title"
+                    android:textColor="@color/black"
+                    style="@style/Text"
+                    android:textSize="14sp"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:background="@color/white"
+            android:paddingRight="14dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="28dp">
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notification_item_message"
+                    android:id="@+id/label_message"
+                    style="@style/Text"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Medium Text"
+                    android:id="@+id/label_message_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    style="@style/Text"
+                    android:textSize="14sp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,1081 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:2:1-597:12
+	package
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:2:70-107
+		INJECTED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:4:5-486:19
+MERGED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:67:5-68:19
+MERGED from [São Braz 3.4 - Mobiclub.libraries:facebook:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook/build/intermediates/bundles/default/AndroidManifest.xml:11:5-12:19
+MERGED from [São Braz 3.4 - Mobiclub.libraries:facebook-sdk:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/AndroidManifest.xml:24:5-20
+MERGED from [São Braz 3.4 - Mobiclub.libraries:UserVoiceSDK:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/UserVoiceSDK/build/intermediates/bundles/default/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:appcompat-v7:19.1.0] /Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/AndroidManifest.xml:19:5-20
+MERGED from [com.actionbarsherlock:viewpagerindicator:2.4.1] /Users/LuisBarroso/.android/build-cache/5a51d003ec630b302c6921239da3cb6d3ba2ad5a/output/AndroidManifest.xml:4:5-19
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:49:5-104:19
+MERGED from [com.google.android.gms:play-services-gcm:11.2.2] /Users/LuisBarroso/.android/build-cache/bd95ac185a73c6ca2b3e440893e0c77cda69f710/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.2.2] /Users/LuisBarroso/.android/build-cache/5457cfd4b6c60b39061f54eb1c638be9e139363a/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:11.2.2] /Users/LuisBarroso/.android/build-cache/32b643f64aa563ebc14519a2044ac690e2a02a7a/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:11.2.2] /Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.2.2] /Users/LuisBarroso/.android/build-cache/f062d5e56dc44b50d73ab9292fa5d2710729bb77/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.2.2] /Users/LuisBarroso/.android/build-cache/840c512f4fb2a3b916b5f59ce84cb49b1e3215f7/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/LuisBarroso/.android/build-cache/c03e64505c759bb6eb0d4b03fdbe683e01c9c7f5/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/LuisBarroso/.android/build-cache/673dad2f7441492b8f8a100b498cb0284b0c2273/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/LuisBarroso/.android/build-cache/a9568abb8f063132e4ea0242df104ea39e947e74/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/LuisBarroso/.android/build-cache/64dd9ca613f5f635515300093ec2f918115db86d/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/LuisBarroso/.android/build-cache/ab1a5e1d76de59092c0a2cccc8e7eac7155a5031/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:customtabs:26.1.0] /Users/LuisBarroso/.android/build-cache/01e4a47926bfc7e5727f49c5ed6d01fc26951b74/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/LuisBarroso/.android/build-cache/dee7433e212745b5be887d253d7721da0756cb75/output/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/LuisBarroso/.android/build-cache/5d6bf57a1266b0a8c0aa7b8d3998cd4f2688a370/output/AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:7:9-41
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:6:9-45
+	android:allowBackup
+		ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:67:18-44
+	android:theme
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:8:9-46
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:5:9-71
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:10:9-12:55
+	android:value
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:12:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:11:13-62
+meta-data#com.crashlytics.ApiKey
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:14:9-15:71
+	android:value
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:15:13-69
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:14:20-57
+meta-data#com.google.android.gms.version
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:17:9-19:69
+MERGED from [com.google.android.gms:play-services-basement:11.2.2] /Users/LuisBarroso/.android/build-cache/840c512f4fb2a3b916b5f59ce84cb49b1e3215f7/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:19:13-66
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:18:13-58
+activity#br.com.mobiclub.quantoprima.ui.activity.launch.LaunchActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:21:9-33:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:23:13-49
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:24:13-49
+	android:theme
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:25:13-61
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:22:13-62
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:27:13-32:29
+action#android.intent.action.MAIN
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:30:17-76
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:30:27-73
+category#android.intent.category.LAUNCHER
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:31:27-74
+activity#br.com.mobiclub.quantoprima.ui.activity.launch.SplashActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:34:9-39:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:36:13-49
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:37:13-52
+	android:theme
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:38:13-61
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:35:13-62
+activity#br.com.mobiclub.quantoprima.ui.activity.launch.OutdatedActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:40:9-46:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:44:13-49
+	android:noHistory
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:42:13-37
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:43:13-52
+	android:theme
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:45:13-61
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:41:13-64
+activity#br.com.mobiclub.quantoprima.ui.activity.account.AccountBlockedActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:47:9-52:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:49:13-49
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:50:13-52
+	android:theme
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:51:13-61
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:48:13-71
+activity#br.com.mobiclub.quantoprima.ui.activity.account.SigninActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:55:9-66:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:58:13-49
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:57:13-52
+	android:theme
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:59:13-61
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:56:13-63
+activity#br.com.mobiclub.quantoprima.ui.activity.account.SigninEmailActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:67:9-82:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:69:13-49
+	android:parentActivityName
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:74:13-104
+	android:exported
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:73:13-36
+	android:windowSoftInputMode
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:72:13-67
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:70:13-52
+	android:theme
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:71:13-61
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:68:13-95
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:78:13-80:98
+	android:value
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:80:17-95
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:79:17-63
+activity#br.com.mobiclub.quantoprima.ui.activity.account.SignupActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:83:9-97:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:89:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:87:13-58
+	android:parentActivityName
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:88:13-77
+	android:windowSoftInputMode
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:90:13-67
+	android:configChanges
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:85:13-51
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:86:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:84:13-63
+activity#com.facebook.LoginActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:99:9-101:48
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:101:13-45
+	android:theme
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:100:13-72
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:99:19-60
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:104:9-105:45
+	android:value
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:105:13-43
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:104:20-65
+provider#com.facebook.NativeAppCallContentProvider
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:106:9-108:38
+	android:authorities
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:106:19-101
+	android:exported
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:108:13-36
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:107:13-69
+activity#br.com.mobiclub.quantoprima.ui.activity.account.LostPasswordActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:110:9-123:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:115:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:112:13-65
+	android:parentActivityName
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:114:13-77
+	android:windowSoftInputMode
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:116:13-67
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:113:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:111:13-69
+activity#br.com.mobiclub.quantoprima.ui.activity.HomeActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:129:9-137:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:134:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:135:13-56
+	android:configChanges
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:132:13-74
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:133:13-52
+	android:theme
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:131:13-50
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:130:13-53
+activity#br.com.mobiclub.quantoprima.ui.activity.mobi.MobiOfflineActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:138:9-147:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:141:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:140:13-65
+	android:parentActivityName
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:143:13-67
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:142:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:139:13-65
+activity#br.com.mobiclub.quantoprima.ui.activity.NewsActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:148:9-62
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:148:19-59
+activity#br.com.mobiclub.quantoprima.ui.activity.UserActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:149:9-152:48
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:152:13-45
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:151:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:150:13-53
+activity#br.com.mobiclub.quantoprima.ui.activity.qrcode.CaptureActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:153:9-162:20
+	android:clearTaskOnLaunch
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:161:14-46
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:157:13-55
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:155:13-59
+	android:stateNotNeeded
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:160:14-43
+	android:windowSoftInputMode
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:158:13-60
+	android:configChanges
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:159:14-64
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:156:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:154:13-63
+activity#br.com.mobiclub.quantoprima.ui.activity.profile.ProfileActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:163:9-172:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:167:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:165:13-59
+	android:parentActivityName
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:168:13-67
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:166:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:164:13-64
+activity#br.com.mobiclub.quantoprima.ui.activity.profile.ProfileEditActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:173:9-182:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:177:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:175:13-64
+	android:parentActivityName
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:178:13-78
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:176:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:174:13-68
+activity#br.com.mobiclub.quantoprima.ui.activity.store.StoreActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:183:9-193:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:187:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:185:13-57
+	android:parentActivityName
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:188:13-67
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:186:13-52
+	android:theme
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:189:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:184:13-60
+activity#br.com.mobiclub.quantoprima.ui.activity.store.CardapioActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:194:9-203:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:198:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:196:13-60
+	android:parentActivityName
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:199:13-74
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:197:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:195:13-63
+activity#br.com.mobiclub.quantoprima.ui.activity.store.CardapioItemActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:204:9-213:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:208:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:206:13-60
+	android:parentActivityName
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:209:13-77
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:207:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:205:13-67
+activity#br.com.mobiclub.quantoprima.ui.activity.store.survey.SurveyActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:214:9-223:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:218:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:216:13-58
+	android:parentActivityName
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:219:13-74
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:217:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:215:13-68
+activity#br.com.mobiclub.quantoprima.ui.activity.reward.RewardActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:226:9-235:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:230:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:228:13-58
+	android:parentActivityName
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:231:13-67
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:229:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:227:13-62
+activity#br.com.mobiclub.quantoprima.ui.activity.reward.RewardDetailActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:236:9-245:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:240:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:238:13-65
+	android:parentActivityName
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:241:13-76
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:239:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:237:13-68
+activity#br.com.mobiclub.quantoprima.ui.activity.reward.RescueRewardActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:246:9-255:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:250:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:248:13-65
+	android:parentActivityName
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:251:13-76
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:249:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:247:13-68
+activity#br.com.mobiclub.quantoprima.ui.activity.notification.NotificationsActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:256:9-265:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:260:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:258:13-65
+	android:parentActivityName
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:261:13-67
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:259:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:257:13-75
+activity#br.com.mobiclub.quantoprima.ui.activity.notification.NotificationItemActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:266:9-275:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:270:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:268:13-65
+	android:parentActivityName
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:271:13-89
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:269:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:267:13-78
+activity#br.com.mobiclub.quantoprima.ui.activity.notification.NotificationsConfigActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:276:9-285:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:280:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:278:13-72
+	android:parentActivityName
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:281:13-78
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:279:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:277:13-81
+activity#br.com.mobiclub.quantoprima.ui.activity.notification.PushNotificationsActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:286:9-289:20
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:287:13-52
+	android:theme
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:288:13-61
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:286:19-85
+activity#br.com.mobiclub.quantoprima.ui.activity.TutorialActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:290:9-303:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:295:13-49
+	android:excludeFromRecents
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:292:13-46
+	android:noHistory
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:294:13-37
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:293:13-52
+	android:theme
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:296:13-61
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:291:13-57
+activity#br.com.mobiclub.quantoprima.ui.activity.AboutActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:304:9-308:20
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:307:13-57
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:306:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:305:13-54
+activity#br.com.mobiclub.quantoprima.ui.activity.AboutMobiClubActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:309:9-313:20
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:312:13-66
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:311:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:310:13-62
+activity#br.com.mobiclub.quantoprima.ui.activity.WebViewActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:314:9-318:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:317:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:316:13-59
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:315:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:314:19-62
+activity#br.com.mobiclub.quantoprima.ui.activity.CentralActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:319:9-325:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:324:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:323:13-59
+	android:configChanges
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:322:13-71
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:321:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:320:13-56
+activity#br.com.mobiclub.quantoprima.ui.activity.AppInactiveActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:326:9-334:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:332:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:330:13-64
+	android:excludeFromRecents
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:329:13-46
+	android:noHistory
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:331:13-37
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:328:13-52
+	android:theme
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:333:13-61
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:327:13-60
+activity#br.com.mobiclub.quantoprima.ui.activity.LocationActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:335:9-340:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:339:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:338:13-65
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:337:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:336:13-57
+activity#br.com.mobiclub.quantoprima.ui.activity.MapActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:341:9-346:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:345:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:344:13-55
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:343:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:342:13-52
+activity#br.com.mobiclub.quantoprima.ui.activity.QRCodeActivityMock
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:347:9-352:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:351:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:350:13-58
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:349:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:348:13-59
+activity#br.com.mobiclub.quantoprima.ui.activity.account.ImportanciaCpfActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:353:9-361:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:359:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:357:13-67
+	android:parentActivityName
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:358:13-77
+	android:windowSoftInputMode
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:360:13-67
+	android:configChanges
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:355:13-51
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:356:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:354:13-71
+activity#br.com.mobiclub.quantoprima.ui.activity.account.CadastrarCpfActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:363:9-371:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:369:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:367:13-64
+	android:parentActivityName
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:368:13-77
+	android:windowSoftInputMode
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:370:13-67
+	android:configChanges
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:365:13-51
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:366:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:364:13-69
+activity#br.com.mobiclub.quantoprima.ui.activity.account.CadastrarCpfToStoreActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:373:9-381:20
+	android:screenOrientation
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:379:13-49
+	android:label
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:377:13-64
+	android:parentActivityName
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:378:13-77
+	android:windowSoftInputMode
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:380:13-67
+	android:configChanges
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:375:13-51
+	android:icon
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:376:13-52
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:374:13-76
+activity#com.onesignal.PermissionsActivity
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:383:9-384:75
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:86:9-88:75
+	android:theme
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:384:13-72
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:383:19-67
+service#br.com.mobiclub.quantoprima.service.MobiSyncingService
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:387:9-389:40
+	android:exported
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:389:13-37
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:388:13-55
+service#br.com.mobiclub.quantoprima.service.authenticator.AccountAuthenticatorService
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:390:9-400:19
+	android:process
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:392:13-36
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:391:13-78
+intent-filter#android.accounts.AccountAuthenticator
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:393:13-395:29
+action#android.accounts.AccountAuthenticator
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:394:17-80
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:394:25-77
+meta-data#android.accounts.AccountAuthenticator
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:397:13-399:57
+	android:resource
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:399:17-54
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:398:17-69
+service#com.onesignal.GcmIntentJobService
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:422:9-423:72
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:72:9-74:72
+	android:permission
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:423:13-69
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:422:18-66
+service#com.onesignal.NotificationRestoreService
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:425:9-76
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:90:9-76
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:425:18-73
+meta-data#onesignal_app_id
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:433:9-434:68
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:50:9-52:51
+	android:value
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:434:13-65
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:433:20-51
+receiver#com.onesignal.GcmBroadcastReceiver
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:436:9-443:20
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:58:9-68:20
+	android:permission
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:438:13-73
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:437:13-62
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.onesignal.example
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:439:13-442:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:440:17-81
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:440:25-78
+category#com.onesignal.example
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:441:17-66
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:441:27-63
+receiver#com.onesignal.NotificationOpenedReceiver
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:445:9-77
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:69:9-77
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:445:19-74
+service#com.onesignal.GcmIntentService
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:446:9-66
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:71:9-66
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:446:18-63
+service#com.onesignal.SyncService
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:447:9-90
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:84:9-61
+	android:stopWithTask
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:447:59-87
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:447:18-58
+receiver#com.onesignal.BootUpReceiver
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:450:9-455:20
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:92:9-98:20
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:450:19-62
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.QUICKBOOT_POWERON
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:451:13-454:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:452:17-79
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:452:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:453:17-82
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:453:25-79
+receiver#com.onesignal.UpgradeReceiver
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:456:9-460:20
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:99:9-103:20
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:456:19-63
+intent-filter#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:457:13-459:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:458:17-84
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:458:25-81
+service#com.parse.PushService
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:464:9-57
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:464:18-54
+receiver#br.com.mobiclub.quantoprima.ui.activity.notification.Receiver
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:465:9-472:20
+	android:exported
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:466:13-37
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:465:19-68
+intent-filter#com.parse.push.intent.DELETE+com.parse.push.intent.OPEN+com.parse.push.intent.RECEIVE
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:467:13-471:29
+action#com.parse.push.intent.RECEIVE
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:468:17-72
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:468:25-69
+action#com.parse.push.intent.DELETE
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:469:17-71
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:469:25-68
+action#com.parse.push.intent.OPEN
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:470:17-69
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:470:25-66
+receiver#com.parse.GcmBroadcastReceiver
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:473:9-484:20
+	android:permission
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:474:13-73
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:473:19-64
+intent-filter#br.com.mobiclub.quantoprima+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:475:13-483:29
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:477:17-86
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:477:25-83
+category#br.com.mobiclub.quantoprima
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:482:17-72
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:482:27-69
+uses-feature#android.hardware.telephony
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:489:5-87
+	android:required
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:489:61-85
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:489:19-60
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:491:5-79
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:491:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:492:5-67
+MERGED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:28:5-67
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:17:5-67
+MERGED from [com.google.android.gms:play-services-gcm:11.2.2] /Users/LuisBarroso/.android/build-cache/bd95ac185a73c6ca2b3e440893e0c77cda69f710/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.2.2] /Users/LuisBarroso/.android/build-cache/5457cfd4b6c60b39061f54eb1c638be9e139363a/output/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:492:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:495:5-81
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:495:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:496:5-79
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:496:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:497:5-81
+MERGED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:33:5-81
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:497:22-78
+uses-feature#0x00020000
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:499:5-501:35
+	android:glEsVersion
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:500:9-41
+	android:required
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:501:9-32
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:503:5-98
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:503:22-95
+permission#br.com.mobiclub.quantoprima.permission.MAPS_RECEIVE
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:504:5-506:47
+	android:protectionLevel
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:506:9-44
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:505:9-75
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:509:5-71
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:509:22-68
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:510:5-74
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:510:22-71
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:511:5-80
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:511:22-77
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:512:5-74
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:512:22-71
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:515:5-68
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:515:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:516:5-66
+MERGED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:29:5-66
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:24:5-66
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:516:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:517:5-81
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:517:22-78
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:518:5-82
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:18:5-82
+MERGED from [com.google.android.gms:play-services-gcm:11.2.2] /Users/LuisBarroso/.android/build-cache/bd95ac185a73c6ca2b3e440893e0c77cda69f710/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.2.2] /Users/LuisBarroso/.android/build-cache/5457cfd4b6c60b39061f54eb1c638be9e139363a/output/AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:518:22-79
+permission#com.onesignal.example.permission.C2D_MESSAGE
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:526:5-115
+	android:protectionLevel
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:526:77-112
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:526:17-76
+uses-permission#com.onesignal.example.permission.C2D_MESSAGE
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:527:5-84
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:527:22-81
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:541:5-85
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:32:5-86
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:541:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:542:5-86
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:33:5-87
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:542:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:545:5-80
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:545:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:546:5-82
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:35:5-83
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:546:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:549:5-87
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:36:5-88
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:549:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:550:5-91
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:37:5-92
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:550:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:553:5-83
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:38:5-84
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:553:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:556:5-82
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:39:5-83
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:556:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:559:5-91
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:40:5-91
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:559:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:560:5-92
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:41:5-92
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:560:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:561:5-93
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:42:5-93
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:561:22-90
+uses-permission#android.permission.CAMERA
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:567:5-65
+MERGED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:27:5-65
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:567:22-62
+uses-feature#android.hardware.camera
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:568:5-570:36
+MERGED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:570:9-33
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:569:9-47
+uses-feature#android.hardware.camera.front
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:571:5-90
+MERGED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:571:64-88
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:571:19-63
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:572:5-574:36
+MERGED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:46:5-48:36
+	android:required
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:574:9-33
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:573:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:575:5-577:36
+MERGED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:49:5-51:36
+	android:required
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:577:9-33
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:576:9-53
+uses-feature#android.hardware.screen.portrait
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:578:5-69
+MERGED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:52:5-69
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:578:19-66
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:580:5-69
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:580:22-66
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:581:5-69
+MERGED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:30:5-69
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:581:22-66
+uses-permission#br.com.mobiclub.quantoprima.permission.C2D_MESSAGE
+ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:593:5-595:47
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:12:5-79
+	android:protectionLevel
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:595:9-44
+	android:name
+		ADDED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:594:9-74
+uses-sdk
+INJECTED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:23:5-25:41
+MERGED from [São Braz 3.4 - Mobiclub.libraries:facebook:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [São Braz 3.4 - Mobiclub.libraries:facebook-sdk:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/AndroidManifest.xml:20:5-22:41
+MERGED from [São Braz 3.4 - Mobiclub.libraries:UserVoiceSDK:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/UserVoiceSDK/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:19.1.0] /Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/AndroidManifest.xml:18:5-42
+MERGED from [com.actionbarsherlock:viewpagerindicator:2.4.1] /Users/LuisBarroso/.android/build-cache/5a51d003ec630b302c6921239da3cb6d3ba2ad5a/output/AndroidManifest.xml:3:5-72
+MERGED from [com.github.kevinsawicki:wishlist:0.9] /Users/LuisBarroso/.android/build-cache/5d192acf14276ad0372c9b6bb3bb71a616b75fab/output/AndroidManifest.xml:3:5-72
+MERGED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gcm:11.2.2] /Users/LuisBarroso/.android/build-cache/bd95ac185a73c6ca2b3e440893e0c77cda69f710/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.2.2] /Users/LuisBarroso/.android/build-cache/5457cfd4b6c60b39061f54eb1c638be9e139363a/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-location:11.2.2] /Users/LuisBarroso/.android/build-cache/32b643f64aa563ebc14519a2044ac690e2a02a7a/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-base:11.2.2] /Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.2.2] /Users/LuisBarroso/.android/build-cache/f062d5e56dc44b50d73ab9292fa5d2710729bb77/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.2.2] /Users/LuisBarroso/.android/build-cache/840c512f4fb2a3b916b5f59ce84cb49b1e3215f7/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.1.0] /Users/LuisBarroso/.android/build-cache/c03e64505c759bb6eb0d4b03fdbe683e01c9c7f5/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/LuisBarroso/.android/build-cache/673dad2f7441492b8f8a100b498cb0284b0c2273/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/LuisBarroso/.android/build-cache/a9568abb8f063132e4ea0242df104ea39e947e74/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/LuisBarroso/.android/build-cache/64dd9ca613f5f635515300093ec2f918115db86d/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/LuisBarroso/.android/build-cache/ab1a5e1d76de59092c0a2cccc8e7eac7155a5031/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:customtabs:26.1.0] /Users/LuisBarroso/.android/build-cache/01e4a47926bfc7e5727f49c5ed6d01fc26951b74/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] /Users/LuisBarroso/.android/build-cache/dee7433e212745b5be887d253d7721da0756cb75/output/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/LuisBarroso/.android/build-cache/5d6bf57a1266b0a8c0aa7b8d3998cd4f2688a370/output/AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/LuisBarroso/.android/build-cache/c03e64505c759bb6eb0d4b03fdbe683e01c9c7f5/output/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_CONTACTS
+ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:31:5-72
+	android:name
+		ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:31:22-69
+uses-permission#com.android.browser.permission.READ_HISTORY_BOOKMARKS
+ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:32:5-93
+	android:name
+		ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:32:22-90
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:34:5-76
+	android:name
+		ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:34:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:35:5-76
+	android:name
+		ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:35:22-73
+uses-feature#android.hardware.wifi
+ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:53:5-55:36
+	android:required
+		ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:55:9-33
+	android:name
+		ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:54:9-45
+uses-feature#android.hardware.touchscreen
+ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:57:5-65
+	android:name
+		ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:57:19-62
+supports-screens
+ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:60:5-65:40
+	android:largeScreens
+		ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:62:9-36
+	android:smallScreens
+		ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:64:9-36
+	android:normalScreens
+		ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:63:9-37
+	android:xlargeScreens
+		ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:65:9-37
+	android:anyDensity
+		ADDED from [São Braz 3.4 - Mobiclub.libraries:zxing-app:unspecified] /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/AndroidManifest.xml:61:9-34
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/AndroidManifest.xml:2:1-597:12 reason: com.google.zxing.client.android requested WRITE_EXTERNAL_STORAGE
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:8:5-10:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:10:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:9:9-63
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:43:5-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:43:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:44:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:44:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:45:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:45:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:46:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:46:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:47:5-89
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:47:22-86
+meta-data#onesignal_google_project_number
+ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:54:9-56:70
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:56:13-67
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:55:13-59
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:63:13-67:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:63:28-50
+category#${applicationId}
+ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:66:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:66:27-58
+service#com.onesignal.SyncJobService
+ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:75:9-77:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:77:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:76:13-56
+service#com.onesignal.RestoreJobService
+ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:78:9-80:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:80:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:79:13-59
+service#com.onesignal.RestoreKickoffJobService
+ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:81:9-83:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:83:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:82:13-66
+intent-filter#android.intent.action.ACTION_BOOT_COMPLETED+android.intent.action.BOOT_COMPLETED+android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:93:13-97:29
+action#android.intent.action.ACTION_BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:94:17-86
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.4] /Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/AndroidManifest.xml:94:25-83
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.2.2] /Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.2.2] /Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.2.2] /Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.2.2] /Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/AndroidManifest.xml:19:19-85
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /Users/LuisBarroso/.android/build-cache/c03e64505c759bb6eb0d4b03fdbe683e01c9c7f5/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/LuisBarroso/.android/build-cache/673dad2f7441492b8f8a100b498cb0284b0c2273/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/LuisBarroso/.android/build-cache/a9568abb8f063132e4ea0242df104ea39e947e74/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/LuisBarroso/.android/build-cache/64dd9ca613f5f635515300093ec2f918115db86d/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/LuisBarroso/.android/build-cache/ab1a5e1d76de59092c0a2cccc8e7eac7155a5031/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:customtabs:26.1.0] /Users/LuisBarroso/.android/build-cache/01e4a47926bfc7e5727f49c5ed6d01fc26951b74/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/LuisBarroso/.android/build-cache/dee7433e212745b5be887d253d7721da0756cb75/output/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/LuisBarroso/.android/build-cache/c03e64505c759bb6eb0d4b03fdbe683e01c9c7f5/output/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/LuisBarroso/.android/build-cache/c03e64505c759bb6eb0d4b03fdbe683e01c9c7f5/output/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/LuisBarroso/.android/build-cache/5d6bf57a1266b0a8c0aa7b8d3998cd4f2688a370/output/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/LuisBarroso/.android/build-cache/5d6bf57a1266b0a8c0aa7b8d3998cd4f2688a370/output/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/LuisBarroso/.android/build-cache/5d6bf57a1266b0a8c0aa7b8d3998cd4f2688a370/output/AndroidManifest.xml:26:13-58

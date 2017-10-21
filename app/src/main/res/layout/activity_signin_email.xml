@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgazul">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/login_logo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/marca1"
+                style="@style/LogoAccount" />
+
+            <LinearLayout
+                android:id="@+id/lyt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/lyt_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="46dp">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="28dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/text_principal"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/text_input"
+                            style="@style/ButtonTextBold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/signin_email_login_label"
+                            android:textColor="@color/text"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1">
+
+                            <AutoCompleteTextView
+                                android:id="@+id/et_email"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:gravity="bottom"
+                                android:hint="@string/signin_hint_email"
+                                android:imeOptions="actionNext"
+                                android:inputType="textEmailAddress"
+                                android:nextFocusDown="@+id/et_password"
+                                android:paddingLeft="55dp"
+                                android:textSize="16sp" />
+
+                            <ImageView
+                                android:id="@+id/imageView"
+                                android:layout_width="32dp"
+                                android:layout_height="32dp"
+                                android:layout_gravity="left|center_vertical"
+                                android:src="@drawable/t02_1_ic_email"
+                                android:layout_marginLeft="15dp" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1">
+
+                            <EditText
+                                android:id="@+id/et_password"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:gravity="bottom"
+                                android:hint="@string/signin_hint_password"
+                                android:imeOptions="actionDone"
+                                android:inputType="textPassword"
+                                android:paddingLeft="55dp"
+                                android:password="true"
+                                android:textColorHint="@drawable/signin_text_hint_selector"
+                                android:textSize="16sp" />
+
+                            <ImageView
+                                android:id="@+id/imageView2"
+                                android:layout_width="32dp"
+                                android:layout_height="32dp"
+                                android:layout_gravity="left|center_vertical"
+                                android:src="@drawable/t02_1_ic_senha"
+                                android:layout_marginLeft="15dp" />
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomButton
+                    android:id="@+id/b_signin"
+                    style="@style/OrangeButtonBold"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/text"
+                    android:gravity="center"
+                    android:onClick="handleSign"
+                    android:text="@string/signin_email_label"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentStart="false"
+        android:layout_gravity="bottom"
+        android:baselineAligned="false"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:onClick="onLostPassword">
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/signin_label_lost_password"
+                android:id="@+id/lost_password"
+                android:layout_gravity="center_vertical"
+                style="@style/PrincipalBlackTextBold"
+                android:textSize="14sp"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentLeft="false"
+                android:layout_centerVertical="true"
+                android:paddingLeft="13dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:onClick="onSignup">
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/signin_label_signup"
+                android:id="@+id/sign_up"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:layout_centerInParent="true"
+                style="@style/PrincipalBlackTextBold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,269 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:id="@+id/scroll"
+    android:background="@drawable/bgazul">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        tools:context=".ui.fragment.ProfileEditFragment">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:paddingRight="3dp"
+                android:paddingLeft="3dp">
+
+                <ImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/foto_usuario_placeholder" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:id="@+id/textView"
+                    style="@style/TextBold"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="3"
+                    android:gravity="center|bottom"
+                    android:text="@string/profile_edit_label_photo_message"
+                    android:textColor="@color/expired"
+                    android:textSize="14sp"/>
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:id="@+id/textView2"
+                    style="@style/Text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/profile_edit_label_photo_facebook_message"
+                    android:textColor="@color/expired"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lyt_input"
+                android:layout_width="fill_parent"
+                android:layout_height="144dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp">
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent">
+
+                            <br.com.mobiclub.quantoprima.ui.view.CustomEditText
+                                android:id="@+id/et_name"
+                                style="@style/AccountEditText"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:hint="@string/signup_hint_name"
+                                android:imeOptions="actionNext"
+                                android:inputType="textPersonName"
+                                android:nextFocusDown="@+id/et_lastname"
+                                android:password="false"
+                                android:textColorHint="@drawable/signin_text_hint_selector" />
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent">
+
+                            <AutoCompleteTextView
+                                android:id="@+id/et_email"
+                                style="@style/AccountEditText"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/signin_hint_email"
+                                android:inputType="none"
+                                android:editable="false"
+                                android:enabled="false"
+                                android:focusable="true"
+                                android:textColor="@drawable/signin_text_hint_selector" />
+
+                        </FrameLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/linearLayout6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp">
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent">
+
+                            <EditText
+                                android:id="@+id/et_cpf"
+                                style="@style/AccountEditText"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:hint="@string/signup_hint_cpf"
+                                android:imeOptions="actionNext"
+                                android:inputType="number"
+                                android:nextFocusDown="@+id/et_lastname"
+                                android:password="false"
+                                android:textColorHint="@drawable/signin_text_cpf_hint_selector" />
+                        </FrameLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/lyt_price"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <br.com.mobiclub.quantoprima.ui.view.CustomEditText
+                                android:id="@+id/et_birth"
+                                style="@style/AccountEditText"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:hint="@string/signup_hint_birth_Date"
+                                android:imeOptions="actionNext"
+                                android:inputType="date"
+                                android:password="false"
+                                android:textColorHint="@drawable/signin_text_hint_selector" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:id="@+id/frameLayout2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <Spinner
+                                android:id="@+id/spinner"
+                                style="@style/AccountEditText"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:imeOptions="actionDone"
+                                android:prompt="@string/gender_prompt"
+                                android:spinnerMode="dropdown" />
+                        </FrameLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomButton
+                android:id="@+id/btn_update_profile"
+                style="@style/OrangeButtonBold"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:text="@string/profile_edit_btn_update_profile"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:paddingRight="5dp">
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:id="@+id/label_edit_password_message"
+                    style="@style/Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/profile_edit_label_edit_password_message"
+                    android:textColor="@color/grey11"
+                    android:textSize="16sp" />
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:id="@+id/btn_change_password"
+                    style="@style/Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:maxLines="1"
+                    android:minLines="1"
+                    android:singleLine="true"
+                    android:text="@string/profile_edit_btn_edit_password"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

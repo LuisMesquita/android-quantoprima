@@ -1,0 +1,168 @@
+{
+    "HttpStatus": 200,
+    "Message": null,
+    "Rewards": [{
+        "Type": "RewardBuy",
+        "RewardAt": "2014-06-27T00:00:00",
+        "ExpirationAt": "2014-12-31T00:00:00",
+        "IdToRescue": 1,
+        "FBPostSuggested": "teste facebook",
+        "Description": "teste",
+        "Title": "Batata Frita 1",
+        "EstablishmentName": "Planetárioo",
+        "EstablishmentLogoURL": "http://mobiclub.com.br/estabelecimentos/1_planetario.png",
+        "EstablishmentFBPage": 126829440777157,
+        "LocationId": 1,
+        "Image": {
+            "Id": 0,
+            "Index": 0,
+            "XDPI": null,
+            "HDPI": null,
+            "MDPI": null,
+            "LDPI": null,
+            "MINI": null
+        },
+        "Expired": false
+    },
+    {
+        "Type": "RewardBuy",
+        "RewardAt": "2014-06-27T00:00:00",
+        "ExpirationAt": "2014-12-31T00:00:00",
+        "IdToRescue": 1,
+        "FBPostSuggested": "teste facebook",
+        "Description": "teste",
+        "Title": "Batata Frita 2",
+        "EstablishmentName": "Planetárioo",
+        "EstablishmentLogoURL": "http://mobiclub.com.br/estabelecimentos/1_planetario.png",
+        "EstablishmentFBPage": 126829440777157,
+        "LocationId": 1,
+        "Image": {
+            "Id": 0,
+            "Index": 0,
+            "XDPI": null,
+            "HDPI": null,
+            "MDPI": null,
+            "LDPI": null,
+            "MINI": null
+        },
+        "Expired": false
+    },
+    {
+        "Type": "RewardBuy",
+        "RewardAt": "2014-06-27T00:00:00",
+        "ExpirationAt": "2014-12-31T00:00:00",
+        "IdToRescue": 1,
+        "FBPostSuggested": "teste facebook",
+        "Description": "teste",
+        "Title": "Batata Frita 3",
+        "EstablishmentName": "Planetárioo",
+        "EstablishmentLogoURL": "http://mobiclub.com.br/estabelecimentos/1_planetario.png",
+        "EstablishmentFBPage": 126829440777157,
+        "LocationId": 1,
+        "Image": {
+            "Id": 0,
+            "Index": 0,
+            "XDPI": null,
+            "HDPI": null,
+            "MDPI": null,
+            "LDPI": null,
+            "MINI": null
+        },
+        "Expired": false
+    },
+    {
+        "Type": "RewardBuy",
+        "RewardAt": "2014-06-27T00:00:00",
+        "ExpirationAt": "2014-12-31T00:00:00",
+        "IdToRescue": 1,
+        "FBPostSuggested": "teste facebook",
+        "Description": "teste",
+        "Title": "Batata Frita 4",
+        "EstablishmentName": "Planetárioo",
+        "EstablishmentLogoURL": "http://mobiclub.com.br/estabelecimentos/1_planetario.png",
+        "EstablishmentFBPage": 126829440777157,
+        "LocationId": 1,
+        "Image": {
+            "Id": 0,
+            "Index": 0,
+            "XDPI": null,
+            "HDPI": null,
+            "MDPI": null,
+            "LDPI": null,
+            "MINI": null
+        },
+        "Expired": false
+    }
+    ,
+    {
+        "Type": "RewardBuy",
+        "RewardAt": "2014-06-27T00:00:00",
+        "ExpirationAt": "2014-12-31T00:00:00",
+        "IdToRescue": 1,
+        "FBPostSuggested": "teste facebook",
+        "Description": "teste",
+        "Title": "Batata Frita 5",
+        "EstablishmentName": "Planetárioo",
+        "EstablishmentLogoURL": "http://mobiclub.com.br/estabelecimentos/1_planetario.png",
+        "EstablishmentFBPage": 126829440777157,
+        "LocationId": 1,
+        "Image": {
+            "Id": 0,
+            "Index": 0,
+            "XDPI": null,
+            "HDPI": null,
+            "MDPI": null,
+            "LDPI": null,
+            "MINI": null
+        },
+        "Expired": true
+    }
+    ,
+    {
+        "Type": "RewardBuy",
+        "RewardAt": "2014-06-27T00:00:00",
+        "ExpirationAt": "2014-12-31T00:00:00",
+        "IdToRescue": 1,
+        "FBPostSuggested": "teste facebook",
+        "Description": "teste",
+        "Title": "Batata Frita 6",
+        "EstablishmentName": "Planetárioo",
+        "EstablishmentLogoURL": "http://mobiclub.com.br/estabelecimentos/1_planetario.png",
+        "EstablishmentFBPage": 126829440777157,
+        "LocationId": 1,
+        "Image": {
+            "Id": 0,
+            "Index": 0,
+            "XDPI": null,
+            "HDPI": null,
+            "MDPI": null,
+            "LDPI": null,
+            "MINI": null
+        },
+        "Expired": true
+    }
+    ,
+    {
+        "Type": "RewardBuy",
+        "RewardAt": "2014-06-27T00:00:00",
+        "ExpirationAt": "2014-12-31T00:00:00",
+        "IdToRescue": 1,
+        "FBPostSuggested": "teste facebook",
+        "Description": "teste",
+        "Title": "Batata Frita 7",
+        "EstablishmentName": "Planetárioo",
+        "EstablishmentLogoURL": "http://mobiclub.com.br/estabelecimentos/1_planetario.png",
+        "EstablishmentFBPage": 126829440777157,
+        "LocationId": 1,
+        "Image": {
+            "Id": 0,
+            "Index": 0,
+            "XDPI": null,
+            "HDPI": null,
+            "MDPI": null,
+            "LDPI": null,
+            "MINI": null
+        },
+        "Expired": true
+    }]
+}

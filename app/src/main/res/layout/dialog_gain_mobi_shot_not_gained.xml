@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/image_close"
+        android:src="@drawable/fechar"
+        style="@style/DialogCloseButton"
+        android:layout_marginRight="16dp" />
+
+    <LinearLayout style="@style/GainMobiMessagesContainer"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout"
+            android:layout_below="@+id/image_close"
+            android:background="@drawable/shape_bg_yellow4">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomButton
+                    android:id="@+id/label_total_mobis"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textColor="@color/black"
+                    android:layout_gravity="left"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/PrincipalBlackTextBold"
+                    android:textSize="20sp"
+                    android:text="@string/dialog_gain_shot_not_gained_user_message" />
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView"
+                    android:layout_below="@+id/label_total_mobis"
+                    android:layout_alignLeft="@+id/label_total_mobis"
+                    android:layout_alignStart="@+id/label_total_mobis"
+                    android:text="@string/dialog_gain_shot_not_gained_retry_message"
+                    android:textSize="16sp"
+                    style="@style/PrincipalBlackTextBold"
+                    android:layout_toStartOf="@+id/image_emotion_icon"
+                    android:layout_toLeftOf="@+id/image_emotion_icon"
+                    android:layout_marginTop="2dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_emotion_icon"
+                android:src="@drawable/t31_4_1_emoticon_triste"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout"
+            android:background="@drawable/shape_bg_white2"
+            android:id="@+id/linearLayout"
+            style="@style/DialogMessagePadding">
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_congrat_user"
+                android:textSize="14sp"
+                style="@style/Text"
+                android:textColor="@color/black_light2"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

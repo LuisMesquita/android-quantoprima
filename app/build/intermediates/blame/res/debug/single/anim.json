@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/anim/anim_fade_out.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/anim/anim_fade_out.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/anim/anim_fade_in.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/anim/anim_fade_in.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/anim/abc_slide_out_bottom.xml"
+    }
+]

@@ -1,0 +1,594 @@
+[
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/spinner_background_ab_mobiclub.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/spinner_background_ab_mobiclub.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/table_background_selector.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/table_background_selector.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_bg_yellow4.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_bg_yellow4.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/drawable/abc_ic_clear.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_place_default_icon.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_place_default_icon.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/abc_spinner_ab_holo_light.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/drawable/abc_spinner_ab_holo_light.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/bg_btn_switch.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/bg_btn_switch.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/gain_mobi_alert_anim.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/gain_mobi_alert_anim.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_bg_white_gain_gift.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_bg_white_gain_gift.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/star_appreciation_bar_full.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/star_appreciation_bar_full.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_survey_question_comment.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_survey_question_comment.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_bg_blue.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_bg_blue.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/button_background_pressed.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/button_background_pressed.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/dee7433e212745b5be887d253d7721da0756cb75/output/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_top_background.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_top_background.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/stripe.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/stripe.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_bg_darkener.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_bg_darkener.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/edit_text_cursor.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/edit_text_cursor.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_bg_yellow3.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_bg_yellow3.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/placeholder_default.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/placeholder_default.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/star_answer_bar_full_filled.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/star_answer_bar_full_filled.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/bootstrap_divider.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/bootstrap_divider.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/progress_horizontal_mobiclub.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/progress_horizontal_mobiclub.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_blue_focused.9.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_button_blue_focused.9.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_bg_orange.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_bg_orange.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/button_background_disabled.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/button_background_disabled.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/bg_btn_cardapio.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/bg_btn_cardapio.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_bg_white.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_bg_white.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/abc_search_dropdown_dark.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/drawable/abc_search_dropdown_dark.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_picker_list_selector.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_picker_list_selector.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/ab_background_textured_mobiclub.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/ab_background_textured_mobiclub.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_check_on.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_button_check_on.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_right_holo_light.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/drawable/abc_textfield_searchview_right_holo_light.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/share_via_barcode.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/res/drawable/share_via_barcode.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/nav_menu_button_background_selector.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/nav_menu_button_background_selector.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/selector_bg_btn_prev_cardapio.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/selector_bg_btn_prev_cardapio.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/bg_btn_site.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/bg_btn_site.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/bg_btn_evaluate.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/bg_btn_evaluate.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_ab_holo.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/drawable/abc_tab_indicator_ab_holo.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_bg_yellow2.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_bg_yellow2.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_check_off.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_button_check_off.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/map_header_background.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/map_header_background.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/star_answer_bar_full_empty.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/star_answer_bar_full_empty.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/legend_win.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/legend_win.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/abc_spinner_ab_holo_dark.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/drawable/abc_spinner_ab_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_picker_list_focused.9.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_picker_list_focused.9.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/uv_clickable.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/UserVoiceSDK/build/intermediates/bundles/default/res/drawable/uv_clickable.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_bg_badge.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_bg_badge.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_list_section_header_background.9.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_list_section_header_background.9.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_top_button.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_top_button.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/selector_bg_btn_next_cardapio.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/selector_bg_btn_next_cardapio.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/bg_menu_item_profile.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/bg_menu_item_profile.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_close.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_close.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/abc_search_dropdown_light.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/drawable/abc_search_dropdown_light.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_blue_pressed.9.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_button_blue_pressed.9.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_bg_red.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_bg_red.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_list_divider.9.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_list_divider.9.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_profile_picture_blank_portrait.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_profile_picture_blank_portrait.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_bg_green.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_bg_green.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/legend_used.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/legend_used.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_picker_list_selector_disabled.9.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_picker_list_selector_disabled.9.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_holo_light.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/drawable/abc_textfield_searchview_holo_light.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/main_background.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/main_background.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/signin_text_cpf_hint_selector.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/signin_text_cpf_hint_selector.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/list_item_background.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/list_item_background.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_grey_focused.9.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_button_grey_focused.9.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/bg_btn_telefone.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/bg_btn_telefone.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/spinner.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/spinner.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_loginbutton_silver.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_loginbutton_silver.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/button_background_states.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/button_background_states.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/btn_cab_done_mobiclub.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/btn_cab_done_mobiclub.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_blue_normal.9.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_button_blue_normal.9.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/dee7433e212745b5be887d253d7721da0756cb75/output/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/actionbar_background.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/actionbar_background.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/star_appreciation_bar_full_empty.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/star_appreciation_bar_full_empty.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/dee7433e212745b5be887d253d7721da0756cb75/output/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/selectable_background_mobiclub.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/selectable_background_mobiclub.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_profile_default_icon.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_profile_default_icon.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_blue.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_button_blue.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_grey_pressed.9.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_button_grey_pressed.9.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/star_answer_bar_full.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/star_answer_bar_full.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/uv_list_separator.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/UserVoiceSDK/build/intermediates/bundles/default/res/drawable/uv_list_separator.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/table_background_alternate_selector.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/table_background_alternate_selector.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_grey_normal.9.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_button_grey_normal.9.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/close.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook/build/intermediates/bundles/default/res/drawable/close.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/legend_expired.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/legend_expired.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/tab_indicator_ab_mobiclub.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/tab_indicator_ab_mobiclub.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/uv_admin_response.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/UserVoiceSDK/build/intermediates/bundles/default/res/drawable/uv_admin_response.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_picker_item_background.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_picker_item_background.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/bg_menu_item.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/bg_menu_item.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_picker_list_selector_background_transition.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_picker_list_selector_background_transition.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/store_color.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/store_color.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_right_holo_dark.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/drawable/abc_textfield_searchview_right_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_usersettingsfragment_background_gradient.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_usersettingsfragment_background_gradient.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_menu_lang.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_menu_lang.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_holo_light.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/drawable/abc_ic_clear_holo_light.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_holo_dark.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/drawable/abc_textfield_searchview_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_profile_picture_blank_square.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_profile_picture_blank_square.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/nav_menu_button_background_disabled.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/nav_menu_button_background_disabled.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/bg_btn_gain_mobi.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/bg_btn_gain_mobi.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/vpi__tab_indicator.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/5a51d003ec630b302c6921239da3cb6d3ba2ad5a/output/res/drawable/vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_notification.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_notification.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/button_background_enabled.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/button_background_enabled.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_picker_list_pressed.9.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_picker_list_pressed.9.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_check.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_button_check.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/nav_menu_button_background_enabled.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/nav_menu_button_background_enabled.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/star_appreciation_bar_full_filled.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/star_appreciation_bar_full_filled.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/uv_list_separator_light.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/UserVoiceSDK/build/intermediates/bundles/default/res/drawable/uv_list_separator_light.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/circle_question.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/circle_question.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_picker_top_button.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_picker_top_button.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_bg_info_profile.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_bg_info_profile.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_bg_grey.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_bg_grey.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/bg_btn_map.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/bg_btn_map.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/transparent_drawable.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/transparent_drawable.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_bg_yellow.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_bg_yellow.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_logo.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_logo.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/launcher_icon.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/res/drawable/launcher_icon.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_bg_red2.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_bg_red2.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_bg_white2.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_bg_white2.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/signin_text_hint_selector.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/signin_text_hint_selector.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/shape_bg_white_central.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/shape_bg_white_central.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/stripe_repeat.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/stripe_repeat.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_inverse_icon.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_inverse_icon.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/nav_menu_button_background_pressed.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/nav_menu_button_background_pressed.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/com_facebook_picker_list_longpressed.9.png",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/res/drawable/com_facebook_picker_list_longpressed.9.png"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/circle_question_selected.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/circle_question_selected.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/edit_text_background.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/drawable/edit_text_background.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/dee7433e212745b5be887d253d7721da0756cb75/output/res/drawable/notification_bg_low.xml"
+    }
+]

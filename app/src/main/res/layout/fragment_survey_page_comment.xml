@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearComment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgamarelo_losangos"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="13dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:id="@+id/txtQuestionTitleComment"
+                    style="@style/PrincipalBlackTextBold"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/pesquisa_suggestions_or_complaints" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/txtQuestionComment"
+                android:layout_width="fill_parent"
+                android:layout_height="149dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/shape_survey_question_comment"
+                android:cursorVisible="true"
+                android:imeOptions="actionDone"
+                android:inputType="textMultiLine"
+                android:paddingBottom="12dp"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:paddingTop="12dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="top" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layoutQuestionComment"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:background="@color/item_bg2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/btnQuestionNextStep3"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_centerInParent="true">
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/circle_question" />
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/circle_question" />
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/circle_question_selected" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnQuestionNextStep4"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:paddingRight="14dp"
+                android:layout_alignParentRight="true">
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:id="@+id/btnNextStep4"
+                    style="@style/Text.Regular.ButtonSurvey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_page_send"
+                    android:textColor="@color/green6"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="3dp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/t30_seta_enviar"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginTop="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnQuestionBackStep4"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="bottom"
+                android:paddingLeft="14dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:src="@drawable/t30_seta_anterior" />
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:id="@+id/btnBackStep4"
+                    style="@style/Text.Regular.ButtonSurvey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:text="@string/survey_page_previous"
+                    android:layout_marginLeft="3dp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

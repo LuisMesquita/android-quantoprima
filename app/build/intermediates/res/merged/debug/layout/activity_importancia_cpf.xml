@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgazul">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_cpf"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/importancia_cpf_1_titulo"
+                style="@style/titulo_importancia_cpf"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/importancia_cpf_1_texto"
+                style="@style/texto_importancia_cpf"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_cadeado"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/importancia_cpf_2_titulo"
+                style="@style/titulo_importancia_cpf"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/importancia_cpf_2_texto"
+                style="@style/texto_importancia_cpf"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_verde"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/botao_cadastrar_cpf"
+                android:gravity="center"
+                style="@style/botao_importancia_cpf"
+                android:id="@+id/btn_cadastra_cpf"
+                android:onClick="onCadastrarCpf"
+                android:textColor="#fff"
+
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_vermelho"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/botao_nao_cadastrar_cpf"
+                android:gravity="center"
+                style="@style/botao_importancia_cpf"
+                android:id="@+id/btn_nao_cadastra_cpf"
+                android:layout_marginTop="10dp"
+                android:onClick="onNaoCadastrarCpf"
+                android:textColor="#fff"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

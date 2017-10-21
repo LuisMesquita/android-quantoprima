@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/item_bg"
+    android:id="@+id/lyt_how_to_win_info"
+    android:paddingTop="6dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_how_to_win"
+        android:src="@drawable/t24_loja_ic_regras"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="13dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lyt_descriptions"
+        android:layout_marginTop="5dp">
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:id="@+id/label_how_to_win_info"
+            style="@style/LabelHowToWin" />
+
+    </LinearLayout>
+
+</LinearLayout>

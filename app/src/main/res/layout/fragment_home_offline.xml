@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.HomeOfflineFragment"
+    android:orientation="vertical"
+    android:background="@drawable/bgazul">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_emotion_icon"
+        android:src="@drawable/t05_img_antena"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp" />
+
+    <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_offline_no_connection_label"
+        android:id="@+id/label_no_connection"
+        android:layout_below="@+id/image_emotion_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        style="@style/PrincipalTextBold"
+        android:textSize="18sp" />
+
+    <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_offline_label_no_connection_message"
+        android:id="@+id/label_no_connection_message"
+        android:layout_below="@+id/label_no_connection"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="7dp"
+        android:layout_centerHorizontal="true"
+        style="@style/PrincipalTextMedium"
+        android:gravity="center_horizontal"
+        android:textSize="14sp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"/>
+
+    <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/label_gain_mobis_message"
+        android:text="@string/home_offline_label_gain_mobis_message"
+        android:layout_below="@+id/label_no_connection_message"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:textSize="14sp"
+        style="@style/PrincipalTextBold"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginRight="29dp" />
+
+</RelativeLayout>

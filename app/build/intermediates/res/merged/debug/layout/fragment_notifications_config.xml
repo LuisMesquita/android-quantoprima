@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.NotificationsConfigFragment"
+    android:orientation="vertical"
+    android:background="@drawable/bgazul">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/grey12"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notification_congih_label_config_message"
+            android:id="@+id/textView"
+            style="@style/TextBold"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@color/grey13"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone"
+        android:id="@+id/lyt_all">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notifications_config_label_all"
+            android:id="@+id/textView2"
+            style="@style/Text"
+            android:textColor="@color/grey7"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_weight="1" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/switch_button"
+            android:layout_gravity="right" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/yellow2"
+        android:id="@+id/location_list"></FrameLayout>
+</LinearLayout>

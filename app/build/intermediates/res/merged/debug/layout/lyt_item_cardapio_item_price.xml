@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="28dp"
+    android:layout_marginBottom="2dp"
+    android:gravity="center"
+    android:background="@color/bg_menu_item_pressed"
+    android:id="@+id/lyt_item_cardapio_item_price">
+
+    <View
+        android:layout_width="3dp"
+        android:background="@color/navigation_drawer_item"
+        android:layout_height="28dp"
+        android:id="@+id/bar" />
+
+    <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/label_name"
+        android:textColor="@color/black_light"
+        style="@style/Text.Medium"
+        android:textSize="16sp"
+        android:layout_weight="1"
+        android:paddingLeft="9dp"
+        android:gravity="center_vertical"
+        android:visibility="gone" />
+
+    <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/list_item_cardapio_front_label_price"
+        android:id="@+id/label_price"
+        style="@style/PrincipalBlackTextBold"
+        android:textSize="16sp"
+        android:layout_weight="1"
+        android:layout_marginRight="6dp"
+        android:gravity="center_vertical|right" />
+
+</LinearLayout>

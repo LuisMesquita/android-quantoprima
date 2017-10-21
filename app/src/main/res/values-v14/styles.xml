@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Theme.Mobiclub" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_mobiclub</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Mobiclub</item>
+        <item name="android:listPopupWindowStyle">@style/PopupMenu.Mobiclub</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Mobiclub</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Mobiclub</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Mobiclub</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Mobiclub</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_mobiclub</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_mobiclub</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Mobiclub</item>
+
+        <!-- Light.DarkActionBar specific -->
+        <item name="android:actionBarWidgetTheme">@style/Theme.Mobiclub.Widget</item>
+
+        <!-- Default style for ImageButtons -->
+        <item name="android:imageButtonStyle">?android:borderlessButtonStyle</item>
+        <!-- Default style for Buttons -->
+        <item name="android:buttonStyle">?android:borderlessButtonStyle</item>
+    </style>
+
+    <style name="Theme.Mobiclub.Dialog">
+        <item name="android:windowBackground">@drawable/overlay80</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ActionBar.Solid.Mobiclub" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_mobiclub</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_mobiclub</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_mobiclub</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Mobiclub</item>
+        <item name="android:titleTextStyle">@style/TitleBarTextColor</item>
+    </style>
+    <style name="TitleBarTextColor" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Mobiclub" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_mobiclub</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Mobiclub</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Mobiclub.Widget" parent="@style/Theme.AppCompat">
+        <item name="android:dropDownSelector">@drawable/menu_dropdown_panel_mobiclub</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Mobiclub</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Mobiclub</item>
+    </style>
+
+    <style name="StyledIndicators" parent="Theme.Mobiclub">
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+    </style>
+
+    <style name="CustomTabPageIndicator.Text" parent="Text">
+        <item name="android:textColor">@color/result_text</item>
+    </style>
+
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">@drawable/tab_indicator_ab_mobiclub</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/tab_indicator_ab_mobiclub</item>
+
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:divider">@drawable/custom_tab_indicator_divider</item>
+        <item name="android:dividerPadding">10dp</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">7dp</item>
+    </style>
+
+</resources>

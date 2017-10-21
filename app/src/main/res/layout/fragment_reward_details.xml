@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@color/bar_gps"
+        android:gravity="center_vertical">
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fatia de Torta"
+            android:id="@+id/label_name"
+            style="@style/PrincipalBlackTextBold"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/lytText"
+        android:background="@drawable/t12_1_bg_degrade">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7dp"
+            android:padding="3dp"
+            android:background="@drawable/t12_1_foto_recompensa_bg"
+            android:layout_weight="0.8"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/image_reward"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/t28_1_recompensa_placeholder"
+                android:padding="2dp" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Vestibulum ante ipsum primis in."
+                android:id="@+id/label_description"
+                android:gravity="left"
+                android:layout_gravity="left"
+                android:textColor="@color/text_black"
+                style="@style/Text"
+                android:textSize="14sp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="11dp" />
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomButton
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:id="@+id/button_rescue"
+                style="@style/RescueRewardButton"
+                android:onClick="onRescue"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/yellow6"
+                android:text="@string/reward_details_label_rescue_reward"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomButton
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:id="@+id/btn_share"
+                android:layout_centerHorizontal="true"
+                style="@style/FacebookButton2"
+                android:text="@string/cardapio_item_label_facebook_share"
+                android:textSize="16sp"
+                android:onClick="onShare"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

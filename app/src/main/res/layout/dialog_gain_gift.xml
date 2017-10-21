@@ -1,0 +1,190 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.mobiclub.quantoprima.ui.activity.GainMobiResultDialog">
+
+    <ImageButton
+        android:id="@+id/image_close"
+        android:src="@drawable/fechar"
+        style="@style/DialogCloseButton"
+        android:visibility="gone" />
+
+    <LinearLayout style="@style/GainMobiMessagesContainer"
+        android:layout_marginTop="70dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:id="@+id/relativeLayout"
+            android:layout_below="@+id/image_close"
+            android:background="@drawable/shape_bg_orange"
+            android:layout_gravity="center">
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:text="@string/dialog_gain_gift_label_gift_message"
+                android:id="@+id/label_gift_message"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="right"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/PrincipalBlackTextBold"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_emotion_icon"
+                android:src="@drawable/t32_presente"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="3dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="145dp"
+            android:layout_below="@+id/relativeLayout"
+            android:background="@drawable/shape_bg_white_gain_gift"
+            android:id="@+id/lyt_price"
+            android:layout_marginTop="12dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="7dp"
+                android:paddingRight="5dp">
+
+                <ImageView
+                    android:layout_width="43dp"
+                    android:layout_height="32dp"
+                    android:id="@+id/image_location" />
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium Text"
+                    android:id="@+id/label_reference"
+                    style="@style/TextMedium"
+                    android:textSize="16sp"
+                    android:textColor="@color/grey7"
+                    android:paddingLeft="10dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/t32_divisoria3" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingTop="10dp"
+                style="@style/DialogMessagePadding">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_gain_gift_label_sent"
+                        android:id="@+id/label_sent"
+                        android:textColor="@color/grey7"
+                        android:textSize="12sp"
+                        style="@style/TextMedium" />
+
+                    <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Medium Text"
+                        android:id="@+id/label_gift"
+                        android:textColor="@color/grey7"
+                        android:textSize="14sp"
+                        style="@style/Text" />
+
+                    <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dialog_gain_gift_label_valid"
+                        android:id="@+id/label_valid"
+                        android:textSize="12sp"
+                        android:textColor="@color/black4"
+                        android:gravity="bottom"
+                        android:layout_gravity="bottom"
+                        style="@style/Text"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="106dp"
+                        android:layout_height="80dp"
+                        android:id="@+id/image_reward"
+                        android:layout_gravity="center_horizontal|right" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_gain_gift_label_actions"
+            android:id="@+id/label_share"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            style="@style/TextBold"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomButton
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:id="@+id/btn_accept"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            style="@style/TextBold"
+            android:gravity="center"
+            android:background="@drawable/t32_btn_acoes_aceitarpresente"
+            android:text="@string/dialog_gain_gift_btn_accept_gift"
+            android:onClick="acceptGift" />
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomButton
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:id="@+id/btn_reject"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            style="@style/TextBold"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/t32_btn_acoes_recusarpresente"
+            android:background="@drawable/t32_btn_acoes_recusarpresente"
+            android:text="@string/dialog_gain_gift_btn_reject_gift"
+            android:onClick="rejectGift" />
+
+    </LinearLayout>
+
+</RelativeLayout>

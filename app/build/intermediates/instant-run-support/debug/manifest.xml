@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.mobiclub.quantoprima"
+    android:versionCode="116"
+    android:versionName="3.4" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- map -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <permission
+        android:name="br.com.mobiclub.quantoprima.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <!-- account manager -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <!-- push permissions -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <!-- ##START## OneSignal Permissions -->
+
+
+    <!-- INTERNET and c2dm RECEIVE are basic requirements for push messages from Google. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+    <permission
+        android:name="com.onesignal.example.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.onesignal.example.permission.C2D_MESSAGE" />
+
+    <!-- Required, makes sure notifications are delivered on time. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!--
+         Required so the device vibrates on receiving a push notification.
+    	 Vibration settings of the device still apply.
+    -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- START: ShortcutBadger -->
+    <!-- Samsung -->
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+
+    <!-- HTC -->
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+
+    <!-- Sony -->
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" />
+
+    <!-- Apex -->
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" />
+
+    <!-- Solid -->
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
+
+    <!-- Huawei -->
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+    <!-- End: ShortcutBadger -->
+
+
+    <!-- ##END## OneSignal Permissions -->
+
+
+    <!-- qrcode -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.screen.portrait" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <!-- push permissions -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!--
+      IMPORTANT: Change "com.parse.starter.permission.C2D_MESSAGE" in the lines below
+      to match your app's package name + ".permission.C2D_MESSAGE".
+    -->
+    <uses-permission
+        android:name="br.com.mobiclub.quantoprima.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" /> <!-- This excludes Google TV, which is unfortunately included by virtue of not requiring a camera -->
+    <uses-feature android:name="android.hardware.touchscreen" /> <!-- TODO make this not required again after android.hardware.camera.any is available -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+    <permission
+        android:name="br.com.mobiclub.quantoprima.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" /> <!-- ZUK -->
+    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+
+    <application
+        android:name="br.com.mobiclub.quantoprima.MobiClubApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Mobiclub" >
+
+        <!-- <uses-library android:name="com.google.android.maps"/> -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="b8c61b76e8b05f604b9541ff4f34a01d87612132" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.launch.LaunchActivity"
+            android:icon="@drawable/ic_launcher"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MobiClub.NoTitleBar" >
+
+            <!-- android:noHistory="true" -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.launch.SplashActivity"
+            android:icon="@drawable/action_appicon"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MobiClub.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.launch.OutdatedActivity"
+            android:icon="@drawable/action_appicon"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MobiClub.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.account.AccountBlockedActivity"
+            android:icon="@drawable/action_appicon"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MobiClub.NoTitleBar" >
+        </activity>
+
+        <!-- account -->
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.account.SigninActivity"
+            android:icon="@drawable/action_appicon"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MobiClub.NoTitleBar" >
+
+            <!-- android:excludeFromRecents="true" -->
+
+
+            <!--
+                No intent-filter here! This activity is only ever launched by
+                someone who explicitly knows the class name
+            -->
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.account.SigninEmailActivity"
+            android:exported="true"
+            android:icon="@drawable/action_appicon"
+            android:parentActivityName="br.com.mobiclub.quantoprima.ui.activity.account.SigninActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MobiClub.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <!-- Both parent activity attributes have to contain the full package name -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.mobiclub.quantoprima.ui.activity.account.SigninActivity" />
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.account.SignupActivity"
+            android:configChanges="keyboardHidden"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_signup"
+            android:parentActivityName="br.com.mobiclub.quantoprima.ui.activity.account.SigninActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <!-- Both parent activity attributes have to contain the full package name -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.mobiclub.quantoprima.ui.activity.account.SigninActivity" />
+        </activity>
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- TODO -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <provider
+            android:name="com.facebook.NativeAppCallContentProvider"
+            android:authorities="com.facebook.app.NativeAppCallContentProvider753745628005524"
+            android:exported="true" />
+
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.account.LostPasswordActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_lost_password"
+            android:parentActivityName="br.com.mobiclub.quantoprima.ui.activity.account.SigninActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <!-- Both parent activity attributes have to contain the full package name -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.mobiclub.quantoprima.ui.activity.account.SigninActivity" />
+        </activity>
+
+        <!-- home -->
+        <!-- noHistory="true" para nao exibir quando voltar do login -->
+        <!-- android:excludeFromRecents="true" -->
+        <!-- android:noHistory="true" -->
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.HomeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Mobiclub" >
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.mobi.MobiOfflineActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_mobis_offline"
+            android:parentActivityName="br.com.mobiclub.quantoprima.ui.activity.HomeActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.mobiclub.quantoprima.ui.activity.HomeActivity" />
+        </activity>
+        <activity android:name="br.com.mobiclub.quantoprima.ui.activity.NewsActivity" />
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.UserActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/app_name" />
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.qrcode.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_qr_code"
+            android:screenOrientation="sensorPortrait"
+            android:stateNotNeeded="true"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.profile.ProfileActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_profile"
+            android:parentActivityName="br.com.mobiclub.quantoprima.ui.activity.HomeActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.mobiclub.quantoprima.ui.activity.HomeActivity" />
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.profile.ProfileEditActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_profile_edit"
+            android:parentActivityName="br.com.mobiclub.quantoprima.ui.activity.profile.ProfileActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.mobiclub.quantoprima.ui.activity.ProfileActivity" />
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.store.StoreActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_store"
+            android:parentActivityName="br.com.mobiclub.quantoprima.ui.activity.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/StyledIndicators" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.mobiclub.quantoprima.ui.activity.HomeActivity" />
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.store.CardapioActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_cardapio"
+            android:parentActivityName="br.com.mobiclub.quantoprima.ui.activity.store.StoreActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.mobiclub.quantoprima.ui.activity.store.StoreActivity" />
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.store.CardapioItemActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_cardapio"
+            android:parentActivityName="br.com.mobiclub.quantoprima.ui.activity.store.CardapioActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.mobiclub.quantoprima.ui.activity.store.CardapioActivity" />
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.store.survey.SurveyActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_survey"
+            android:parentActivityName="br.com.mobiclub.quantoprima.ui.activity.store.StoreActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.mobiclub.quantoprima.ui.activity.store.StoreActivity" />
+        </activity>
+
+        <!-- rescue reward -->
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.reward.RewardActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_reward"
+            android:parentActivityName="br.com.mobiclub.quantoprima.ui.activity.HomeActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.mobiclub.quantoprima.ui.activity.HomeActivity" />
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.reward.RewardDetailActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_reward_detail"
+            android:parentActivityName="br.com.mobiclub.quantoprima.ui.activity.reward.RewardActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.mobiclub.quantoprima.ui.activity.reward.RewardActivity" />
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.reward.RescueRewardActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_rescue_reward"
+            android:parentActivityName="br.com.mobiclub.quantoprima.ui.activity.reward.RewardActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.mobiclub.quantoprima.ui.activity.reward.RewardActivity" />
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.notification.NotificationsActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_notifications"
+            android:parentActivityName="br.com.mobiclub.quantoprima.ui.activity.HomeActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.mobiclub.quantoprima.ui.activity.HomeActivity" />
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.notification.NotificationItemActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_notifications"
+            android:parentActivityName="br.com.mobiclub.quantoprima.ui.activity.notification.NotificationsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.mobiclub.quantoprima.ui.activity.NotificationsActivity" />
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.notification.NotificationsConfigActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_notifications_config"
+            android:parentActivityName="br.com.mobiclub.quantoprima.ui.activity.profile.ProfileActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.mobiclub.quantoprima.ui.activity.ProfileActivity" />
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.notification.PushNotificationsActivity"
+            android:icon="@drawable/action_appicon"
+            android:theme="@style/Theme.MobiClub.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.TutorialActivity"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/action_appicon"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MobiClub.NoTitleBar" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.AboutActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.AboutMobiClubActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_about_mobiclub" >
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.WebViewActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_webview"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.CentralActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_central"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.AppInactiveActivity"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_app_inactive"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MobiClub.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.LocationActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_establishment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.MapActivity"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_map"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.QRCodeActivityMock"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_qrcode"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.account.ImportanciaCpfActivity"
+            android:configChanges="keyboardHidden"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_importancia_cpf"
+            android:parentActivityName="br.com.mobiclub.quantoprima.ui.activity.account.SigninActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.account.CadastrarCpfActivity"
+            android:configChanges="keyboardHidden"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_cadastra_cpf"
+            android:parentActivityName="br.com.mobiclub.quantoprima.ui.activity.account.SigninActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="br.com.mobiclub.quantoprima.ui.activity.account.CadastrarCpfToStoreActivity"
+            android:configChanges="keyboardHidden"
+            android:icon="@drawable/action_appicon"
+            android:label="@string/title_activity_cadastra_cpf"
+            android:parentActivityName="br.com.mobiclub.quantoprima.ui.activity.account.SigninActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.onesignal.PermissionsActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- services -->
+        <service
+            android:name="br.com.mobiclub.quantoprima.service.MobiSyncingService"
+            android:exported="false" />
+        <service
+            android:name="br.com.mobiclub.quantoprima.service.authenticator.AccountAuthenticatorService"
+            android:process=":auth" >
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator" />
+        </service>
+
+        <!--
+        notificacoes push
+        <service android:name="com.parse.PushService" />
+
+        <receiver android:name="com.parse.ParseBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="br.com.mobiclub.quantoprima" />
+            </intent-filter>
+        </receiver>
+        -->
+        <!-- For Android O -->
+        <service
+            android:name="com.onesignal.GcmIntentJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service android:name="com.onesignal.NotificationRestoreService" />
+
+        <!-- Application tag requirements below for OneSignal -->
+        <!-- ##START## OneSignal -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- TODO: Please update the OneSignal ID below to yours! -->
+        <meta-data
+            android:name="onesignal_app_id"
+            android:value="1da76bc1-9c1e-40c3-bc55-278eea7f3b71" />
+
+        <receiver
+            android:name="com.onesignal.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.onesignal.example" />
+            </intent-filter>
+            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+            <intent-filter android:priority="999" >
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="br.com.mobiclub.quantoprima" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+
+        <service android:name="com.onesignal.GcmIntentService" />
+        <service
+            android:name="com.onesignal.SyncService"
+            android:stopWithTask="false" />
+        <service android:name="com.onesignal.NotificationRestoreService" />
+
+        <receiver android:name="com.onesignal.BootUpReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_BOOT_COMPLETED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.onesignal.UpgradeReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- ##END## OneSignal -->
+
+        <service android:name="com.parse.PushService" />
+
+        <receiver
+            android:name="br.com.mobiclub.quantoprima.ui.activity.notification.Receiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+<!--                   IMPORTANT: Change "com.parse.starter" to match your app's package name. -->
+                <category android:name="br.com.mobiclub.quantoprima" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Deprecated - Pulled from OneSignal dashboard. -->
+        <meta-data
+            android:name="onesignal_google_project_number"
+            android:value="str:REMOTE" />
+
+        <service
+            android:name="com.onesignal.SyncJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.onesignal.RestoreJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.onesignal.RestoreKickoffJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="br.com.mobiclub.quantoprima.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

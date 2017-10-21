@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgazul">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:src="@drawable/marca1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lytText"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp">
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vestibulum ante ipsum primis in."
+            android:id="@+id/labelUserWelcome"
+            style="@style/OudatedMessagesReg"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp" />
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_update_msg"
+            android:id="@+id/labelUpdateMsg"
+            style="@style/OudatedMessagesMedium"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:layout_marginTop="17dp" />
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/label_download_msg"
+            android:id="@+id/labelDownloadMsg"
+            style="@style/OudatedMessagesBold"
+            android:textSize="18sp"
+            android:layout_marginTop="26dp" />
+
+    </LinearLayout>
+
+    <br.com.mobiclub.quantoprima.ui.view.CustomButton
+        android:id="@+id/button"
+        android:text="@string/outdated_update_label"
+        android:onClick="updateAction"
+        style="@style/OrangeButtonBold"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp" />
+
+</RelativeLayout>

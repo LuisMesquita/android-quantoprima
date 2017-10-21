@@ -1,0 +1,77 @@
+{
+    "HttpStatus": 200,
+    "HasAppreciation": true,
+    "Id": 1,
+    "SurveyQuestions": [{
+        "Id": 2,
+        "Type": 2,
+        "Question": "Rapidez no atendimento",
+        "SurveyCategory": {
+            "Id": 0,
+            "Name": "Atendimento"
+        },
+        "SurveyChoices": [{
+            "Id": 1,
+            "Index": 1,
+            "Text": "escolha 1",
+            "IdSurveyQuestion": 0
+        }, {
+            "Id": 2,
+            "Index": 2,
+            "Text": "escolha 2",
+            "IdSurveyQuestion": 0
+        }, {
+            "Id": 3,
+            "Index": 3,
+            "Text": "escolha 3",
+            "IdSurveyQuestion": 0
+        }, {
+            "Id": 4,
+            "Index": 4,
+            "Text": "escolha 4",
+            "IdSurveyQuestion": 0
+        }, {
+            "Id": 5,
+            "Index": 5,
+            "Text": "escolha 5",
+            "IdSurveyQuestion": 0
+        }],
+        "IdToAnswer": 17
+    }, {
+        "Id": 3,
+        "Type": 2,
+        "Question": "Simpatia dos funcionários",
+        "SurveyCategory": {
+            "Id": 0,
+            "Name": "Atendimento"
+        },
+        "SurveyChoices": [{
+            "Id": 6,
+            "Index": 1,
+            "Text": "a",
+            "IdSurveyQuestion": 0
+        }, {
+            "Id": 7,
+            "Index": 2,
+            "Text": "b",
+            "IdSurveyQuestion": 0
+        }, {
+            "Id": 8,
+            "Index": 3,
+            "Text": "c",
+            "IdSurveyQuestion": 0
+        }, {
+            "Id": 9,
+            "Index": 4,
+            "Text": "d",
+            "IdSurveyQuestion": 0
+        }, {
+            "Id": 10,
+            "Index": 5,
+            "Text": "e",
+            "IdSurveyQuestion": 0
+        }],
+        "IdToAnswer": 18
+    }],
+    "Message": ""
+}

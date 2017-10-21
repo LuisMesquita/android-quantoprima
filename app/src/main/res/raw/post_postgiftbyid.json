@@ -1,0 +1,26 @@
+{
+    "Description": "Cuscuz com Queijo Coalho (1 unidade)",
+    "Title": "Batata Frita",
+    "Id": 4,
+    "Expiration": "2014-08-14T14:23:32.103",
+    "Image": null,
+    "Establishment": {
+        "Id": 0,
+        "Name": "MobiClub",
+        "LogoURL": "http://mobiclub.com.br/estabelecimentos/3_MobiClub.png",
+        "Locations": [{
+            "Id": 0,
+            "EstablishmentId": 0,
+            "Reference": "Rua do Bom Jesus, 125",
+            "Distance": 0.0,
+            "Lat": 0.0,
+            "Lon": 0.0,
+            "Score": 0,
+            "Blocked": false,
+            "HasReward": false
+        }]
+    },
+    "UserId": 0,
+    "HttpStatus": 200,
+    "Message": null
+}

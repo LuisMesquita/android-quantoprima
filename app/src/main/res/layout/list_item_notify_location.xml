@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/item_bg2">
+
+    <LinearLayout
+        android:layout_width="6dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/item_locations_bar_indicator"
+        android:layout_alignParentLeft="true"
+        android:background="@color/item_locations_indicator"
+        android:foreground="@color/item_locations_indicator">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/lytItem"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="4dp"
+        android:layout_marginLeft="7dp">
+
+        <ImageView
+            android:layout_width="76dp"
+            android:layout_height="56dp"
+            android:id="@+id/image_logo"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="10dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/image_logo"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="false"
+            android:id="@+id/item_location"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lyt_info"
+                android:layout_toRightOf="@+id/image_logo"
+                android:layout_toLeftOf="@+id/lyt_price"
+                android:layout_weight="3"
+                android:gravity="center_vertical|left">
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium Text"
+                    android:id="@+id/label_location_name"
+                    style="@style/PrincipalBlackTextBold"
+                    android:layout_weight="1"
+                    android:layout_gravity="bottom"
+                    android:gravity="bottom"
+                    android:paddingBottom="3dp" />
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium Text"
+                    android:id="@+id/label_location_reference"
+                    android:textColor="@color/ligth_grey"
+                    android:layout_weight="1"
+                    style="@style/PrincipalTextMedium"
+                    android:gravity="top"
+                    android:layout_gravity="top" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lyt_price"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <include
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    layout="@layout/switch_button"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:layout_toRightOf="@+id/image_logo"
+            android:id="@+id/item_locations"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:id="@+id/label_name"
+                android:layout_gravity="top"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

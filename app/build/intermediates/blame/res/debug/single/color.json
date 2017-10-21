@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/color/nav_text_selector.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/color/nav_text_selector.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/color/text_title_selector.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/color/text_title_selector.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/color/vpi__dark_theme.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/5a51d003ec630b302c6921239da3cb6d3ba2ad5a/output/res/color/vpi__dark_theme.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/color/text_selector.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/color/text_selector.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/color/table_text_selector.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/color/table_text_selector.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/color/text_light_selector.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/color/text_light_selector.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/color/table_text_light_selector.xml",
+        "source": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/color/table_text_light_selector.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/color/vpi__light_theme.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/5a51d003ec630b302c6921239da3cb6d3ba2ad5a/output/res/color/vpi__light_theme.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/a9cbb3aa5ee38556f581d912de6cc301d38d2f4c/output/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/res/merged/debug/color/abc_search_url_text_holo.xml",
+        "source": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/color/abc_search_url_text_holo.xml"
+    }
+]

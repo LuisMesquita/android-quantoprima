@@ -1,0 +1,150 @@
+{
+    "HttpStatus": 200,
+    "Id": 0,
+    "Message": null,
+    "Group": [{
+        "Id": 2,
+        "Name": "Bebidas",
+        "Itens": [{
+            "Image": {
+                "Id": 0,
+                "Index": 0,
+                "XDPI": null,
+                "HDPI": null,
+                "MDPI": null,
+                "LDPI": null,
+                "MINI": null
+            },
+            "Id": 3,
+            "Name": "Whisky",
+            "Description": "Red Label lçdksçkdçks çldskçlksdhisuw sdjkhsd kshdkh jsdhkjdhs jkhsdkjh dsjhsd jhsdjkh sjh Red Label lçdksçkdçks çldskçlksdhisuw sdjkhsd kshdkh jsdhkjdhs jkhsdkjh dsjhsd jhsdjkh sjhRed Label lçdksçkdçks çldskçlksdhisuw sdjkhsd kshdkh jsdhkjdhs jkhsdkjh dsjhsd jhsdjkh sjhRed Label lçdksçkdçks çldskçlksdhisuw sdjkhsd kshdkh jsdhkjdhs jkhsdkjh dsjhsd jhsdjkh sjhRed Label lçdksçkdçks çldskçlksdhisuw sdjkhsd kshdkh jsdhkjdhs jkhsdkjh dsjhsd jhsdjkh sjhRed Label lçdksçkdçks çldskçlksdhisuw sdjkhsd kshdkh jsdhkjdhs jkhsdkjh dsjhsd jhsdjkh sjhRed Label lçdksçkdçks çldskçlksdhisuw sdjkhsd kshdkh jsdhkjdhs jkhsdkjh dsjhsd jhsdjkh sjhRed Label lçdksçkdçks çldskçlksdhisuw sdjkhsd kshdkh jsdhkjdhs jkhsdkjh dsjhsd jhsdjkh sjhRed Label lçdksçkdçks çldskçlksdhisuw sdjkhsd kshdkh jsdhkjdhs jkhsdkjh dsjhsd jhsdjkh sjh",
+            "AdditionalDescription": "",
+            "Price": 50.00,
+            "LogoURL": null
+        },
+        {
+            "Image": {
+                "Id": 0,
+                "Index": 0,
+                "XDPI": null,
+                "HDPI": null,
+                "MDPI": null,
+                "LDPI": null,
+                "MINI": null
+            },
+            "Id": 4,
+            "Name": "Cerveja",
+            "Description": "Skol Beats",
+            "AdditionalDescription": "",
+            "Price": 10.00,
+            "LogoURL": null
+        },
+        {
+            "Image": {
+                "Id": 0,
+                "Index": 0,
+                "XDPI": null,
+                "HDPI": null,
+                "MDPI": null,
+                "LDPI": null,
+                "MINI": null
+            },
+            "Id": 5,
+            "Name": "Energético",
+            "Description": "Red Bull",
+            "AdditionalDescription": "",
+            "Price": 10.00,
+            "LogoURL": null
+        },
+        {
+            "Image": {
+                "Id": 0,
+                "Index": 0,
+                "XDPI": null,
+                "HDPI": null,
+                "MDPI": null,
+                "LDPI": null,
+                "MINI": null
+            },
+            "Id": 6,
+            "Name": "Energético",
+            "Description": "Red",
+            "AdditionalDescription": "",
+            "Price": 10.00,
+            "LogoURL": null
+        },
+        {
+            "Image": {
+                "Id": 0,
+                "Index": 0,
+                "XDPI": null,
+                "HDPI": null,
+                "MDPI": null,
+                "LDPI": null,
+                "MINI": null
+            },
+            "Id": 7,
+            "Name": "Refrigerente",
+            "Description": "Dolle",
+            "AdditionalDescription": "",
+            "Price": 3.00,
+            "LogoURL": null
+        }]
+    }, {
+        "Id": 6,
+        "Name": "Carnes",
+        "Itens": [{
+            "Image": {
+                "Id": 0,
+                "Index": 0,
+                "XDPI": null,
+                "HDPI": null,
+                "MDPI": null,
+                "LDPI": null,
+                "MINI": null
+            },
+            "Id": 4,
+            "Name": "Picanha Argentina",
+            "Description": "Picanha argentina",
+            "AdditionalDescription": "",
+            "Price": 30.55,
+            "LogoURL": null
+        }]
+    }, {
+        "Id": 1,
+        "Name": "Petiscos",
+        "Itens": [{
+            "Image": {
+                "Id": 0,
+                "Index": 0,
+                "XDPI": null,
+                "HDPI": null,
+                "MDPI": null,
+                "LDPI": null,
+                "MINI": null
+            },
+            "Id": 1,
+            "Name": "Petisco",
+            "Description": "testando edit",
+            "AdditionalDescription": "",
+            "Price": 10.00,
+            "LogoURL": null
+        }, {
+            "Image": {
+                "Id": 0,
+                "Index": 0,
+                "XDPI": null,
+                "HDPI": null,
+                "MDPI": null,
+                "LDPI": null,
+                "MINI": null
+            },
+            "Id": 2,
+            "Name": "item",
+            "Description": "Muito bom",
+            "AdditionalDescription": "",
+            "Price": 12.00,
+            "LogoURL": null
+        }]
+    }]
+}

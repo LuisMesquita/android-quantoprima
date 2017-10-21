@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pontuar_alerta"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/t08_pontuar_alerta"
+        android:duration="7000" />
+    <item
+        android:drawable="@drawable/transparent_drawable"
+        android:duration="7000" />
+</animation-list>

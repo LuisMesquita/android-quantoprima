@@ -1,0 +1,295 @@
+[
+    {
+        "outputFile": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 8,
+                    "endColumn": 12,
+                    "endOffset": 579
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 2822,
+                        "endLine": 56,
+                        "endColumn": 12,
+                        "endOffset": 3346
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 584,
+                    "endLine": 12,
+                    "endColumn": 12,
+                    "endOffset": 847
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 852,
+                    "endLine": 15,
+                    "endColumn": 12,
+                    "endOffset": 1040
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1045,
+                    "endLine": 32,
+                    "endColumn": 12,
+                    "endOffset": 1939
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 4517,
+                        "endLine": 97,
+                        "endColumn": 12,
+                        "endOffset": 5411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 1944,
+                    "endLine": 35,
+                    "endColumn": 12,
+                    "endOffset": 2077
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2082,
+                    "endLine": 38,
+                    "endColumn": 12,
+                    "endOffset": 2276
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2281,
+                    "endLine": 41,
+                    "endColumn": 12,
+                    "endOffset": 2440
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2445,
+                    "endLine": 44,
+                    "endColumn": 12,
+                    "endOffset": 2596
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2601,
+                    "endLine": 56,
+                    "endColumn": 12,
+                    "endOffset": 3113
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/values-v11/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 3118,
+                    "endLine": 68,
+                    "endColumn": 12,
+                    "endOffset": 3858
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/values-v11/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 3863,
+                    "endLine": 80,
+                    "endColumn": 12,
+                    "endOffset": 4615
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/values-v11/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 4620,
+                    "endLine": 92,
+                    "endColumn": 12,
+                    "endOffset": 5144
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/values-v11/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 5149,
+                    "endLine": 112,
+                    "endColumn": 12,
+                    "endOffset": 6538
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endLine": 20,
+                        "endColumn": 12,
+                        "endOffset": 1405
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 6543,
+                    "endLine": 117,
+                    "endColumn": 12,
+                    "endOffset": 6770
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 6775,
+                    "endLine": 122,
+                    "endColumn": 12,
+                    "endOffset": 7116
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 7121,
+                    "endLine": 125,
+                    "endColumn": 12,
+                    "endOffset": 7289
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/src/main/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 3351,
+                        "endLine": 59,
+                        "endColumn": 12,
+                        "endOffset": 3519
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 7294,
+                    "endColumn": 112,
+                    "endOffset": 7402
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/values-v11/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 7407,
+                    "endColumn": 94,
+                    "endOffset": 7497
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/values-v11/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 7502,
+                    "endColumn": 116,
+                    "endOffset": 7614
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/values-v11/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 7619,
+                    "endColumn": 124,
+                    "endOffset": 7739
+                },
+                "from": {
+                    "file": "/Users/LuisBarroso/.android/build-cache/be617dba8cd5f52eee146f2608e31c05ab8d19e7/output/res/values-v11/values.xml"
+                }
+            }
+        ]
+    }
+]

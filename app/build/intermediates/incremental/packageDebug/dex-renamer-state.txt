@@ -1,0 +1,7 @@
+#Sat Oct 21 19:58:10 BRT 2017
+base.0=/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_228c410c620f954796de134060eec6a09a3073e7
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e01a140b63488c3869d0cb3f2d559874cc5847a8/classes.dex
+base.1=/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e01a140b63488c3869d0cb3f2d559874cc5847a8
+file.0=/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_228c410c620f954796de134060eec6a09a3073e7/classes.dex

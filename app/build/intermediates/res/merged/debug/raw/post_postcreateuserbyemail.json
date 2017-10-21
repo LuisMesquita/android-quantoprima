@@ -1,0 +1,11 @@
+{
+    "HttpStatus": 401,
+    "Birthday": "0001-01-01T00:00:00",
+    "Id": 4718,
+    "FacebookId": 0,
+    "facebookAccessExpires": 0,
+    "FacebookAccessToken": null,
+    "Name": "Thales PF",
+    "Email": "thales@wakeupsystems.com",
+    "Message": "Usuário criado. Realize seu login para acessar o sistema"
+}

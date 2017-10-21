@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/central_action"
+        android:icon="@drawable/ic_centralderelacionamento"
+        bootstrap:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/termo_uso"
+        android:title="Termos de uso"
+        bootstrap:showAsAction="ifRoom|withText"
+        android:actionLayout="@layout/menu_item_layout"
+        bootstrap:actionLayout="@layout/menu_item_layout"
+        android:visible="false"
+        >
+    </item>
+</menu>

@@ -1,0 +1,67 @@
+{
+    "Establishments": [{
+        "Id": 0,
+        "Name": "Planetário",
+        "LogoURL": "Content/images/logo/logo_est_1.png",
+        "Locations": [{
+            "Id": 1,
+            "EstablishmentId": 0,
+            "Reference": "Shopping Guararapes Edit",
+            "Distance": 0.0,
+            "Lat": 0.0,
+            "Lon": 0.0,
+            "Score": 0,
+            "Blocked": false,
+            "HasReward": false
+        },
+        {
+            "Id": 2,
+            "EstablishmentId": 0,
+            "Reference": "Shopping Guararapes",
+            "Distance": 0.0,
+            "Lat": 0.0,
+            "Lon": 0.0,
+            "Score": 0,
+            "Blocked": true,
+            "HasReward": false
+        }]
+    }],
+    "Reasons": [{
+        "Id": 1,
+        "ReasonText": "Isto não é relevante para mim.",
+        "Type": 1,
+        "Enabled": true
+    }, {
+        "Id": 2,
+        "ReasonText": "É ofensivo ou impróprio...",
+        "Type": 1,
+        "Enabled": true
+    }, {
+        "Id": 4,
+        "ReasonText": "É spam.",
+        "Type": 1,
+        "Enabled": true
+    }, {
+        "Id": 5,
+        "ReasonText": "Outros.",
+        "Type": 1,
+        "Enabled": true
+    }, {
+        "Id": 6,
+        "ReasonText": "Testando",
+        "Type": 1,
+        "Enabled": true
+    }, {
+        "Id": 7,
+        "ReasonText": "Teste Pop-up Edit",
+        "Type": 1,
+        "Enabled": true
+    }, {
+        "Id": 9,
+        "ReasonText": "",
+        "Type": 1,
+        "Enabled": true
+    }],
+    "HttpStatus": 200,
+    "Message": null
+}

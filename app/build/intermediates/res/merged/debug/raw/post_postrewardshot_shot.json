@@ -1,0 +1,22 @@
+{
+    "HttpStatus": 202,
+    "Message": null,
+    "Establishment": {
+        "Id": 3,
+        "Name": "MobiClub",
+        "LogoURL": "http://mobiclub.com.br/estabelecimentos/3_MobiClub.png",
+        "Locations": [
+            {
+                "Id": 3,
+                "EstablishmentId": 3,
+                "Reference": "Rua do Bom Jesus, 125",
+                "Distance": 0,
+                "Lat": 0,
+                "Lon": 0,
+                "Score": 0,
+                "Blocked": false,
+                "HasReward": false
+            }
+        ]
+    }
+}

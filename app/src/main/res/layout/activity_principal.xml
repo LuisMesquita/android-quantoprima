@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- The main content view -->
+    <RelativeLayout
+            android:id="@+id/principal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="46dp"
+            android:id="@+id/search_bar"
+            android:background="@color/theme_principal"
+            android:gravity="center">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="24dp"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/ic_lupa_pesquisa"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp" />
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomEditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/et_search"
+                    android:hint="@string/search_bar_hint"
+                    android:inputType="text"
+                    android:textColorHint="@color/text_black"
+                    android:textColor="@color/text_black"
+                    android:singleLine="true"
+                    style="@style/PrincipalBlackTextBold"
+                    android:textSize="18sp"
+                    android:textCursorDrawable="@color/white"
+                    android:background="@color/theme_principal"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="50dp" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gps_bar"
+            android:background="@color/bar_gps"
+            android:layout_below="@+id/search_bar"
+            android:gravity="center"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_principal_label_gps_message"
+                    android:layout_gravity="center_vertical|left"
+                    style="@style/PrincipalBlackTextBold"
+                    android:textSize="14sp"
+                    android:textColor="@color/text_black"
+                    android:singleLine="true"
+                    android:gravity="center|left"
+                    android:paddingLeft="7dp" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="right"
+                    android:paddingRight="7dp">
+
+                    <ImageButton
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:id="@+id/close_gps_bar"
+                        android:src="@drawable/t08_1_ic_notice_fechar"
+                        android:layout_gravity="right" />
+                </FrameLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/container"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/gps_bar"
+            android:background="@drawable/bgamarelo_losangos">
+
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_degrade"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/t08_degrade"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp"
+            android:onClick="onGainMobi"
+            android:id="@+id/btn_gain_mobis">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pontuar_alerta"
+                android:layout_gravity="center|top"
+                android:paddingBottom="22dp"
+                android:src="@drawable/gain_mobi_alert_anim" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:src="@drawable/bg_btn_gain_mobi"
+                android:background="@android:color/transparent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:onClick="onGainMobi"
+                android:id="@+id/btn_more_mobis" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/darkener"
+            android:foreground="@drawable/shape_bg_darkener"
+            android:layout_below="@+id/search_bar"
+            android:visibility="gone">
+            </FrameLayout>
+
+    </RelativeLayout>
+
+    <!-- The navigation drawer -->
+    <!-- android:layout_gravity="start" tells DrawerLayout to treat
+    this as a sliding drawer on the left side for left-to-right
+    languages and on the right side for right-to-left languages.
+    If you're not building against API 17 or higher, use
+    android:layout_gravity="left" instead. -->
+    <!-- The drawer is given a fixed width in dp and extends the full height of
+         the container. -->
+    <fragment android:id="@+id/navigation_drawer"
+              android:layout_width="@dimen/navigation_drawer_width"
+              android:layout_height="match_parent"
+              android:layout_gravity="right"
+              android:name="br.com.mobiclub.quantoprima.ui.fragment.NavigationDrawerFragment" />
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/item_bg"
+    android:paddingTop="6dp"
+    android:paddingRight="7dp"
+    android:paddingBottom="6dp"
+    android:paddingLeft="7dp">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="53dp"
+        android:id="@+id/image_logo"
+        android:adjustViewBounds="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_centerVertical="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/image_logo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:id="@+id/item_reward"
+        android:layout_marginLeft="9dp"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/image_logo"
+            android:layout_toLeftOf="@+id/lyt_price">
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Medium Text"
+                android:id="@+id/label_title"
+                style="@style/TextBold"
+                android:textColor="@color/black_light"
+                android:textSize="16sp"
+                android:layout_weight="1" />
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Medium Text"
+                android:id="@+id/label_description"
+                style="@style/TextMedium"
+                android:textSize="14sp"
+                android:textColor="@color/black4"
+                android:layout_weight="1"
+                android:singleLine="true" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentRight="true"
+                android:id="@+id/lyt_price"
+                android:layout_weight="1">
+
+                <!--<LinearLayout-->
+                    <!--xmlns:tools="http://schemas.android.com/tools"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                    <!--<br.com.mobiclub.quantoprima.ui.view.CustomTextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:id="@+id/label_name2"-->
+                        <!--android:textColor="@color/text_principal4"-->
+                        <!--style="@style/Text.Regular"-->
+                        <!--android:textSize="12sp"-->
+                        <!--android:text="P:"-->
+                        <!--android:layout_marginRight="5dp"-->
+                        <!--android:visibility="gone"-->
+                        <!--android:gravity="bottom" />-->
+
+                    <!--<br.com.mobiclub.quantoprima.ui.view.CustomTextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/list_item_cardapio_front_label_price"-->
+                        <!--android:id="@+id/label_price"-->
+                        <!--style="@style/Text.Regular"-->
+                        <!--android:textSize="12sp"-->
+                        <!--android:textColor="@color/black4"-->
+                        <!--android:gravity="bottom" />-->
+
+                    <!--<br.com.mobiclub.quantoprima.ui.view.CustomTextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="|"-->
+                        <!--android:textSize="14sp"-->
+                        <!--style="@style/Text.Regular"-->
+                        <!--android:textColor="@color/black4"-->
+                        <!--android:id="@+id/label_pipe"-->
+                        <!--android:paddingLeft="10dp"-->
+                        <!--android:paddingRight="10dp"-->
+                        <!--android:visibility="gone"-->
+                        <!--android:layout_gravity="center" />-->
+
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!---->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_height="fill_parent">-->
+
+                    <!--<br.com.mobiclub.quantoprima.ui.view.CustomTextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:id="@+id/label_name"-->
+                        <!--android:textColor="@color/text_principal4"-->
+                        <!--style="@style/Text.Regular"-->
+                        <!--android:textSize="12sp"-->
+                        <!--android:text="P:"-->
+                        <!--android:layout_marginRight="5dp"-->
+                        <!--android:visibility="gone"-->
+                        <!--android:gravity="bottom" />-->
+
+                    <!--<br.com.mobiclub.quantoprima.ui.view.CustomTextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/list_item_cardapio_front_label_price"-->
+                        <!--android:id="@+id/label_price2"-->
+                        <!--style="@style/Text.Regular"-->
+                        <!--android:textSize="12sp"-->
+                        <!--android:textColor="@color/black4"-->
+                        <!--android:gravity="bottom" />-->
+
+                    <!--<br.com.mobiclub.quantoprima.ui.view.CustomTextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="|"-->
+                        <!--android:textSize="14sp"-->
+                        <!--style="@style/Text.Regular"-->
+                        <!--android:textColor="@color/black4"-->
+                        <!--android:id="@+id/label_pipe2"-->
+                        <!--android:paddingLeft="10dp"-->
+                        <!--android:paddingRight="10dp"-->
+                        <!--android:visibility="gone"-->
+                        <!--android:layout_gravity="center" />-->
+
+                <!--</LinearLayout>-->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/item_bg"
+    android:paddingTop="4dp"
+    android:paddingRight="6dp"
+    android:paddingBottom="4dp"
+    android:paddingLeft="8dp">
+
+    <ImageView
+        android:layout_width="76dp"
+        android:layout_height="56dp"
+        android:id="@+id/image_logo"
+        android:layout_alignParentStart="false"
+        android:layout_centerVertical="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="82dp"
+        android:layout_toRightOf="@+id/image_logo"
+        android:id="@+id/item_reward"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentEnd="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@+id/image_logo"
+            android:layout_toLeftOf="@+id/lyt_price"
+            android:layout_weight="1">
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:id="@+id/label_title"
+                android:textSize="14sp"
+                style="@style/PrincipalBlackTextBold"
+                android:layout_weight="0.1" />
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Medium Text"
+                android:id="@+id/label_description"
+                android:textSize="12sp"
+                style="@style/TextMedium"
+                android:textColor="@color/black4"
+                android:layout_weight="1"
+                android:maxLines="@integer/numbers_lines_description_store_reward"
+                android:lines="@integer/numbers_lines_description_store_reward"
+                android:inputType="textMultiLine"
+                android:layout_gravity="left" />
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/store_front_label_reward_price"
+                android:id="@+id/label_price"
+                style="@style/Text"
+                android:textSize="12sp"
+                android:textColor="@color/orange"
+                android:gravity="bottom"
+                android:layout_weight="0.1" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_buy"
+            android:layout_gravity="center"
+            android:focusableInTouchMode="false"
+            android:src="@drawable/t25_btn_vitrine_comprar_active"
+             />
+
+    </LinearLayout>
+
+</RelativeLayout>

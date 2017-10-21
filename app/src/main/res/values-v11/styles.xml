@@ -1,0 +1,100 @@
+<resources>
+    <style name="Theme.Mobiclub" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_mobiclub</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Mobiclub</item>
+        <item name="android:listPopupWindowStyle">@style/PopupMenu.Mobiclub</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Mobiclub</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Mobiclub</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Mobiclub</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Mobiclub</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_mobiclub</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_mobiclub</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Mobiclub</item>
+
+        <!-- Light.DarkActionBar specific -->
+        <item name="android:actionBarWidgetTheme">@style/Theme.Mobiclub.Widget</item>
+
+        <!-- Default style for ImageButtons -->
+        <item name="android:imageButtonStyle">?android:borderlessButtonStyle</item>
+        <!-- Default style for Buttons -->
+        <item name="android:buttonStyle">?android:borderlessButtonStyle</item>
+    </style>
+
+    <style name="DropDownListView.Mobiclub" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_mobiclub</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Mobiclub" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_mobiclub</item>
+    </style>
+
+    <!--<style name="FullscreenTheme" parent="Theme.Mobiclub">-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:windowFullscreen">true</item>-->
+        <!--<item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>-->
+        <!--<item name="android:windowActionBarOverlay">true</item>-->
+        <!--<item name="android:windowBackground">@null</item>-->
+        <!--<item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>-->
+        <!--<item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>-->
+    <!--</style>-->
+
+    <style name="FullscreenActionBarStyle" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Theme.Mobiclub.Dialog">
+        <item name="android:windowBackground">@drawable/overlay80</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ActionBar.Solid.Mobiclub" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_mobiclub</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_mobiclub</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_mobiclub</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Mobiclub</item>
+        <item name="android:titleTextStyle">@style/TitleBarTextColor</item>
+    </style>
+    <style name="TitleBarTextColor" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Mobiclub" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_mobiclub</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Mobiclub</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Mobiclub.Widget" parent="@style/Theme.AppCompat">
+        <item name="android:dropDownSelector">@drawable/menu_dropdown_panel_mobiclub</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Mobiclub</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Mobiclub</item>
+    </style>
+
+    <style name="StyledIndicators" parent="Theme.Mobiclub">
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+    </style>
+
+    <style name="CustomTabPageIndicator.Text" parent="Text">
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">@drawable/tab_indicator_ab_mobiclub</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/tab_indicator_ab_mobiclub</item>
+
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:divider">@drawable/custom_tab_indicator_divider</item>
+        <item name="android:dividerPadding">10dp</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">7dp</item>
+    </style>
+    
+</resources>

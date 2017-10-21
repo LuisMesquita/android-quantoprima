@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.AboutFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/t16_sobre_marca"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="84dp"
+            android:layout_marginRight="84dp" />
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_about_label_about_mobiclub"
+            android:id="@+id/textView"
+            android:gravity="center"
+            android:textSize="14sp"
+            style="@style/PrincipalBlackTextRegular"
+            android:layout_marginTop="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/t16_canais_bg"
+            android:layout_weight="1"
+            android:layout_marginBottom="3dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="6dp">
+
+                <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/btn_site"
+                    android:src="@drawable/t16_sobre_btn_site"
+                    android:layout_weight="1"
+                    style="@style/AboutChannelButton"
+                    android:onClick="onSite"
+                    android:background="@color/transparent" />
+
+                <ImageButton
+                    android:id="@+id/btn_facebook"
+                    android:src="@drawable/t16_sobre_btn_facebook"
+                    style="@style/AboutChannelButton"
+                    android:onClick="onFacebook"
+                    android:background="@color/transparent" />
+
+                <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/btn_twitter"
+                    android:src="@drawable/t16_sobre_btn_twitter"
+                    android:layout_weight="1"
+                    style="@style/AboutChannelButton"
+                    android:onClick="onTwitter"
+                    android:background="@color/transparent" />
+
+                <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/btn_instagram"
+                    android:src="@drawable/t16_sobre_btn_instagram"
+                    android:layout_weight="1"
+                    style="@style/AboutChannelButton"
+                    android:onClick="onInstagram"
+                    android:background="@color/transparent" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

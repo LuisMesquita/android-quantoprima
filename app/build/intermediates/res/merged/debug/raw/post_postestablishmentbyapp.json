@@ -1,0 +1,110 @@
+{
+    "Establishments": [ {
+       "Id": 15,
+       "Name": "Café da Guia",
+       "LogoURL": "http://mobiclub.com.br/estabelecimentos/1_planetario.png",
+       "Locations": [{
+         "Id": 5,
+         "EstablishmentId": 15,
+         "Reference": "Rua da Guia - ITBC",
+         "Distance": 80,
+         "Lat": -8.1666,
+         "Lon": -34.9191,
+         "HasReward": true,
+         "Score": 999
+       }]
+    }, {
+        "Id": 1,
+        "Name": "Planetárioo",
+        "LogoURL": "http://mobiclub.com.br/estabelecimentos/1_planetario.png",
+        "Locations": [{
+            "Id": 1,
+            "EstablishmentId": 1,
+            "Reference": "Shopping Guararapes",
+            "Distance": 0.7,
+            "Lat": -8.1666,
+            "Lon": -34.9191,
+            "Score": 100
+        }, {
+            "Id": 2,
+            "EstablishmentId": 1,
+            "Reference": "Shopping Recife",
+            "Distance": 0.0,
+            "Lat": -8.119637,
+            "Lon": -34.90533,
+            "Score": 100
+        }, {
+            "Id": 12,
+            "EstablishmentId": 1,
+            "Reference": "Shopping Tacaruna",
+            "Distance": 0.1,
+            "Lat": -8.037516,
+            "Lon": -34.872066,
+            "Score": 0
+        }, {
+            "Id": 30,
+            "EstablishmentId": 1,
+            "Reference": "Teste Mobiclub Edit",
+            "Distance": 0.9,
+            "Lat": -8.1666,
+            "Lon": -34.9191,
+            "Score": 0
+        }]
+    }, {
+        "Id": 5,
+        "Name": "Ponto do Açaí",
+        "LogoURL": "http://mobiclub.com.br/estabelecimentos/5_pontoDoAcai.png",
+        "Locations": [{
+            "Id": 5,
+            "EstablishmentId": 5,
+            "Reference": "Av. Rosa e Silva",
+            "Distance": 0.0,
+            "Lat": -8.036974,
+            "Lon": -34.90163,
+            "Score": 0
+        }, {
+            "Id": 5,
+            "EstablishmentId": 5,
+            "Reference": "Av. Rosa e Silva",
+            "Distance": 0.0,
+            "Lat": -8.036974,
+            "Lon": -34.90163,
+            "Score": 0
+        }, {
+            "Id": 13,
+            "EstablishmentId": 5,
+            "Reference": "GraÃ§as",
+            "Distance": 0.0,
+            "Lat": -8.052621,
+            "Lon": -34.900894,
+            "Score": 0
+        }, {
+            "Id": 13,
+            "EstablishmentId": 5,
+            "Reference": "GraÃ§as",
+            "Distance": 0.0,
+            "Lat": -8.052621,
+            "Lon": -34.900894,
+            "Score": 0
+        }, {
+            "Id": 14,
+            "EstablishmentId": 5,
+            "Reference": "Boa Viagem",
+            "Distance": 0.0,
+            "Lat": -8.127927,
+            "Lon": -34.900238,
+            "Score": 0
+        }, {
+            "Id": 14,
+            "EstablishmentId": 5,
+            "Reference": "Boa Viagem",
+            "Distance": 0.0,
+            "Lat": -8.127927,
+            "Lon": -34.900238,
+            "Score": 0
+        }]
+    }],
+    "NewNotifys": 4,
+    "HttpStatus": 200,
+    "Message": null
+}

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/item_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/lytItem"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="4dp"
+        android:layout_marginLeft="6dp">
+
+        <ImageView
+            android:layout_width="76dp"
+            android:layout_height="56dp"
+            android:id="@+id/image_logo"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="10dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/image_logo"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="false"
+            android:id="@+id/item_location"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lyt_info"
+                android:layout_toRightOf="@+id/image_logo"
+                android:layout_toLeftOf="@+id/lyt_price"
+                android:layout_weight="3">
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Medium Text"
+                    android:id="@+id/label_location_name"
+                    style="@style/ButtonText.LabelLocation"
+                    android:textSize="16sp" />
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium Text"
+                    style="@style/Text"
+                    android:textSize="14sp"
+                    android:id="@+id/label_location_reference"
+                    android:layout_weight="1"
+                    android:textColor="@color/ligth_grey"
+                    android:gravity="top"
+                    android:layout_gravity="top" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentRight="true"
+                android:id="@+id/lyt_score"
+                android:background="@drawable/pontos_container">
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/item_establisiment_label_your_mobis"
+                    android:id="@+id/label_your_mobis"
+                    android:textSize="11sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center_horizontal"
+                    style="@style/Text"
+                    android:textColor="@color/text_principal4"
+                    android:layout_gravity="center_horizontal" />
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/label_score_value"
+                    android:textSize="21sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="12dp"
+                    style="@style/PrincipalBlackTextBold"
+                    android:singleLine="true" />
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/list_establishment_mobis"
+                    android:id="@+id/label_score"
+                    android:textSize="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_alignParentEnd="false"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentStart="false"
+                    android:gravity="bottom"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="3dp"
+                    style="@style/PrincipalBlackTextBold" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:layout_toRightOf="@+id/image_logo"
+            android:id="@+id/item_locations"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_distance_locations"
+                android:layout_weight="0"
+                android:src="@drawable/ic_distancia_perto"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:id="@+id/label_name"
+                android:layout_gravity="top"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Small Text"
+                android:id="@+id/label_distance"
+                android:textSize="12sp"
+                android:textColor="@color/label_distance_color"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:layout_toEndOf="@+id/image_distance_locations"
+                android:layout_alignBottom="@+id/image_distance_locations"
+                android:layout_toRightOf="@+id/image_distance_locations" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

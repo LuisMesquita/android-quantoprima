@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/item_bg">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/item_bg"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="3dp">
+
+        <ImageView
+            android:layout_width="76dp"
+            android:layout_height="56dp"
+            android:id="@+id/image_logo"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/image_logo"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/item_reward"
+            android:layout_marginLeft="10dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_toRightOf="@+id/image_logo"
+                android:layout_toLeftOf="@+id/lyt_price"
+                android:layout_weight="3">
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/label_location"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    style="@style/PrincipalBlackTextBold"
+                    android:gravity="center"
+                    android:singleLine="true" />
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/label_status"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    style="@style/TextMedium"
+                    android:textColor="@color/green"
+                    android:singleLine="false"
+                    android:gravity="center|left"
+                    android:lines="2"
+                    android:layout_gravity="left" />
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/offline_mobi_label_time"
+                    android:id="@+id/label_time"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    style="@style/Text"
+                    android:textColor="@color/grey3"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="48dp"
+                android:layout_height="49dp"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentRight="true"
+                android:id="@+id/lyt_score"
+                android:background="@drawable/t07_circulo_mobiscomputados"
+                android:layout_gravity="center_vertical">
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+10"
+                    android:id="@+id/label_total_mobis"
+                    android:textSize="22sp"
+                    style="@style/PrincipalBlackTextBold"
+                    android:layout_weight="1"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignParentStart="false"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal"
+                    android:layout_centerHorizontal="true" />
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/label_mobis"
+                    android:text="@string/list_establishment_mobis"
+                    android:textSize="10sp"
+                    style="@style/PrincipalBlackTextRegular"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

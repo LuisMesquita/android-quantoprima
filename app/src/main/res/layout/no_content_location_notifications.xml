@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgazul">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/t11_2_1_img_sino_conf"
+        android:layout_marginTop="29dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/location_notifications_no_content_label_message"
+            android:id="@+id/label_message"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            style="@style/PrincipalTextBold"
+            android:textSize="16sp"
+            android:layout_marginTop="23dp"
+            android:layout_marginLeft="54dp"
+            android:layout_marginRight="54dp" />
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/label_help"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            style="@style/PrincipalTextRegular"
+            android:gravity="center"
+            android:layout_marginTop="18dp"
+            android:text="@string/location_notifications_no_content_label_help"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="23dp" />
+    </LinearLayout>
+</LinearLayout>

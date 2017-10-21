@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgamarelo_losangos"
+    android:gravity="center">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginBottom="1dp"
+        android:id="@+id/frame_location">
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/location_item" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        android:background="#004D23"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/frame_interaction">
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/button_telephony"
+            android:layout_weight="1"
+            android:clickable="true" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/button_site"
+            android:layout_weight="1"
+            android:clickable="true" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/button_menu"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:clickable="true" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/button_map"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:clickable="true" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/button_evaluate"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:clickable="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="26dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/item_bg"
+        android:id="@+id/frame_distance">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/image_position"
+            android:src="@drawable/t24_loja_ic_distancia"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_gravity="center" />
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/store_information_label_position"
+            android:id="@+id/label_store_distance"
+            android:layout_gravity="center"
+            style="@style/PrincipalBlackTextRegular"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="26dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/item_bg"
+        android:id="@+id/frame_extract">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/image_warning"
+            android:src="@drawable/t24_loja_ic_aviso"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_gravity="center" />
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/store_information_label_mobis_access"
+            android:id="@+id/label_warning"
+            android:layout_gravity="center"
+            style="@style/PrincipalBlackTextRegular"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_loading"
+        style="@style/ListSpinner"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:id="@+id/lyt_how_to_win"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="18dp"
+            android:background="@color/ligth_grey"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical">
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/store_information_label_how_to_win"
+                android:id="@+id/label_how_to_win"
+                android:textSize="12sp"
+                style="@style/whiteText"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:paddingLeft="9dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollview">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/lyt_how_to_win_info"></LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

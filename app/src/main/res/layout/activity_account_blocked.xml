@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgazul">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:src="@drawable/marca1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lytText"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="39dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginRight="21dp">
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/account_blocked_label_user_message"
+            android:id="@+id/label_user_message"
+            style="@style/OudatedMessagesBold"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/logo"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="16sp" />
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            style="@style/OudatedMessagesBold"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Motivo:"
+            android:id="@+id/textView"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="26dp"/>
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/account_blocked_label_reason"
+            android:id="@+id/label_reason"
+            style="@style/OudatedMessagesBold"
+            android:gravity="center_horizontal"
+            android:singleLine="false"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Para solicitar o desbloqueio, entre em contato conosco o quanto antes."
+        android:id="@+id/label_final_msg"
+        android:textStyle="bold"
+        style="@style/OudatedMessagesBold"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_alignParentLeft="false"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textSize="16sp"
+        android:layout_below="@+id/lytText"
+        android:layout_marginTop="61dp" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lytUpdateBtn"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="17dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp">
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomButton
+            android:id="@+id/button"
+            android:text="@string/account_blocked_button_central"
+            android:onClick="onCentral"
+            style="@style/CentralRelationshipButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+    </FrameLayout>
+
+</RelativeLayout>

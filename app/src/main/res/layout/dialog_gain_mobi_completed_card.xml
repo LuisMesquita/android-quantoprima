@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.mobiclub.quantoprima.ui.activity.GainMobiResultDialog">
+
+    <ImageButton
+        android:id="@+id/image_close"
+        android:src="@drawable/fechar"
+        style="@style/DialogCloseButton" />
+
+    <LinearLayout style="@style/GainMobiMessagesContainer"
+        android:layout_marginTop="17dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:id="@+id/relativeLayout"
+            android:layout_below="@+id/image_close"
+            android:background="@drawable/shape_bg_orange">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp">
+
+                <TextView
+                    android:text="@string/dialog_gain_mobi_online_label_total_mobis"
+                    android:id="@+id/label_total_mobis"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dialog_gain_mobi_label_completed_card_message"
+                    android:id="@+id/label_message"
+                    android:layout_alignBottom="@+id/image_emotion_icon"
+                    android:layout_alignLeft="@+id/label_total_mobis"
+                    android:layout_alignStart="@+id/label_total_mobis"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:layout_marginRight="50dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="52dp"
+                android:layout_height="68dp"
+                android:id="@+id/image_emotion_icon"
+                android:src="@drawable/t31_3_presente_leitura_recompensa"
+                android:layout_marginTop="3dp"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="76dp"
+            android:layout_below="@+id/relativeLayout"
+            android:background="@drawable/shape_bg_white"
+            android:id="@+id/lyt_price"
+            style="@style/DialogMessagePadding"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/qrcode_success_label_congrat_user"
+                android:id="@+id/label_congrat_user"
+                android:textSize="18sp"
+                android:textColor="@color/black_light"
+                android:paddingBottom="3dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_gain_mobi_completed_card_final_message"
+                android:id="@+id/label_congrat_user_message"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black_light"
+                android:textSize="14sp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gain_mobi_label_share"
+            android:id="@+id/label_share"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:text="@string/gain_mobi_btn_facebook_share"
+            android:id="@+id/btn_share"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            style="@style/FacebookButton"
+            android:gravity="center"
+            android:layout_marginTop="6dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:text="@string/dialog_gain_mobi_online_button_store_evaluate"
+            android:id="@+id/btn_evaluate"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            style="@style/EvaluateButton"
+            android:gravity="center"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            style="@style/ChooseRewardButton"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:text="@string/dialog_gain_mobi_completed_card_btn_choose_reward"
+            android:id="@+id/btn_choose_reward"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="5dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

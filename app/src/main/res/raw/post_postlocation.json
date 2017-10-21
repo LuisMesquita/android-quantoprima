@@ -1,0 +1,21 @@
+{
+    "Id": 5,
+    "Reference": null,
+    "Site": null,
+    "Latitude": -8.1666,
+    "Longitude": -34.9191,
+    "Phones": [{
+        "DDI": 55,
+        "DDD": 81,
+        "PhoneNumber": "2232-9769",
+        "Type": 2
+    }, {
+        "DDI": 55,
+        "DDD": 81,
+        "PhoneNumber": "1234-9889",
+        "Type": 2
+    }],
+    "Descriptions": ["Ganhe 1 mobi a cada R$5,00 de consumo no estabelecimento.", "Ganhe 2 mobi a cada R$10,00 de consumo no estabelecimento."],
+    "HttpStatus": 200,
+    "Message": null
+}

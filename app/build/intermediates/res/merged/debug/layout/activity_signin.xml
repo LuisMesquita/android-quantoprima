@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgazul"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/lyt_login"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <ImageView
+                android:id="@+id/login_logo"
+                android:src="@drawable/marca1"
+                style="@style/LogoAccount"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/lyt_input"
+                android:layout_marginTop="69dp">
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomButton
+                    android:id="@+id/btn_email"
+                    style="@style/OrangeButtonBold"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:onClick="onSigninEmail"
+                    android:textColor="@color/text"
+                    android:text="@string/signin_email_label"
+                    android:textSize="18sp"
+                    android:gravity="center" />
+
+                <com.facebook.widget.LoginButton
+                    android:id="@+id/btn_facebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/signin_facebook_label"
+                    android:textColor="@color/text"
+                    android:layout_marginTop="16dp"
+                    style="@style/FacebookButton"
+                    android:textSize="18sp"
+                    facebook:confirm_logout="false"
+                    facebook:fetch_user_info="true"
+                    android:gravity="center"
+                    android:layout_gravity="center" />
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/signin_advert_message"
+                    android:id="@+id/advert_message"
+                    android:layout_marginTop="11dp"
+                    android:textSize="14sp"
+                    style="@style/PrincipalTextBold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentRight="false"
+            android:gravity="bottom"
+            android:layout_gravity="bottom">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@color/white"
+                android:onClick="onLostPassword">
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/signin_label_lost_password"
+                    android:id="@+id/lost_password"
+                    android:layout_gravity="center_vertical"
+                    style="@style/PrincipalBlackTextBold"
+                    android:textSize="14sp"
+                    android:layout_alignParentStart="false"
+                    android:layout_alignParentLeft="false"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="13dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="onSignup">
+
+                <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/signin_label_signup"
+                    android:id="@+id/sign_up"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:gravity="center_horizontal"
+                    android:layout_centerInParent="true"
+                    style="@style/PrincipalBlackTextBold" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

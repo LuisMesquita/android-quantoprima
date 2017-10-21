@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/dialog_horizontal_margin"
+    android:paddingRight="@dimen/dialog_horizontal_margin"
+    android:paddingBottom="@dimen/dialog_vertical_margin"
+    tools:context="br.com.mobiclub.quantoprima.ui.activity.GainMobiResultDialog">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_close"
+        android:src="@drawable/fechar"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        style="@style/DialogCloseButton" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:id="@+id/relativeLayout"
+        android:layout_below="@+id/image_close"
+        android:background="@drawable/shape_bg_red"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            style="@style/DialogMessagePadding"
+            android:layout_marginTop="0dp">
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:text="@string/reward_rescue_error_label_ops"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_total_mobis"
+                android:textColor="@color/white"
+                style="@style/TextBold"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp" />
+
+            <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_ops_message"
+                android:layout_centerVertical="true"
+                android:layout_alignStart="@+id/label_total_mobis"
+                android:layout_below="@+id/label_total_mobis"
+                android:layout_toLeftOf="@+id/image_emotion_icon"
+                android:textSize="16sp"
+                style="@style/Text"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:text="@string/dialog_error_label_error_message_default" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_emotion_icon"
+            android:src="@drawable/emoticon_erro"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout"
+        android:id="@+id/lyt_price"
+        style="@style/DialogMessagePadding"
+        android:background="@drawable/shape_bg_white"
+        android:layout_marginTop="12dp">
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reward_rescue_error_label_error"
+            android:id="@+id/label_error"
+            style="@style/TextBold"
+            android:textColor="@color/black_light"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1" />
+
+        <br.com.mobiclub.quantoprima.ui.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/label_error_message"
+            style="@style/Text"
+            android:textColor="@color/black_light"
+            android:textSize="16sp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <br.com.mobiclub.quantoprima.ui.view.CustomButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_central"
+        android:layout_below="@+id/lyt_price"
+        style="@style/CentralButton"
+        android:layout_alignRight="@+id/lyt_price"
+        android:text="@string/account_blocked_button_central"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:text="@string/dialog_gain_mobi_online_label_total_mobis"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelOff"
+        android:maxLines="1"
+        style="@style/ButtonText.GainMobiTotalMobis"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
