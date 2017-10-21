@@ -1,0 +1,4 @@
+include ':app', ':libraries:facebook', ':libraries:facebook-sdk',
+        ':libraries:zxing-app', ':libraries:UserVoiceSDK'
+// include ':integration-tests'
+

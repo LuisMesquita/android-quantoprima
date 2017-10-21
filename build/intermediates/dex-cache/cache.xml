@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/facebook-sdk/build/intermediates/bundles/default/libs/bolts.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b976b9e58687db63a9420181eec2e786b3a1159a">
+        <dex dex="/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/transforms/dex/debug/folders/1000/8/bolts_d16475d955bac6b0c3a0ae0c027f252f5547a850/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_228c410c620f954796de134060eec6a09a3073e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/libs/android-core-3.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="754a09f3dde599f6489470ccb87f05b6eec55718">
+        <dex dex="/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/transforms/dex/debug/folders/1000/8/android-core-3.1.0_8fc77f5dad9c5d6cd8fbbc03b635d929f10c7597/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/LuisBarroso/.android/build-cache/18846f351ed99ad8a585ef498d98dec6c82d731d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9bb33606c58ab7293f2fcecabf53375e7a9e216e">
+        <dex dex="/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_916242bc23512e3be768181cee9a1f98039bf6a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/libs/Parse-1.10.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dfef23b83f8434c6e881096e1ac6d54dc3e52041">
+        <dex dex="/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/transforms/dex/debug/folders/1000/2/Parse-1.10.3_32df83e81a727ee6218ec226d3f9d721abdbbb43/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/libraries/zxing-app/build/intermediates/bundles/default/libs/core-3.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d959c5883fc95c19c90945728a852e925c11f5eb">
+        <dex dex="/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/transforms/dex/debug/folders/1000/8/core-3.1.0_74c0781c5727da5483672f2c88e7a932e86ee622/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b310d200199b8b3bf35c5ec032bd85d733dde12c">
+        <dex dex="/Users/LuisBarroso/Documents/São Braz 3.4 - Mobiclub/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e01a140b63488c3869d0cb3f2d559874cc5847a8/classes.dex" />
+    </item>
+
+</items>
